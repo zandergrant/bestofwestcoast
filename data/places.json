@@ -1,0 +1,1326 @@
+{
+  "meta": {
+    "name": "Best of West Coast places database",
+    "version": 1,
+    "updated": "2026-10-28",
+    "geography": [
+      "California",
+      "Oregon",
+      "Washington"
+    ],
+    "publishedRecommendations": 0,
+    "description": "Launch catalog of priority destination clusters. Recommendation attributes stay null until a human editor verifies them against cited sources. Nothing in this file is a published travel recommendation.",
+    "attributePolicy": "bestFor, primaryTradeoff, idealDuration, transport, priceBand, seasonalSuitability, walkability, coordinates, bookingUrl, imageRights, sources, and verificationDate stay empty until checked. Pages must not display null fields as facts."
+  },
+  "attributeLabels": {
+    "bestFor": "Best for",
+    "primaryTradeoff": "Primary trade-off",
+    "idealDuration": "Ideal duration",
+    "transport": "Transport",
+    "priceBand": "Price band",
+    "seasonalSuitability": "Seasonal suitability",
+    "walkability": "Walkability",
+    "latitude": "Latitude",
+    "longitude": "Longitude",
+    "bookingUrl": "Booking link",
+    "imageRights": "Image rights",
+    "sources": "Sources",
+    "verificationDate": "Verification date"
+  },
+  "places": [
+    {
+      "id": "los-angeles",
+      "name": "Los Angeles",
+      "slug": "los-angeles",
+      "state": "California",
+      "stateSlug": "california",
+      "kind": "city",
+      "kindLabel": "City",
+      "setting": "Southern California",
+      "orientation": "On the Southern California coast.",
+      "priorityCluster": true,
+      "coverageOrder": 1,
+      "verified": false,
+      "status": "guide-coming-soon",
+      "relatedIds": [],
+      "plannedGuides": [
+        {
+          "title": "Things to do",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Where to stay",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Hotels",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Three days",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Day trips",
+          "status": "coming-soon"
+        }
+      ],
+      "attributes": {
+        "bestFor": null,
+        "primaryTradeoff": null,
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [],
+        "verificationDate": null
+      },
+      "editorialNote": "Notes for this place are not filled in yet."
+    },
+    {
+      "id": "san-francisco",
+      "name": "San Francisco",
+      "slug": "san-francisco",
+      "state": "California",
+      "stateSlug": "california",
+      "kind": "city",
+      "kindLabel": "City",
+      "setting": "Northern California",
+      "orientation": "On San Francisco Bay.",
+      "priorityCluster": true,
+      "coverageOrder": 2,
+      "verified": false,
+      "status": "guide-coming-soon",
+      "relatedIds": [],
+      "plannedGuides": [
+        {
+          "title": "Things to do",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Where to stay",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Hotels",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Three days",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Day trips",
+          "status": "coming-soon"
+        }
+      ],
+      "attributes": {
+        "bestFor": null,
+        "primaryTradeoff": null,
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [],
+        "verificationDate": null
+      },
+      "editorialNote": "Notes for this place are not filled in yet."
+    },
+    {
+      "id": "san-diego",
+      "name": "San Diego",
+      "slug": "san-diego",
+      "state": "California",
+      "stateSlug": "california",
+      "kind": "city",
+      "kindLabel": "City",
+      "setting": "Southern California",
+      "orientation": "At the south end of the California coast.",
+      "priorityCluster": true,
+      "coverageOrder": 3,
+      "verified": false,
+      "status": "guide-coming-soon",
+      "relatedIds": [],
+      "plannedGuides": [
+        {
+          "title": "Things to do",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Where to stay",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Hotels",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Three days",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Day trips",
+          "status": "coming-soon"
+        }
+      ],
+      "attributes": {
+        "bestFor": null,
+        "primaryTradeoff": null,
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [],
+        "verificationDate": null
+      },
+      "editorialNote": "Notes for this place are not filled in yet."
+    },
+    {
+      "id": "palm-springs",
+      "name": "Palm Springs",
+      "slug": "palm-springs",
+      "state": "California",
+      "stateSlug": "california",
+      "kind": "city",
+      "kindLabel": "City",
+      "setting": "Coachella Valley",
+      "orientation": "In the Coachella Valley.",
+      "priorityCluster": true,
+      "coverageOrder": 4,
+      "verified": false,
+      "status": "guide-coming-soon",
+      "relatedIds": [],
+      "plannedGuides": [
+        {
+          "title": "Things to do",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Where to stay",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Hotels",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Three days",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Day trips",
+          "status": "coming-soon"
+        }
+      ],
+      "attributes": {
+        "bestFor": null,
+        "primaryTradeoff": null,
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [],
+        "verificationDate": null
+      },
+      "editorialNote": "Notes for this place are not filled in yet."
+    },
+    {
+      "id": "santa-barbara",
+      "name": "Santa Barbara",
+      "slug": "santa-barbara",
+      "state": "California",
+      "stateSlug": "california",
+      "kind": "city",
+      "kindLabel": "City",
+      "setting": "California coast",
+      "orientation": "On the coast between Los Angeles and Big Sur.",
+      "priorityCluster": true,
+      "coverageOrder": 5,
+      "verified": false,
+      "status": "guide-coming-soon",
+      "relatedIds": [],
+      "plannedGuides": [
+        {
+          "title": "Things to do",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Where to stay",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Hotels",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Three days",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Day trips",
+          "status": "coming-soon"
+        }
+      ],
+      "attributes": {
+        "bestFor": null,
+        "primaryTradeoff": null,
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [],
+        "verificationDate": null
+      },
+      "editorialNote": "Notes for this place are not filled in yet."
+    },
+    {
+      "id": "big-sur-carmel",
+      "name": "Big Sur / Carmel",
+      "slug": "big-sur-carmel",
+      "state": "California",
+      "stateSlug": "california",
+      "kind": "coast",
+      "kindLabel": "Coast",
+      "setting": "Central California coast",
+      "orientation": "The Big Sur coast and Carmel.",
+      "priorityCluster": true,
+      "coverageOrder": 6,
+      "verified": false,
+      "status": "guide-coming-soon",
+      "relatedIds": [],
+      "plannedGuides": [
+        {
+          "title": "Visiting",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Where to stay",
+          "status": "coming-soon"
+        },
+        {
+          "title": "A trip outline",
+          "status": "coming-soon"
+        }
+      ],
+      "attributes": {
+        "bestFor": null,
+        "primaryTradeoff": null,
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [],
+        "verificationDate": null
+      },
+      "editorialNote": "Notes for this place are not filled in yet."
+    },
+    {
+      "id": "napa-sonoma",
+      "name": "Napa / Sonoma",
+      "slug": "napa-sonoma",
+      "state": "California",
+      "stateSlug": "california",
+      "kind": "wine-country",
+      "kindLabel": "Wine country",
+      "setting": "Northern California",
+      "orientation": "The wine valleys north of San Francisco.",
+      "priorityCluster": true,
+      "coverageOrder": 7,
+      "verified": false,
+      "status": "guide-coming-soon",
+      "relatedIds": [],
+      "plannedGuides": [
+        {
+          "title": "Visiting",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Where to stay",
+          "status": "coming-soon"
+        },
+        {
+          "title": "A trip outline",
+          "status": "coming-soon"
+        }
+      ],
+      "attributes": {
+        "bestFor": null,
+        "primaryTradeoff": null,
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [],
+        "verificationDate": null
+      },
+      "editorialNote": "Notes for this place are not filled in yet."
+    },
+    {
+      "id": "lake-tahoe",
+      "name": "Lake Tahoe",
+      "slug": "lake-tahoe",
+      "state": "California",
+      "stateSlug": "california",
+      "kind": "region",
+      "kindLabel": "Lake",
+      "setting": "California side of the lake",
+      "orientation": "The California shore of the lake.",
+      "priorityCluster": true,
+      "coverageOrder": 8,
+      "verified": false,
+      "status": "guide-coming-soon",
+      "relatedIds": [],
+      "plannedGuides": [
+        {
+          "title": "Visiting",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Where to stay",
+          "status": "coming-soon"
+        },
+        {
+          "title": "A trip outline",
+          "status": "coming-soon"
+        }
+      ],
+      "attributes": {
+        "bestFor": null,
+        "primaryTradeoff": null,
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [],
+        "verificationDate": null
+      },
+      "editorialNote": "Notes for this place are not filled in yet."
+    },
+    {
+      "id": "portland",
+      "name": "Portland",
+      "slug": "portland",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "city",
+      "kindLabel": "City",
+      "setting": "Willamette River",
+      "orientation": "On the Willamette River.",
+      "priorityCluster": true,
+      "coverageOrder": 9,
+      "verified": false,
+      "status": "guide-coming-soon",
+      "relatedIds": [],
+      "plannedGuides": [
+        {
+          "title": "Things to do",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Where to stay",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Hotels",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Three days",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Day trips",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Coffee",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Getting around without a car",
+          "status": "coming-soon"
+        }
+      ],
+      "attributes": {
+        "bestFor": null,
+        "primaryTradeoff": null,
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [],
+        "verificationDate": null
+      },
+      "editorialNote": "Notes for this place are not filled in yet."
+    },
+    {
+      "id": "oregon-coast",
+      "name": "Oregon Coast",
+      "slug": "oregon-coast",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "coast",
+      "kindLabel": "Coast",
+      "setting": "Oregon coastline",
+      "orientation": "Oregon’s Pacific shore.",
+      "priorityCluster": true,
+      "coverageOrder": 10,
+      "verified": false,
+      "status": "guide-coming-soon",
+      "relatedIds": [
+        "cannon-beach"
+      ],
+      "plannedGuides": [
+        {
+          "title": "Visiting",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Where to stay",
+          "status": "coming-soon"
+        },
+        {
+          "title": "A trip outline",
+          "status": "coming-soon"
+        }
+      ],
+      "attributes": {
+        "bestFor": null,
+        "primaryTradeoff": null,
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [],
+        "verificationDate": null
+      },
+      "editorialNote": "Notes for this place are not filled in yet."
+    },
+    {
+      "id": "cannon-beach",
+      "name": "Cannon Beach",
+      "slug": "cannon-beach",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "town",
+      "kindLabel": "Coastal town",
+      "setting": "Oregon Coast",
+      "orientation": "A town on the northern Oregon coast.",
+      "priorityCluster": true,
+      "coverageOrder": 11,
+      "verified": false,
+      "status": "guide-coming-soon",
+      "relatedIds": [
+        "oregon-coast"
+      ],
+      "plannedGuides": [
+        {
+          "title": "Things to do",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Where to stay",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Hotels",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Three days",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Day trips",
+          "status": "coming-soon"
+        }
+      ],
+      "attributes": {
+        "bestFor": null,
+        "primaryTradeoff": null,
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [],
+        "verificationDate": null
+      },
+      "editorialNote": "Notes for this place are not filled in yet."
+    },
+    {
+      "id": "bend",
+      "name": "Bend",
+      "slug": "bend",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "city",
+      "kindLabel": "City",
+      "setting": "Central Oregon",
+      "orientation": "In central Oregon.",
+      "priorityCluster": true,
+      "coverageOrder": 12,
+      "verified": false,
+      "status": "guide-coming-soon",
+      "relatedIds": [],
+      "plannedGuides": [
+        {
+          "title": "Things to do",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Where to stay",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Hotels",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Three days",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Day trips",
+          "status": "coming-soon"
+        }
+      ],
+      "attributes": {
+        "bestFor": null,
+        "primaryTradeoff": null,
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [],
+        "verificationDate": null
+      },
+      "editorialNote": "Notes for this place are not filled in yet."
+    },
+    {
+      "id": "columbia-gorge",
+      "name": "Columbia Gorge",
+      "slug": "columbia-gorge",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "region",
+      "kindLabel": "River gorge",
+      "setting": "Columbia River",
+      "orientation": "The Columbia River between Oregon and Washington.",
+      "priorityCluster": true,
+      "coverageOrder": 13,
+      "verified": false,
+      "status": "guide-coming-soon",
+      "relatedIds": [
+        "hood-river",
+        "mount-hood"
+      ],
+      "plannedGuides": [
+        {
+          "title": "Visiting",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Where to stay",
+          "status": "coming-soon"
+        },
+        {
+          "title": "A trip outline",
+          "status": "coming-soon"
+        }
+      ],
+      "attributes": {
+        "bestFor": null,
+        "primaryTradeoff": null,
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [],
+        "verificationDate": null
+      },
+      "editorialNote": "Notes for this place are not filled in yet."
+    },
+    {
+      "id": "hood-river",
+      "name": "Hood River",
+      "slug": "hood-river",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "city",
+      "kindLabel": "City",
+      "setting": "Columbia River Gorge",
+      "orientation": "A city in the Columbia River Gorge.",
+      "priorityCluster": true,
+      "coverageOrder": 14,
+      "verified": false,
+      "status": "guide-coming-soon",
+      "relatedIds": [
+        "columbia-gorge",
+        "mount-hood"
+      ],
+      "plannedGuides": [
+        {
+          "title": "Things to do",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Where to stay",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Hotels",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Three days",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Day trips",
+          "status": "coming-soon"
+        }
+      ],
+      "attributes": {
+        "bestFor": null,
+        "primaryTradeoff": null,
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [],
+        "verificationDate": null
+      },
+      "editorialNote": "Notes for this place are not filled in yet."
+    },
+    {
+      "id": "mount-hood",
+      "name": "Mount Hood",
+      "slug": "mount-hood",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "mountains",
+      "kindLabel": "Mountains",
+      "setting": "Oregon",
+      "orientation": "The mountain south of Hood River.",
+      "priorityCluster": true,
+      "coverageOrder": 15,
+      "verified": false,
+      "status": "guide-coming-soon",
+      "relatedIds": [
+        "hood-river",
+        "columbia-gorge"
+      ],
+      "plannedGuides": [
+        {
+          "title": "Visiting",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Where to stay",
+          "status": "coming-soon"
+        },
+        {
+          "title": "A trip outline",
+          "status": "coming-soon"
+        }
+      ],
+      "attributes": {
+        "bestFor": null,
+        "primaryTradeoff": null,
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [],
+        "verificationDate": null
+      },
+      "editorialNote": "Notes for this place are not filled in yet."
+    },
+    {
+      "id": "willamette-valley",
+      "name": "Willamette Valley",
+      "slug": "willamette-valley",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "region",
+      "kindLabel": "Valley",
+      "setting": "Oregon",
+      "orientation": "The valley running south from Portland.",
+      "priorityCluster": true,
+      "coverageOrder": 16,
+      "verified": false,
+      "status": "guide-coming-soon",
+      "relatedIds": [],
+      "plannedGuides": [
+        {
+          "title": "Visiting",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Where to stay",
+          "status": "coming-soon"
+        },
+        {
+          "title": "A trip outline",
+          "status": "coming-soon"
+        }
+      ],
+      "attributes": {
+        "bestFor": null,
+        "primaryTradeoff": null,
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [],
+        "verificationDate": null
+      },
+      "editorialNote": "Notes for this place are not filled in yet."
+    },
+    {
+      "id": "seattle",
+      "name": "Seattle",
+      "slug": "seattle",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "kind": "city",
+      "kindLabel": "City",
+      "setting": "Puget Sound",
+      "orientation": "On Puget Sound.",
+      "priorityCluster": true,
+      "coverageOrder": 17,
+      "verified": false,
+      "status": "guide-coming-soon",
+      "relatedIds": [],
+      "plannedGuides": [
+        {
+          "title": "Things to do",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Where to stay",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Hotels",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Three days",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Day trips",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Where to stay without a car",
+          "status": "coming-soon"
+        }
+      ],
+      "attributes": {
+        "bestFor": null,
+        "primaryTradeoff": null,
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [],
+        "verificationDate": null
+      },
+      "editorialNote": "Notes for this place are not filled in yet."
+    },
+    {
+      "id": "olympic-peninsula",
+      "name": "Olympic Peninsula",
+      "slug": "olympic-peninsula",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "kind": "region",
+      "kindLabel": "Peninsula",
+      "setting": "Western Washington",
+      "orientation": "The peninsula west of Seattle.",
+      "priorityCluster": true,
+      "coverageOrder": 18,
+      "verified": false,
+      "status": "guide-coming-soon",
+      "relatedIds": [],
+      "plannedGuides": [
+        {
+          "title": "Visiting",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Where to stay",
+          "status": "coming-soon"
+        },
+        {
+          "title": "A trip outline",
+          "status": "coming-soon"
+        }
+      ],
+      "attributes": {
+        "bestFor": null,
+        "primaryTradeoff": null,
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [],
+        "verificationDate": null
+      },
+      "editorialNote": "Notes for this place are not filled in yet."
+    },
+    {
+      "id": "mount-rainier",
+      "name": "Mount Rainier",
+      "slug": "mount-rainier",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "kind": "mountains",
+      "kindLabel": "Mountains",
+      "setting": "Washington",
+      "orientation": "The mountain, and Mount Rainier National Park.",
+      "priorityCluster": true,
+      "coverageOrder": 19,
+      "verified": false,
+      "status": "guide-coming-soon",
+      "relatedIds": [],
+      "plannedGuides": [
+        {
+          "title": "Visiting",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Where to stay",
+          "status": "coming-soon"
+        },
+        {
+          "title": "A trip outline",
+          "status": "coming-soon"
+        }
+      ],
+      "attributes": {
+        "bestFor": null,
+        "primaryTradeoff": null,
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [],
+        "verificationDate": null
+      },
+      "editorialNote": "Notes for this place are not filled in yet."
+    },
+    {
+      "id": "san-juan-islands",
+      "name": "San Juan Islands",
+      "slug": "san-juan-islands",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "kind": "islands",
+      "kindLabel": "Islands",
+      "setting": "Salish Sea",
+      "orientation": "Islands in the Salish Sea.",
+      "priorityCluster": true,
+      "coverageOrder": 20,
+      "verified": false,
+      "status": "guide-coming-soon",
+      "relatedIds": [
+        "whidbey-island",
+        "washington-islands"
+      ],
+      "plannedGuides": [
+        {
+          "title": "Visiting",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Where to stay",
+          "status": "coming-soon"
+        },
+        {
+          "title": "A trip outline",
+          "status": "coming-soon"
+        }
+      ],
+      "attributes": {
+        "bestFor": null,
+        "primaryTradeoff": null,
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [],
+        "verificationDate": null
+      },
+      "editorialNote": "Notes for this place are not filled in yet."
+    },
+    {
+      "id": "leavenworth",
+      "name": "Leavenworth",
+      "slug": "leavenworth",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "kind": "town",
+      "kindLabel": "Town",
+      "setting": "Cascades",
+      "orientation": "A town in the Cascade mountains.",
+      "priorityCluster": true,
+      "coverageOrder": 21,
+      "verified": false,
+      "status": "guide-coming-soon",
+      "relatedIds": [],
+      "plannedGuides": [
+        {
+          "title": "Things to do",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Where to stay",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Hotels",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Three days",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Day trips",
+          "status": "coming-soon"
+        }
+      ],
+      "attributes": {
+        "bestFor": null,
+        "primaryTradeoff": null,
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [],
+        "verificationDate": null
+      },
+      "editorialNote": "Notes for this place are not filled in yet."
+    },
+    {
+      "id": "north-cascades",
+      "name": "North Cascades",
+      "slug": "north-cascades",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "kind": "mountains",
+      "kindLabel": "Mountains",
+      "setting": "Washington",
+      "orientation": "The mountains of northern Washington.",
+      "priorityCluster": true,
+      "coverageOrder": 22,
+      "verified": false,
+      "status": "guide-coming-soon",
+      "relatedIds": [],
+      "plannedGuides": [
+        {
+          "title": "Visiting",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Where to stay",
+          "status": "coming-soon"
+        },
+        {
+          "title": "A trip outline",
+          "status": "coming-soon"
+        }
+      ],
+      "attributes": {
+        "bestFor": null,
+        "primaryTradeoff": null,
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [],
+        "verificationDate": null
+      },
+      "editorialNote": "Notes for this place are not filled in yet."
+    },
+    {
+      "id": "whidbey-island",
+      "name": "Whidbey Island",
+      "slug": "whidbey-island",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "kind": "islands",
+      "kindLabel": "Island",
+      "setting": "Puget Sound",
+      "orientation": "An island in Puget Sound.",
+      "priorityCluster": true,
+      "coverageOrder": 23,
+      "verified": false,
+      "status": "guide-coming-soon",
+      "relatedIds": [
+        "san-juan-islands",
+        "washington-islands"
+      ],
+      "plannedGuides": [
+        {
+          "title": "Visiting",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Where to stay",
+          "status": "coming-soon"
+        },
+        {
+          "title": "A trip outline",
+          "status": "coming-soon"
+        }
+      ],
+      "attributes": {
+        "bestFor": null,
+        "primaryTradeoff": null,
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [],
+        "verificationDate": null
+      },
+      "editorialNote": "Notes for this place are not filled in yet."
+    },
+    {
+      "id": "washington-islands",
+      "name": "Washington islands",
+      "slug": "washington-islands",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "kind": "islands",
+      "kindLabel": "Islands",
+      "setting": "Washington",
+      "orientation": "Islands other than the San Juans and Whidbey.",
+      "priorityCluster": true,
+      "coverageOrder": 24,
+      "verified": false,
+      "status": "guide-coming-soon",
+      "relatedIds": [
+        "san-juan-islands",
+        "whidbey-island"
+      ],
+      "plannedGuides": [
+        {
+          "title": "Visiting",
+          "status": "coming-soon"
+        },
+        {
+          "title": "Where to stay",
+          "status": "coming-soon"
+        },
+        {
+          "title": "A trip outline",
+          "status": "coming-soon"
+        }
+      ],
+      "attributes": {
+        "bestFor": null,
+        "primaryTradeoff": null,
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [],
+        "verificationDate": null
+      },
+      "editorialNote": "Notes for this place are not filled in yet."
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "cannon-beach-vs-manzanita",
+      "title": "Cannon Beach or Manzanita",
+      "note": "Two towns on the northern Oregon coast.",
+      "places": [
+        "cannon-beach"
+      ],
+      "status": "coming-soon"
+    },
+    {
+      "id": "napa-vs-sonoma",
+      "title": "Napa or Sonoma",
+      "note": "The two valleys, side by side.",
+      "places": [
+        "napa-sonoma"
+      ],
+      "status": "coming-soon"
+    },
+    {
+      "id": "seattle-without-a-car",
+      "title": "Seattle without a car",
+      "note": "Where to stay when you are not driving.",
+      "places": [
+        "seattle"
+      ],
+      "status": "coming-soon"
+    },
+    {
+      "id": "trip-types",
+      "title": "A place for the kind of trip",
+      "note": "Weekends, longer stays, and trips built around one interest.",
+      "places": [],
+      "status": "coming-soon"
+    }
+  ],
+  "itineraries": [
+    {
+      "id": "three-day",
+      "title": "A long weekend",
+      "note": "Three days, and where to spend them.",
+      "status": "coming-soon"
+    },
+    {
+      "id": "seven-day",
+      "title": "A week on the road",
+      "note": "Seven days, with the days in order.",
+      "status": "coming-soon"
+    },
+    {
+      "id": "pacific-coast",
+      "title": "Down the coast",
+      "note": "The Pacific shore, from one state into the next.",
+      "status": "coming-soon"
+    },
+    {
+      "id": "park-circuits",
+      "title": "A loop of national parks",
+      "note": "Parks strung into one trip.",
+      "status": "coming-soon"
+    },
+    {
+      "id": "cross-state",
+      "title": "Across a state line",
+      "note": "A route that does not stay in one state.",
+      "status": "coming-soon"
+    }
+  ]
+}
