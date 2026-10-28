@@ -1,6 +1,6 @@
 # Best of West Coast
 
-The first version of [Best of West Coast](https://zandergrant.github.io/bestofwestcoast/), a travel publication for California, Oregon, and Washington.
+The first version of [Best of West Coast](https://zandergrant.github.io/bestofwestcoast/), a travel guide to the West Coast.
 
 Plain HTML, CSS, and JavaScript. No framework and no build step. Open `index.html`, or serve the folder:
 
@@ -35,8 +35,8 @@ The live site shows whatever is on `main`. This version does not attach the cust
 
 ## Places database
 
-`data/places.json` is the catalog. Recommendation fields are null until an editor verifies them. The HTML repeats the same list so the site works with JavaScript off and when opened as a file. `site.js` fetches the JSON on a server and confirms the count.
+`data/places.json` is the place list. Recommendation fields stay empty until they are checked. The HTML repeats the same list so the site works with JavaScript off and when opened as a file.
 
 ## Content rules
 
-No fabricated trips, invented reviews, or generated images presented as photographs. No hours, prices, safety, accessibility, or transport claims without a cited check. Unfinished guides say **Guide coming soon**.
+No fabricated trips, invented reviews, or generated images presented as photographs. No hours, prices, safety, accessibility, or transport claims without a cited check. Unfinished guides say **Coming soon**.

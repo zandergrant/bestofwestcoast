@@ -46,7 +46,7 @@
         return;
       }
       if (status) {
-        status.textContent = "Not sent. The West Coast Five is not collecting addresses yet, and this preview did not store the one you typed.";
+        status.textContent = "Nothing was sent. The first issue isn’t out yet.";
       }
     });
   });
@@ -76,7 +76,7 @@
       });
 
       if (countEl) {
-        countEl.textContent = visible + (visible === 1 ? " cluster" : " clusters");
+        countEl.textContent = visible + (visible === 1 ? " place" : " places");
       }
       if (emptyEl) emptyEl.hidden = visible !== 0;
     }
