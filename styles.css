@@ -551,6 +551,27 @@ p:last-child {
   font-weight: 600;
 }
 
+.hero-photo {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 2000 / 1330;
+  object-fit: cover;
+}
+
+.hero-figure .photo-credit {
+  margin: 8px 2px 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.4;
+  text-align: right;
+}
+
+.photo-credit a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
 .hero-figure figcaption,
 .placeholder-frame figcaption {
   margin-top: 10px;

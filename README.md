@@ -33,6 +33,10 @@ The live site shows whatever is on `main`. This version does not attach the cust
 - `/newsletter/` — The West Coast Five (signup is a placeholder)
 - `/404.html` — GitHub Pages 404, with root-absolute links
 
+## Photographs
+
+The homepage hero is a photograph of Haystack Rock at Cannon Beach, Oregon. Source, photographer, and license are in [CREDITS.md](CREDITS.md).
+
 ## Places database
 
 `data/places.json` is the place list. Recommendation fields stay empty until they are checked. The HTML repeats the same list so the site works with JavaScript off and when opened as a file.
