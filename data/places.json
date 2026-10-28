@@ -8,9 +8,9 @@
       "Oregon",
       "Washington"
     ],
-    "publishedRecommendations": 0,
-    "description": "Launch catalog of priority destination clusters. Recommendation attributes stay null until a human editor verifies them against cited sources. Nothing in this file is a published travel recommendation.",
-    "attributePolicy": "bestFor, primaryTradeoff, idealDuration, transport, priceBand, seasonalSuitability, walkability, coordinates, bookingUrl, imageRights, sources, and verificationDate stay empty until checked. Pages must not display null fields as facts."
+    "publishedRecommendations": 47,
+    "description": "Launch catalog of priority destination clusters, plus places checked for the first Portland, Cannon Beach, Seattle, and San Francisco guides. Unchecked clusters keep null recommendation fields. Pages must not display null fields as facts.",
+    "attributePolicy": "bestFor, primaryTradeoff, idealDuration, transport, priceBand, seasonalSuitability, walkability, coordinates, bookingUrl, imageRights, sources, and verificationDate stay empty until checked. Featured places from published guides may fill the fields that were checked. Pages must not display null fields as facts."
   },
   "attributeLabels": {
     "bestFor": "Best for",
@@ -94,17 +94,24 @@
       "orientation": "On San Francisco Bay.",
       "priorityCluster": true,
       "coverageOrder": 2,
-      "verified": false,
-      "status": "guide-coming-soon",
-      "relatedIds": [],
+      "verified": true,
+      "status": "guides-partial",
+      "relatedIds": [
+        "golden-gate-bridge",
+        "alcatraz-island",
+        "fishermans-wharf",
+        "mission-district"
+      ],
       "plannedGuides": [
         {
           "title": "Things to do",
-          "status": "coming-soon"
+          "status": "published",
+          "href": "/destinations/san-francisco/things-to-do/"
         },
         {
           "title": "Where to stay",
-          "status": "coming-soon"
+          "status": "published",
+          "href": "/destinations/san-francisco/where-to-stay/"
         },
         {
           "title": "Hotels",
@@ -112,7 +119,8 @@
         },
         {
           "title": "Three days",
-          "status": "coming-soon"
+          "status": "published",
+          "href": "/destinations/san-francisco/weekend/"
         },
         {
           "title": "Day trips",
@@ -120,21 +128,34 @@
         }
       ],
       "attributes": {
-        "bestFor": null,
-        "primaryTradeoff": null,
-        "idealDuration": null,
-        "transport": null,
+        "bestFor": "A first weekend that keeps Alcatraz and the bridge walk on different half days.",
+        "primaryTradeoff": "Union Square is the hotel and BART hub. The neighborhoods worth eating in are a ride from the Wharf, and the bridge sidewalk has hours and almost no convenient parking.",
+        "idealDuration": "Two or three days.",
+        "transport": "BART from SFO to downtown, about 30 minutes. Muni, the F-line, and three cable-car lines. Cable cars are not accessible.",
         "priceBand": null,
         "seasonalSuitability": null,
-        "walkability": null,
+        "walkability": "SF Travel says waterfront neighborhoods tend to be flatter. Nob Hill is a climb. The bridge is a sidewalk walk, east side only.",
         "latitude": null,
         "longitude": null,
         "bookingUrl": null,
         "imageRights": null,
-        "sources": [],
-        "verificationDate": null
+        "sources": [
+          {
+            "title": "San Francisco Travel, neighborhoods",
+            "url": "https://www.sftravel.com/neighborhoods"
+          },
+          {
+            "title": "BART, airport",
+            "url": "https://www.bart.gov/guide/airport"
+          },
+          {
+            "title": "SFMTA, cable cars",
+            "url": "https://www.sfmta.com/getting-around/muni/cable-cars"
+          }
+        ],
+        "verificationDate": "2026-10-28"
       },
-      "editorialNote": "Notes for this place are not filled in yet."
+      "editorialNote": "Things to do, where to stay, and a weekend are published. Hotels and day trips are not. No individual hotels are named."
     },
     {
       "id": "san-diego",
@@ -448,17 +469,29 @@
       "orientation": "On the Willamette River.",
       "priorityCluster": true,
       "coverageOrder": 9,
-      "verified": false,
-      "status": "guide-coming-soon",
-      "relatedIds": [],
+      "verified": true,
+      "status": "guides-partial",
+      "relatedIds": [
+        "international-rose-test-garden",
+        "portland-japanese-garden",
+        "oregon-zoo",
+        "powells-city-of-books",
+        "portland-art-museum",
+        "tom-mccall-waterfront-park",
+        "forest-park",
+        "pittock-mansion",
+        "omsi"
+      ],
       "plannedGuides": [
         {
           "title": "Things to do",
-          "status": "coming-soon"
+          "status": "published",
+          "href": "/destinations/portland/things-to-do/"
         },
         {
           "title": "Where to stay",
-          "status": "coming-soon"
+          "status": "published",
+          "href": "/destinations/portland/where-to-stay/"
         },
         {
           "title": "Hotels",
@@ -466,7 +499,8 @@
         },
         {
           "title": "Three days",
-          "status": "coming-soon"
+          "status": "published",
+          "href": "/destinations/portland/weekend/"
         },
         {
           "title": "Day trips",
@@ -482,21 +516,34 @@
         }
       ],
       "attributes": {
-        "bestFor": null,
-        "primaryTradeoff": null,
-        "idealDuration": null,
-        "transport": null,
+        "bestFor": "A first trip that mixes a walkable downtown with one day in Washington Park.",
+        "primaryTradeoff": "The gardens and the zoo are in a park where parking is paid and limited; the neighborhood streets are a ride from the museum core.",
+        "idealDuration": "Two or three days.",
+        "transport": "TriMet bus, MAX, and Portland Streetcar cover downtown, the airport, and Washington Park. A car helps at scattered Forest Park trailheads.",
         "priceBand": null,
         "seasonalSuitability": null,
-        "walkability": null,
+        "walkability": "Travel Portland describes downtown as walkable, with shorter blocks than a typical American downtown.",
         "latitude": null,
         "longitude": null,
         "bookingUrl": null,
         "imageRights": null,
-        "sources": [],
-        "verificationDate": null
+        "sources": [
+          {
+            "title": "Travel Portland, downtown",
+            "url": "https://www.travelportland.com/neighborhoods/downtown/"
+          },
+          {
+            "title": "TriMet, MAX Red Line",
+            "url": "https://trimet.org/schedules/maxredline.htm"
+          },
+          {
+            "title": "Portland Parks, Washington Park",
+            "url": "https://www.portland.gov/parks/washington-park"
+          }
+        ],
+        "verificationDate": "2026-10-28"
       },
-      "editorialNote": "Notes for this place are not filled in yet."
+      "editorialNote": "Things to do, where to stay, and a weekend are published. Hotels, day trips, coffee, and a without-a-car guide are not."
     },
     {
       "id": "oregon-coast",
@@ -558,19 +605,22 @@
       "orientation": "A town on the northern Oregon coast.",
       "priorityCluster": true,
       "coverageOrder": 11,
-      "verified": false,
-      "status": "guide-coming-soon",
+      "verified": true,
+      "status": "guides-partial",
       "relatedIds": [
-        "oregon-coast"
+        "haystack-rock",
+        "ecola-state-park"
       ],
       "plannedGuides": [
         {
           "title": "Things to do",
-          "status": "coming-soon"
+          "status": "published",
+          "href": "/destinations/cannon-beach/things-to-do/"
         },
         {
           "title": "Where to stay",
-          "status": "coming-soon"
+          "status": "published",
+          "href": "/destinations/cannon-beach/where-to-stay/"
         },
         {
           "title": "Hotels",
@@ -578,7 +628,8 @@
         },
         {
           "title": "Three days",
-          "status": "coming-soon"
+          "status": "published",
+          "href": "/destinations/cannon-beach/weekend/"
         },
         {
           "title": "Day trips",
@@ -586,21 +637,34 @@
         }
       ],
       "attributes": {
-        "bestFor": null,
-        "primaryTradeoff": null,
-        "idealDuration": null,
-        "transport": null,
+        "bestFor": "A short coastal stay built around the beach and one morning at Ecola State Park.",
+        "primaryTradeoff": "The town and beach are walkable; Ecola is a narrow drive at the north end, and summer parking there lines up.",
+        "idealDuration": "Two or three days.",
+        "transport": "A car for Ecola and the drive from Portland. Northwest POINT and Sunset Empire buses are the no-car option for town, not a promise of a ride to the park viewpoint.",
         "priceBand": null,
-        "seasonalSuitability": null,
-        "walkability": null,
+        "seasonalSuitability": "Cool marine climate year-round. The visitor bureau describes summer highs in the upper 60s and the most rain from November through January. Puffins at Haystack Rock from early spring to mid-summer.",
+        "walkability": "The visitor bureau says the town is about three miles and that you can park once and walk the beach, shops, and restaurants. Parking in town is limited and free.",
         "latitude": null,
         "longitude": null,
         "bookingUrl": null,
         "imageRights": null,
-        "sources": [],
-        "verificationDate": null
+        "sources": [
+          {
+            "title": "Cannon Beach, getting here",
+            "url": "https://www.cannonbeach.org/plan-your-trip/getting-here/"
+          },
+          {
+            "title": "Cannon Beach, places to stay",
+            "url": "https://www.cannonbeach.org/places-to-stay/"
+          },
+          {
+            "title": "Oregon State Parks, Ecola",
+            "url": "https://stateparks.oregon.gov/index.cfm?do=park.profile&parkId=136"
+          }
+        ],
+        "verificationDate": "2026-10-28"
       },
-      "editorialNote": "Notes for this place are not filled in yet."
+      "editorialNote": "Things to do, where to stay, and a weekend are published. Hotels and day trips are not. No individual lodgings are named."
     },
     {
       "id": "bend",
@@ -869,17 +933,24 @@
       "orientation": "On Puget Sound.",
       "priorityCluster": true,
       "coverageOrder": 17,
-      "verified": false,
-      "status": "guide-coming-soon",
-      "relatedIds": [],
+      "verified": true,
+      "status": "guides-partial",
+      "relatedIds": [
+        "pike-place-market",
+        "olympic-sculpture-park",
+        "space-needle",
+        "hiram-m-chittenden-locks"
+      ],
       "plannedGuides": [
         {
           "title": "Things to do",
-          "status": "coming-soon"
+          "status": "published",
+          "href": "/destinations/seattle/things-to-do/"
         },
         {
           "title": "Where to stay",
-          "status": "coming-soon"
+          "status": "published",
+          "href": "/destinations/seattle/where-to-stay/"
         },
         {
           "title": "Hotels",
@@ -887,7 +958,8 @@
         },
         {
           "title": "Three days",
-          "status": "coming-soon"
+          "status": "published",
+          "href": "/destinations/seattle/weekend/"
         },
         {
           "title": "Day trips",
@@ -899,21 +971,34 @@
         }
       ],
       "attributes": {
-        "bestFor": null,
-        "primaryTradeoff": null,
-        "idealDuration": null,
-        "transport": null,
+        "bestFor": "A first weekend on the market, the waterfront, and Seattle Center, using the 1 Line if you are not driving.",
+        "primaryTradeoff": "The 1 Line serves the airport, downtown, and Capitol Hill. Queen Anne, Ballard, and the locks are off it.",
+        "idealDuration": "Two or three days.",
+        "transport": "Sound Transit 1 Line from SeaTac through downtown. Washington State Ferries for Bainbridge or Bremerton. Monorail to Seattle Center is mentioned by Visit Seattle; confirm the operator.",
         "priceBand": null,
         "seasonalSuitability": null,
-        "walkability": null,
+        "walkability": "The market, waterfront, and sculpture park are a walk. Queen Anne’s viewpoint means a hill.",
         "latitude": null,
         "longitude": null,
         "bookingUrl": null,
         "imageRights": null,
-        "sources": [],
-        "verificationDate": null
+        "sources": [
+          {
+            "title": "Sound Transit, 1 Line",
+            "url": "https://www.soundtransit.org/ride-with-us/routes-schedules/1-line"
+          },
+          {
+            "title": "Visit Seattle, neighborhoods",
+            "url": "https://visitseattle.org/things-to-do/neighborhoods/"
+          },
+          {
+            "title": "Pike Place Market",
+            "url": "https://pikeplacemarket.org/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
       },
-      "editorialNote": "Notes for this place are not filled in yet."
+      "editorialNote": "Things to do, where to stay, and a weekend are published. A separate without-a-car guide, hotels, and day trips are not."
     },
     {
       "id": "olympic-peninsula",
@@ -1253,6 +1338,1846 @@
         "verificationDate": null
       },
       "editorialNote": "Notes for this place are not filled in yet."
+    },
+    {
+      "id": "international-rose-test-garden",
+      "name": "International Rose Test Garden",
+      "slug": "international-rose-test-garden",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "garden",
+      "kindLabel": "Garden",
+      "setting": "Washington Park, Portland",
+      "orientation": "400 SW Kingston Avenue, inside Washington Park.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A first visit from late May through October, when you want a city view without a ticket.",
+        "primaryTradeoff": "Parking in Washington Park is paid and limited on sunny weekends. Outside the bloom the garden is not the reason to cross town.",
+        "idealDuration": null,
+        "transport": "MAX Red or Blue to Washington Park station, then the free seasonal shuttle or TriMet Line 63.",
+        "priceBand": null,
+        "seasonalSuitability": "Roses bloom from late May through October, depending on the weather.",
+        "walkability": "Paved accessible route from the parking lot along the main promenade.",
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Portland Parks, rose garden",
+            "url": "https://www.portland.gov/parks/washington-park-international-rose-test-garden"
+          },
+          {
+            "title": "Rose garden brochure",
+            "url": "https://www.portland.gov/parks/documents/international-rose-test-garden-english/download"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Admission is free, per the Portland Parks brochure. More than 10,000 bushes. Dogs must be leashed."
+    },
+    {
+      "id": "portland-japanese-garden",
+      "name": "Portland Japanese Garden",
+      "slug": "portland-japanese-garden",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "garden",
+      "kindLabel": "Garden",
+      "setting": "Washington Park, Portland",
+      "orientation": "611 SW Kingston Avenue, beside the rose garden.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "People who want a designed garden and will buy a separate ticket.",
+        "primaryTradeoff": "Not included with the free rose garden. It uses the same park day and the same difficult parking.",
+        "idealDuration": null,
+        "transport": "Same Washington Park access as the rose garden: MAX, then shuttle or Line 63.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Portland Japanese Garden",
+            "url": "https://japanesegarden.org/visit/"
+          },
+          {
+            "title": "Portland Parks, Washington Park",
+            "url": "https://www.portland.gov/parks/washington-park"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Hours include an earlier window for members. Ticket price was not copied because the visit page checked did not state a lasting price."
+    },
+    {
+      "id": "oregon-zoo",
+      "name": "Oregon Zoo",
+      "slug": "oregon-zoo",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "zoo",
+      "kindLabel": "Zoo",
+      "setting": "Washington Park, Portland",
+      "orientation": "4001 SW Canyon Road.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A family day, instead of a gardens day.",
+        "primaryTradeoff": "Timed tickets, and every guest including infants must be on the reservation. Hours change by season.",
+        "idealDuration": null,
+        "transport": "In the Washington Park area. MAX Red and Blue serve Washington Park station.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Oregon Zoo, visit",
+            "url": "https://www.oregonzoo.org/visit"
+          },
+          {
+            "title": "Portland Parks, Washington Park",
+            "url": "https://www.portland.gov/parks/washington-park"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Cards only, with cash-to-card machines inside. Price left null because the posted fare changes with the season and was about to change on November 1, 2026."
+    },
+    {
+      "id": "powells-city-of-books",
+      "name": "Powell’s City of Books",
+      "slug": "powells-city-of-books",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "bookstore",
+      "kindLabel": "Bookstore",
+      "setting": "Downtown / Pearl, Portland",
+      "orientation": "1005 W Burnside Street. A city block.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "One long indoor stop with no timed ticket.",
+        "primaryTradeoff": "Burnside is a busy street, and the store is crowded rather than quiet.",
+        "idealDuration": null,
+        "transport": "Walk from downtown or the Pearl. Portland Streetcar runs nearby.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": "On the edge of downtown and the Pearl.",
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Powell’s Books, locations",
+            "url": "https://www.powells.com/locations"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Powell’s lists regular hours of 10 a.m. to 9 p.m. daily. Four floors and more than half a million books."
+    },
+    {
+      "id": "portland-art-museum",
+      "name": "Portland Art Museum",
+      "slug": "portland-art-museum",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "museum",
+      "kindLabel": "Museum",
+      "setting": "South Park Blocks, Portland",
+      "orientation": "1219 SW Park Avenue.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A rainy downtown afternoon.",
+        "primaryTradeoff": "Closed Monday. Admission price was not on the homepage checked, so it is not stored.",
+        "idealDuration": null,
+        "transport": "Walk from downtown. Streetcar and MAX serve the center.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Portland Art Museum",
+            "url": "https://portlandartmuseum.org/"
+          },
+          {
+            "title": "Travel Portland, downtown",
+            "url": "https://www.travelportland.com/neighborhoods/downtown/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Hours listed on the museum site when checked: 10 a.m. to 5 p.m. Sunday and Tuesday through Saturday, closed Monday."
+    },
+    {
+      "id": "tom-mccall-waterfront-park",
+      "name": "Tom McCall Waterfront Park",
+      "slug": "tom-mccall-waterfront-park",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "park",
+      "kindLabel": "Park",
+      "setting": "Downtown Portland",
+      "orientation": "1.5 miles along the west bank of the Willamette.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A walk between the center and the river, with no ticket.",
+        "primaryTradeoff": "It is a linear park, not a destination that fills a day by itself.",
+        "idealDuration": null,
+        "transport": "Walk, bike, or the streetcar along downtown.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": "A 1.5-mile riverfront path.",
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Travel Portland, downtown",
+            "url": "https://www.travelportland.com/neighborhoods/downtown/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Travel Portland also points to Salmon Street Springs, the Japanese American Historical Plaza, and summer festivals."
+    },
+    {
+      "id": "vera-katz-eastbank-esplanade",
+      "name": "Vera Katz Eastbank Esplanade",
+      "slug": "vera-katz-eastbank-esplanade",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "park",
+      "kindLabel": "Park",
+      "setting": "East bank of the Willamette, Portland",
+      "orientation": "1.5 miles from the Hawthorne Bridge to the Steel Bridge.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A river walk when you are already on the east side, including near OMSI.",
+        "primaryTradeoff": "It is the other bank from downtown. You cross a bridge to reach the west-side park.",
+        "idealDuration": null,
+        "transport": "Walk or bike. Connects to Tom McCall Waterfront Park.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Portland Parks, Eastbank Esplanade",
+            "url": "https://www.portland.gov/parks/eastbank-esplanade"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Portland Parks describes the length and the bridge connections."
+    },
+    {
+      "id": "pioneer-courthouse-square",
+      "name": "Pioneer Courthouse Square",
+      "slug": "pioneer-courthouse-square",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "plaza",
+      "kindLabel": "Plaza",
+      "setting": "Downtown Portland",
+      "orientation": "A full downtown block, about 40,000 square feet.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A pause and a MAX stop in the middle of downtown.",
+        "primaryTradeoff": "It is a plaza, not an attraction with exhibits.",
+        "idealDuration": null,
+        "transport": "MAX stops here. Walk from downtown hotels.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Travel Portland, downtown",
+            "url": "https://www.travelportland.com/neighborhoods/downtown/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Travel Portland calls it Portland’s living room. No ticket."
+    },
+    {
+      "id": "forest-park",
+      "name": "Forest Park",
+      "slug": "forest-park",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "park",
+      "kindLabel": "Park",
+      "setting": "West hills, Portland",
+      "orientation": "More than 40 access points along the west hills.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A half day of walking that is not about the rose garden.",
+        "primaryTradeoff": "Trailheads are scattered, parking is free and small, and trails close after storms.",
+        "idealDuration": null,
+        "transport": "TriMet lines 15, 26, and 77 serve Lower Macleay and a few other trailheads. Line 16 serves Linnton, Lower Firelane 1, and Lower Newton/BPA. Many trailheads are car-only.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Portland Parks, Forest Park",
+            "url": "https://www.portland.gov/parks/forest-park"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "5,200 acres and more than 80 miles of trails, per Portland Parks."
+    },
+    {
+      "id": "pittock-mansion",
+      "name": "Pittock Mansion",
+      "slug": "pittock-mansion",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "historic-house",
+      "kindLabel": "Historic house",
+      "setting": "West hills, Portland",
+      "orientation": "3229 NW Pittock Drive.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "The house and terrace, for people who do not mind a hill.",
+        "primaryTradeoff": "Admission is charged and hours are seasonal. The main lot is paid in summer; gravel turnouts below mean a walk up.",
+        "idealDuration": null,
+        "transport": "A drive, or a walk up from Forest Park trails. Not a downtown stop.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Pittock Mansion, visit",
+            "url": "https://pittockmansion.org/visit/"
+          },
+          {
+            "title": "Travel Portland, neighborhoods",
+            "url": "https://www.travelportland.com/neighborhoods/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Hours and prices on the visit page were labeled for September when checked in late October, so they were not copied."
+    },
+    {
+      "id": "omsi",
+      "name": "Oregon Museum of Science and Industry",
+      "slug": "omsi",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "museum",
+      "kindLabel": "Museum",
+      "setting": "Southeast Portland",
+      "orientation": "1945 SE Water Avenue.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A wet day, and families.",
+        "primaryTradeoff": "Across the river from Powell’s and the art museum. Planetarium and submarine tours cost extra.",
+        "idealDuration": null,
+        "transport": "Portland Streetcar stops at OMSI.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "OMSI",
+            "url": "https://omsi.edu/"
+          },
+          {
+            "title": "Portland Streetcar",
+            "url": "https://portlandstreetcar.org/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Exhibits, a planetarium, and USS Blueback submarine tours. Hours were not copied."
+    },
+    {
+      "id": "downtown-portland",
+      "name": "Downtown Portland",
+      "slug": "downtown-portland",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "Southwest Portland",
+      "orientation": "The hotel core on the west bank of the Willamette.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A first visit, the museums, and a car-free stay with a MAX ride from the airport.",
+        "primaryTradeoff": "The busiest part of the city. Alberta and Hawthorne are a ride, not a walk.",
+        "idealDuration": null,
+        "transport": "MAX Red Line to the airport, about 40 minutes. Streetcar through downtown.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": "Walkable, with the streetcar as a break.",
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Travel Portland, downtown",
+            "url": "https://www.travelportland.com/neighborhoods/downtown/"
+          },
+          {
+            "title": "TriMet, MAX Red Line",
+            "url": "https://trimet.org/schedules/maxredline.htm"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Travel Portland says more than 35 hotels, and that downtown blocks are shorter than a typical American downtown."
+    },
+    {
+      "id": "pearl-district",
+      "name": "Pearl District",
+      "slug": "pearl-district",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "Northwest Portland",
+      "orientation": "Former warehouse district next to downtown.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "Walking to Powell’s and still reaching downtown without a car.",
+        "primaryTradeoff": "The airport MAX is in downtown, not at the door. The waterfront is a streetcar ride or a walk away.",
+        "idealDuration": null,
+        "transport": "Portland Streetcar on 10th, 11th, and Lovejoy.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Travel Portland, Pearl District",
+            "url": "https://www.travelportland.com/neighborhoods/pearl-district/"
+          },
+          {
+            "title": "Portland Streetcar",
+            "url": "https://portlandstreetcar.org/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Galleries, shops, and the edge of downtown, per Travel Portland."
+    },
+    {
+      "id": "northwest-nob-hill",
+      "name": "Northwest / Nob Hill",
+      "slug": "northwest-nob-hill",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "Northwest Portland",
+      "orientation": "Shops and restaurants in older houses, toward Forest Park.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A trip that includes Forest Park or Pittock Mansion.",
+        "primaryTradeoff": "Uphill from the river and the museum row.",
+        "idealDuration": null,
+        "transport": "Streetcar stop at NW 23rd and Marshall.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Travel Portland, neighborhoods",
+            "url": "https://www.travelportland.com/neighborhoods/"
+          },
+          {
+            "title": "Portland Streetcar",
+            "url": "https://portlandstreetcar.org/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Travel Portland ties this neighborhood to Forest Park and Pittock Mansion."
+    },
+    {
+      "id": "alberta-arts-district",
+      "name": "Alberta Arts District",
+      "slug": "alberta-arts-district",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "Northeast Portland",
+      "orientation": "Northeast Alberta Street.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A neighborhood street, murals, and food, including a summer Last Thursday.",
+        "primaryTradeoff": "Not the hotel core and not on the streetcar. Downtown sights are a ride away.",
+        "idealDuration": null,
+        "transport": "Bus, or about a fifteen-minute drive from the airport, per Travel Portland. Not on the streetcar.",
+        "priceBand": null,
+        "seasonalSuitability": "Last Thursday is a summer evening event.",
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Travel Portland, Alberta",
+            "url": "https://www.travelportland.com/neighborhoods/alberta-arts-district/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Last Thursday in summer closes about fifteen blocks, 6 to 9 p.m."
+    },
+    {
+      "id": "hawthorne",
+      "name": "Hawthorne",
+      "slug": "hawthorne",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "Southeast Portland",
+      "orientation": "Southeast Hawthorne Boulevard, across the Hawthorne Bridge.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A long street of shops and cafes, with a Powell’s of its own.",
+        "primaryTradeoff": "Across the river from downtown, and not on the streetcar or the airport MAX.",
+        "idealDuration": null,
+        "transport": "Bus across the Hawthorne Bridge. Powell’s at 3723 SE Hawthorne Boulevard.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": "Walkable once you are on the boulevard.",
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Travel Portland, Hawthorne",
+            "url": "https://www.travelportland.com/neighborhoods/hawthorne/"
+          },
+          {
+            "title": "Powell’s Books, locations",
+            "url": "https://www.powells.com/locations"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Travel Portland describes 43 walkable blocks."
+    },
+    {
+      "id": "division-clinton",
+      "name": "Division / Clinton",
+      "slug": "division-clinton",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "Southeast Portland",
+      "orientation": "South of Hawthorne.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A stay or a dinner built around a dining street.",
+        "primaryTradeoff": "Same cross-river ride as Hawthorne, without being the downtown base.",
+        "idealDuration": null,
+        "transport": "Bus. Not on the streetcar.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Travel Portland, Southeast",
+            "url": "https://www.travelportland.com/neighborhoods/southeast/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Travel Portland describes it as one of the city’s dining neighborhoods."
+    },
+    {
+      "id": "lloyd-district",
+      "name": "Lloyd District",
+      "slug": "lloyd-district",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "Northeast Portland",
+      "orientation": "Across the river from downtown, at the convention center.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A convention, a Trail Blazers game, or a concert.",
+        "primaryTradeoff": "An events district, not a long shopping street.",
+        "idealDuration": null,
+        "transport": "Streetcar at the Convention Center. MAX toward the airport.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Travel Portland, neighborhoods",
+            "url": "https://www.travelportland.com/neighborhoods/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Travel Portland places the Oregon Convention Center and Moda Center here."
+    },
+    {
+      "id": "haystack-rock",
+      "name": "Haystack Rock",
+      "slug": "haystack-rock",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "natural-feature",
+      "kindLabel": "Natural feature",
+      "setting": "Cannon Beach",
+      "orientation": "At the edge of the beach in town.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "cannon-beach"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "Almost anyone who came to Cannon Beach, especially at low tide.",
+        "primaryTradeoff": "The tidepools only work around low tide, and summer crowds share the sand. Climbing above the barnacle line is prohibited.",
+        "idealDuration": null,
+        "transport": "Walk from town. Parking in town is limited and free.",
+        "priceBand": null,
+        "seasonalSuitability": "Puffins early spring to mid-summer. Low tide for pools.",
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": "Unsplash License, Stephen Crane, https://unsplash.com/photos/the-sun-is-setting-over-the-ocean-with-rocks-in-the-background-xrQRs03TcKs",
+        "sources": [
+          {
+            "title": "Cannon Beach, Haystack Rock",
+            "url": "https://www.cannonbeach.org/things-to-do/beaches-and-parks/haystack-rock/"
+          },
+          {
+            "title": "Cannon Beach, beaches",
+            "url": "https://www.cannonbeach.org/things-to-do/beaches-and-parks/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "A 235-foot sea stack in the Oregon Islands National Wildlife Refuge. Nothing may be removed within 300 yards. Puffins from early spring to mid-summer."
+    },
+    {
+      "id": "ecola-state-park",
+      "name": "Ecola State Park",
+      "slug": "ecola-state-park",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "state-park",
+      "kindLabel": "State park",
+      "setting": "Between Seaside and Cannon Beach",
+      "orientation": "North end of Cannon Beach, on Ecola Park Road.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "cannon-beach"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "The view down onto Cannon Beach, a picnic, or a hike.",
+        "primaryTradeoff": "Day-use fee, limited parking, summer lines, and a road that is not for RVs or trailers. The west section of the Clatsop Loop was closed for a landslide as of a notice dated April 17, 2026.",
+        "idealDuration": null,
+        "transport": "From 5th Street, 1.5 miles north on Ecola Park Road to the fee station. No overnight parking.",
+        "priceBand": null,
+        "seasonalSuitability": "Gray whales possible in winter and spring, per Oregon State Parks. Parking lines June through September, per the visitor bureau.",
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Oregon State Parks, Ecola",
+            "url": "https://stateparks.oregon.gov/index.cfm?do=park.profile&parkId=136"
+          },
+          {
+            "title": "Cannon Beach, Ecola",
+            "url": "https://www.cannonbeach.org/things-to-do/beaches-and-parks/ecola-state-park/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "About nine miles of coastline on Tillamook Head. Indian Beach is inside the park. Pets on a leash no longer than six feet. Drones prohibited."
+    },
+    {
+      "id": "pike-place-market",
+      "name": "Pike Place Market",
+      "slug": "pike-place-market",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "kind": "market",
+      "kindLabel": "Market",
+      "setting": "Downtown Seattle",
+      "orientation": "85 Pike Street.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "seattle"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A first morning, for food and a public market rather than a ticketed museum.",
+        "primaryTradeoff": "Crowded in the middle of the day. Seasonal street rules change how cars and crowds move.",
+        "idealDuration": null,
+        "transport": "Walk from downtown. 1 Line to Westlake, then walk.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": "Unsplash License, Sabine Ojeil, https://unsplash.com/photos/public-market-center-signage-xsqF178XAhk",
+        "sources": [
+          {
+            "title": "Pike Place Market",
+            "url": "https://pikeplacemarket.org/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Public market established in 1907. The market’s site calls the historic district nine acres."
+    },
+    {
+      "id": "olympic-sculpture-park",
+      "name": "Olympic Sculpture Park",
+      "slug": "olympic-sculpture-park",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "kind": "park",
+      "kindLabel": "Park",
+      "setting": "Seattle waterfront",
+      "orientation": "2901 Western Avenue, one mile north of the Seattle Art Museum.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "seattle"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A free walk after the market, in any season.",
+        "primaryTradeoff": "It is a mile from the market, and the garage is paid.",
+        "idealDuration": null,
+        "transport": "Walk the waterfront. Do not count on the garage.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Seattle Art Museum, Olympic Sculpture Park",
+            "url": "https://www.seattleartmuseum.org/visit/olympic-sculpture-park"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Free, open daily from 30 minutes before sunrise to 30 minutes after sunset. Do not climb on the sculptures. Pets on a six-foot leash."
+    },
+    {
+      "id": "space-needle",
+      "name": "Space Needle",
+      "slug": "space-needle",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "kind": "attraction",
+      "kindLabel": "Attraction",
+      "setting": "Seattle Center",
+      "orientation": "400 Broad Street.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "seattle"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "The one paid stop at Seattle Center, if you want the view from the tower.",
+        "primaryTradeoff": "Hours change by day and season, and the ticket is separate from Chihuly and MoPOP. A saved price goes stale.",
+        "idealDuration": null,
+        "transport": "Walk or the monorail to Seattle Center, per Visit Seattle. Confirm the monorail separately.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": "Unsplash License, Taylor Vick, Kerry Park view, https://unsplash.com/photos/space-needle-seattle-SSh9LBqwfBM",
+        "sources": [
+          {
+            "title": "Space Needle",
+            "url": "https://www.spaceneedle.com/"
+          },
+          {
+            "title": "Visit Seattle, Queen Anne",
+            "url": "https://visitseattle.org/neighborhoods/queen-anne/"
+          },
+          {
+            "title": "Seattle Center",
+            "url": "https://www.seattlecenter.com/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "On October 28, 2026 the site listed general admission as $35 to $55 and said hours vary. Kerry Park is the free viewpoint, with a hill."
+    },
+    {
+      "id": "seattle-center",
+      "name": "Seattle Center",
+      "slug": "seattle-center",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "kind": "district",
+      "kindLabel": "District",
+      "setting": "Lower Queen Anne, Seattle",
+      "orientation": "305 Harrison Street.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "seattle"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "The day you are willing to buy one ticket, or walk the grounds for free.",
+        "primaryTradeoff": "The Needle, Chihuly, and MoPOP are separate tickets and will fill a day if you try all three. Event nights at Climate Pledge Arena fill the neighborhood.",
+        "idealDuration": null,
+        "transport": "Walk or monorail from downtown, per Visit Seattle. Not a 1 Line station.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Seattle Center",
+            "url": "https://www.seattlecenter.com/"
+          },
+          {
+            "title": "Visit Seattle, Queen Anne",
+            "url": "https://visitseattle.org/neighborhoods/queen-anne/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Visit Seattle groups the Space Needle, MoPOP, and Chihuly Garden and Glass here."
+    },
+    {
+      "id": "hiram-m-chittenden-locks",
+      "name": "Hiram M. Chittenden Locks",
+      "slug": "hiram-m-chittenden-locks",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "kind": "locks",
+      "kindLabel": "Locks",
+      "setting": "Ballard, Seattle",
+      "orientation": "3015 NW 54th Street.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "seattle"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A Ballard day, or anyone who would rather watch boats than buy a Needle ticket.",
+        "primaryTradeoff": "Not on the 1 Line. The trip from downtown takes the middle of a day.",
+        "idealDuration": null,
+        "transport": "Not on Sound Transit’s 1 Line. City lot parking is paid except Sundays and holidays.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "U.S. Army Corps of Engineers, Chittenden Locks",
+            "url": "https://www.nws.usace.army.mil/Missions/Civil-Works/Locks-and-Dams/Chittenden-Locks/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Army Corps of Engineers, opened 1917. Grounds free, 7 a.m. to 9 p.m. Fish-ladder viewing room 7 a.m. to 8:45 p.m. Connects Lake Washington and Lake Union to Puget Sound."
+    },
+    {
+      "id": "kerry-park",
+      "name": "Kerry Park",
+      "slug": "kerry-park",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "kind": "park",
+      "kindLabel": "Park",
+      "setting": "Upper Queen Anne, Seattle",
+      "orientation": "A viewpoint on Queen Anne hill.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "seattle"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "The skyline without a Space Needle ticket.",
+        "primaryTradeoff": "It is up a hill, and it is a viewpoint, not a park you spend the day in.",
+        "idealDuration": null,
+        "transport": "A walk or ride up Queen Anne. Off the 1 Line.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": "Unsplash License, Taylor Vick, https://unsplash.com/photos/space-needle-seattle-SSh9LBqwfBM",
+        "sources": [
+          {
+            "title": "Visit Seattle, Queen Anne",
+            "url": "https://visitseattle.org/neighborhoods/queen-anne/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Visit Seattle sends people here for the view. A street address was not confirmed on a parks page for this guide."
+    },
+    {
+      "id": "downtown-seattle",
+      "name": "Downtown Seattle",
+      "slug": "downtown-seattle",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "Downtown Seattle",
+      "orientation": "The retail core, including Pike Place Market.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "seattle"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A first trip and a car-free arrival on the 1 Line.",
+        "primaryTradeoff": "You are in the busiest part of the visitor city.",
+        "idealDuration": null,
+        "transport": "1 Line at Westlake, including from SeaTac/Airport.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Visit Seattle, downtown",
+            "url": "https://visitseattle.org/neighborhoods/downtown-seattle/"
+          },
+          {
+            "title": "Sound Transit, 1 Line",
+            "url": "https://www.soundtransit.org/ride-with-us/routes-schedules/1-line"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Visit Seattle describes downtown as the retail and restaurant core."
+    },
+    {
+      "id": "belltown",
+      "name": "Belltown",
+      "slug": "belltown",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "North of downtown Seattle",
+      "orientation": "Just north of downtown.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "seattle"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "Downtown transit without sleeping on the market, closer to the sculpture park and Seattle Center.",
+        "primaryTradeoff": "Farther from Pioneer Square and the stadiums.",
+        "idealDuration": null,
+        "transport": "Walk to downtown and Seattle Center. 1 Line is in downtown, not in Belltown.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Visit Seattle, neighborhoods",
+            "url": "https://visitseattle.org/things-to-do/neighborhoods/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Visit Seattle describes towers and places to eat just north of downtown."
+    },
+    {
+      "id": "queen-anne",
+      "name": "Queen Anne",
+      "slug": "queen-anne",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "North of downtown Seattle",
+      "orientation": "Lower Queen Anne at Seattle Center; Upper Queen Anne on the hill.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "seattle"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "Lower Queen Anne if the trip is Seattle Center. Upper Queen Anne if you want Kerry Park and will climb.",
+        "primaryTradeoff": "Off the 1 Line. Event nights fill the lower neighborhood. The upper hill is a climb.",
+        "idealDuration": null,
+        "transport": "Walk or monorail to Seattle Center from the lower neighborhood, per Visit Seattle.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Visit Seattle, Queen Anne",
+            "url": "https://visitseattle.org/neighborhoods/queen-anne/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Visit Seattle splits the neighborhood into the center below and the houses and viewpoint above."
+    },
+    {
+      "id": "capitol-hill-seattle",
+      "name": "Capitol Hill",
+      "slug": "capitol-hill-seattle",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "Seattle",
+      "orientation": "East of downtown, on the 1 Line.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "seattle"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A car-free stay that still wants somewhere to go at night.",
+        "primaryTradeoff": "The market is a train ride, and Seattle Center is not next door.",
+        "idealDuration": null,
+        "transport": "1 Line station between the University of Washington and Westlake.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Visit Seattle, neighborhoods",
+            "url": "https://visitseattle.org/things-to-do/neighborhoods/"
+          },
+          {
+            "title": "Sound Transit, 1 Line",
+            "url": "https://www.soundtransit.org/ride-with-us/routes-schedules/1-line"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Visit Seattle describes tree-lined streets, older houses, and commercial streets."
+    },
+    {
+      "id": "pioneer-square-seattle",
+      "name": "Pioneer Square",
+      "slug": "pioneer-square-seattle",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "Downtown Seattle",
+      "orientation": "Seattle’s original neighborhood, next to the stadiums.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "seattle"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A game at Lumen Field or T-Mobile Park.",
+        "primaryTradeoff": "Event days fill the sidewalks. Quieter mornings are not the reason to pick it.",
+        "idealDuration": null,
+        "transport": "1 Line at Pioneer Square and Stadium.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Visit Seattle, neighborhoods",
+            "url": "https://visitseattle.org/things-to-do/neighborhoods/"
+          },
+          {
+            "title": "Sound Transit, 1 Line",
+            "url": "https://www.soundtransit.org/ride-with-us/routes-schedules/1-line"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Visit Seattle places it adjacent to Lumen Field and T-Mobile Park."
+    },
+    {
+      "id": "ballard",
+      "name": "Ballard",
+      "slug": "ballard",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "North of the ship canal, Seattle",
+      "orientation": "A maritime neighborhood north of the canal.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "seattle"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A longer stay when the locks and a local dining street matter more than the Needle.",
+        "primaryTradeoff": "Not on the 1 Line. Every trip downtown takes longer.",
+        "idealDuration": null,
+        "transport": "Not served by the 1 Line. Use a bus or a car and check a trip planner.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Visit Seattle, neighborhoods",
+            "url": "https://visitseattle.org/things-to-do/neighborhoods/"
+          },
+          {
+            "title": "U.S. Army Corps of Engineers, Chittenden Locks",
+            "url": "https://www.nws.usace.army.mil/Missions/Civil-Works/Locks-and-Dams/Chittenden-Locks/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Visit Seattle describes it as maritime and a place for eating. The locks are at 3015 NW 54th Street."
+    },
+    {
+      "id": "golden-gate-bridge",
+      "name": "Golden Gate Bridge",
+      "slug": "golden-gate-bridge",
+      "state": "California",
+      "stateSlug": "california",
+      "kind": "bridge",
+      "kindLabel": "Bridge",
+      "setting": "San Francisco",
+      "orientation": "On US 101, between San Francisco and Marin. No street address.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "san-francisco"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A clear-day walk, for people who want the bridge more than a museum.",
+        "primaryTradeoff": "Pedestrians only on the east sidewalk, with seasonal evening closures. Parking is extremely limited. Dogs are not allowed except service animals.",
+        "idealDuration": null,
+        "transport": "The bridge district says to use transit, a tour bus, or a rideshare rather than count on parking.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": "Unsplash License, Maarten van den Heuvel, https://unsplash.com/photos/golden-gate-bridge-during-daytime-gZXx8lKAb7Y",
+        "sources": [
+          {
+            "title": "Golden Gate Bridge, bikes and pedestrians",
+            "url": "https://www.goldengate.org/bridge/visiting-the-bridge/bikes-pedestrians/"
+          },
+          {
+            "title": "Golden Gate Bridge, directions",
+            "url": "https://www.goldengate.org/bridge/visiting-the-bridge/directions-parking/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "East sidewalk hours: 5 a.m. to 6:30 p.m. in standard time, 5 a.m. to 9 p.m. in daylight time. Construction can close it an hour early. Welcome Center listed daily 9 a.m. to 6 p.m."
+    },
+    {
+      "id": "alcatraz-island",
+      "name": "Alcatraz Island",
+      "slug": "alcatraz-island",
+      "state": "California",
+      "stateSlug": "california",
+      "kind": "national-park-site",
+      "kindLabel": "National park site",
+      "setting": "San Francisco Bay",
+      "orientation": "Ferry from Pier 33.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "san-francisco"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A half day you booked ahead.",
+        "primaryTradeoff": "The ferry owns the morning or the afternoon. No food on the island beyond bookstore snacks. No parking at the landing.",
+        "idealDuration": "A few hours on the island, plus the ferry.",
+        "transport": "Only by the ferry run by Alcatraz City Cruises. F-line streetcars pass Pier 33. The park recommends transit.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "National Park Service, Alcatraz",
+            "url": "https://www.nps.gov/alca/planyourvisit/index.htm"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "National Park Service says to plan a few hours. Bring a layer and shoes with grip."
+    },
+    {
+      "id": "fishermans-wharf",
+      "name": "Fisherman’s Wharf",
+      "slug": "fishermans-wharf",
+      "state": "California",
+      "stateSlug": "california",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "Northern waterfront, San Francisco",
+      "orientation": "Jefferson Street, Pier 39, and the Hyde Street Pier area.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "san-francisco"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "The day you already have an Alcatraz ticket, or a first look at the waterfront.",
+        "primaryTradeoff": "The most visitor-heavy ground in the city. Meters are often too short for an Alcatraz visit.",
+        "idealDuration": null,
+        "transport": "F-line from the Castro and Market Street. Powell-Hyde and Powell-Mason cable cars. Flat, relative to inland neighborhoods.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "San Francisco Travel, Fisherman’s Wharf",
+            "url": "https://www.sftravel.com/neighborhoods/fishermans-wharf"
+          },
+          {
+            "title": "National Park Service, Alcatraz",
+            "url": "https://www.nps.gov/alca/planyourvisit/index.htm"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "SF Travel describes Pier 39, the sea lions, and the ships. Pier 33 is the Alcatraz landing nearby."
+    },
+    {
+      "id": "union-square",
+      "name": "Union Square",
+      "slug": "union-square",
+      "state": "California",
+      "stateSlug": "california",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "Downtown San Francisco",
+      "orientation": "The downtown hotel and shopping district.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "san-francisco"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A first visit, BART from the airport, and the widest choice of hotels.",
+        "primaryTradeoff": "A shopping district, not a neighborhood like North Beach or the Mission. Hills start toward Nob Hill.",
+        "idealDuration": null,
+        "transport": "Muni, BART, and the Powell Street cable cars. Cable cars are not accessible.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": "Unsplash License, James Morehead, Powell Street cable car, https://unsplash.com/photos/a-trolley-on-a-street-jdgimnH27Z8",
+        "sources": [
+          {
+            "title": "San Francisco Travel, Union Square",
+            "url": "https://www.sftravel.com/neighborhoods/union-square"
+          },
+          {
+            "title": "San Francisco Travel, neighborhoods",
+            "url": "https://www.sftravel.com/neighborhoods"
+          },
+          {
+            "title": "BART, airport",
+            "url": "https://www.bart.gov/guide/airport"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "SF Travel says this is where most of the major hotels are, around a 2.6-acre square."
+    },
+    {
+      "id": "north-beach",
+      "name": "North Beach",
+      "slug": "north-beach",
+      "state": "California",
+      "stateSlug": "california",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "San Francisco",
+      "orientation": "Inland from the Wharf, beside Chinatown.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "san-francisco"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "Meals, cafes, and a walk that is not on Jefferson Street.",
+        "primaryTradeoff": "There is no beach. Hills, and fewer of the big hotels. Farther from the Mission and Golden Gate Park.",
+        "idealDuration": null,
+        "transport": "Walk from Chinatown and the Wharf if the hill is acceptable. Powell-Hyde passes the neighborhood, per SFMTA.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "San Francisco Travel, North Beach",
+            "url": "https://www.sftravel.com/neighborhoods/north-beach"
+          },
+          {
+            "title": "SFMTA, Powell-Hyde",
+            "url": "https://www.sfmta.com/routes/powell-hyde-cable-car"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "SF Travel describes an Italian restaurant neighborhood and notes the name does not mean a beach."
+    },
+    {
+      "id": "chinatown-san-francisco",
+      "name": "Chinatown",
+      "slug": "chinatown-san-francisco",
+      "state": "California",
+      "stateSlug": "california",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "San Francisco",
+      "orientation": "Beside North Beach and downtown.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "san-francisco"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "Dim sum and a walk paired with North Beach or downtown.",
+        "primaryTradeoff": "This guide did not confirm hours for individual restaurants.",
+        "idealDuration": null,
+        "transport": "Walk from Union Square or North Beach. SFMTA lists it on the Powell-Hyde line.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "San Francisco Travel, neighborhoods",
+            "url": "https://www.sftravel.com/neighborhoods"
+          },
+          {
+            "title": "SFMTA, Powell-Hyde",
+            "url": "https://www.sfmta.com/routes/powell-hyde-cable-car"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "SF Travel’s neighborhood index points visitors here for dim sum."
+    },
+    {
+      "id": "nob-hill",
+      "name": "Nob Hill",
+      "slug": "nob-hill",
+      "state": "California",
+      "stateSlug": "california",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "San Francisco",
+      "orientation": "The hill above Union Square.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "san-francisco"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A stay built around grand hotels, views, and one good dinner.",
+        "primaryTradeoff": "Steep. SF Travel’s flatter walks are along the water, not here.",
+        "idealDuration": null,
+        "transport": "California cable car from California and Market to Van Ness. Powell-Hyde climbs through the hill.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "San Francisco Travel, neighborhoods",
+            "url": "https://www.sftravel.com/neighborhoods"
+          },
+          {
+            "title": "San Francisco Travel, Fisherman’s Wharf",
+            "url": "https://www.sftravel.com/neighborhoods/fishermans-wharf"
+          },
+          {
+            "title": "SFMTA, cable cars",
+            "url": "https://www.sfmta.com/getting-around/muni/cable-cars"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "SF Travel recommends it for a luxurious stay and notes that the cable cars climb this hill."
+    },
+    {
+      "id": "marina-district",
+      "name": "Marina District",
+      "slug": "marina-district",
+      "state": "California",
+      "stateSlug": "california",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "Northern San Francisco",
+      "orientation": "Along the bay, including the Palace of Fine Arts.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "san-francisco"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A flat bay walk, and a base if the bridge is the main outing.",
+        "primaryTradeoff": "Off BART. Alcatraz is not a block away. You still cross town after the airport train.",
+        "idealDuration": null,
+        "transport": "Walk the northern shore. Transit back to downtown for BART.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "San Francisco Travel, Marina",
+            "url": "https://www.sftravel.com/neighborhoods/marina-pacific-heights"
+          },
+          {
+            "title": "San Francisco Travel, neighborhoods",
+            "url": "https://www.sftravel.com/neighborhoods"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "SF Travel describes bars, boutiques, bay views, and the Palace of Fine Arts from the 1915 exposition."
+    },
+    {
+      "id": "soma",
+      "name": "SoMa",
+      "slug": "soma",
+      "state": "California",
+      "stateSlug": "california",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "South of Market, San Francisco",
+      "orientation": "South of Market, including Yerba Buena.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "san-francisco"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A museum day, a convention, or a ballgame.",
+        "primaryTradeoff": "Bigger blocks and less of a village street than North Beach or the Mission.",
+        "idealDuration": null,
+        "transport": "Near downtown BART stations.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "San Francisco Travel, neighborhoods",
+            "url": "https://www.sftravel.com/neighborhoods"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "SF Travel describes museums, venues, the ballpark, and larger nightclubs."
+    },
+    {
+      "id": "mission-district",
+      "name": "Mission District",
+      "slug": "mission-district",
+      "state": "California",
+      "stateSlug": "california",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "San Francisco",
+      "orientation": "Mission, Valencia, and 24th streets.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "san-francisco"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "Food, murals, and a day that is not the Wharf.",
+        "primaryTradeoff": "A ride from Alcatraz, the bridge, and the cable cars.",
+        "idealDuration": null,
+        "transport": "Not on the F-line. Plan transit when the morning is a waterfront booking.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "San Francisco Travel, Mission",
+            "url": "https://www.sftravel.com/neighborhoods/mission-district"
+          },
+          {
+            "title": "San Francisco Travel, neighborhoods",
+            "url": "https://www.sftravel.com/neighborhoods"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "SF Travel names Clarion Alley and Balmy Alley for murals."
+    },
+    {
+      "id": "the-castro",
+      "name": "The Castro",
+      "slug": "the-castro",
+      "state": "California",
+      "stateSlug": "california",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "San Francisco",
+      "orientation": "West of downtown, at the start of the F-line.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "san-francisco"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "Staying in the neighborhood and riding the F-line to the Wharf.",
+        "primaryTradeoff": "Not the main hotel cluster. The airport train still drops you downtown first.",
+        "idealDuration": null,
+        "transport": "F-line along Market to the Ferry Building and Fisherman’s Wharf.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "San Francisco Travel, neighborhoods",
+            "url": "https://www.sftravel.com/neighborhoods"
+          },
+          {
+            "title": "San Francisco Travel, Fisherman’s Wharf",
+            "url": "https://www.sftravel.com/neighborhoods/fishermans-wharf"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "SF Travel calls it one of the country’s first gay neighborhoods."
     }
   ],
   "comparisons": [

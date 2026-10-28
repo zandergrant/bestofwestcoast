@@ -729,12 +729,29 @@ p:last-child {
   }
 }
 
-.hero-figure .photo-credit {
+.hero-figure .photo-credit,
+.guide-figure .photo-credit {
   margin: 8px 2px 0;
   color: var(--muted);
   font-size: 13px;
   line-height: 1.4;
   text-align: right;
+}
+
+.guide-figure {
+  margin: 0 0 28px;
+}
+
+.guide-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+}
+
+.checked-line {
+  color: var(--muted);
+  font-size: 15px;
 }
 
 .photo-credit a {
