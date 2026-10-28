@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500;1,9..144,600&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=1">
+  <link rel="stylesheet" href="styles.css?v=2">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <meta name="theme-color" content="#1e3d32">
   <link rel="canonical" href="https://zandergrant.github.io/bestofwestcoast/">
@@ -33,7 +33,7 @@
   }
 }
   </script>
-  <script defer src="site.js?v=1"></script>
+  <script defer src="site.js?v=2"></script>
 </head>
 <body class="home-page">
   <a class="skip-link" href="#main">Skip to content</a>
@@ -64,9 +64,27 @@
     </div>
   </header>
   <main id="main" tabindex="-1">
-    <section class="hero">
-      <div class="container hero-grid">
-        <div>
+    <section class="hero hero-carousel" data-carousel aria-roledescription="carousel" aria-label="Places on the West Coast">
+      <div class="hero-slides">
+        <div class="hero-slide is-active" data-credit-name="Stephen Crane" data-credit-url="https://unsplash.com/photos/the-sun-is-setting-over-the-ocean-with-rocks-in-the-background-xrQRs03TcKs">
+          <img src="images/cannon-beach-haystack-2000.jpg" srcset="images/cannon-beach-haystack-1000.jpg 1000w, images/cannon-beach-haystack-2000.jpg 2000w" sizes="100vw" width="2000" height="1330" alt="Haystack Rock and the sea stacks at sunset on Cannon Beach, Oregon, with the sun reflected on the wet sand." fetchpriority="high" decoding="async">
+        </div>
+        <div class="hero-slide" data-credit-name="Maarten van den Heuvel" data-credit-url="https://unsplash.com/photos/golden-gate-bridge-during-daytime-gZXx8lKAb7Y">
+          <img data-src="images/golden-gate-2000.jpg" data-srcset="images/golden-gate-1000.jpg 1000w, images/golden-gate-2000.jpg 2000w" sizes="100vw" width="2000" height="1126" alt="The Golden Gate Bridge crossing San Francisco Bay, with the city skyline beyond the near tower." decoding="async">
+        </div>
+        <div class="hero-slide" data-credit-name="Venti Views" data-credit-url="https://unsplash.com/photos/bixby-creek-bridge-on-a-foggy-day-0v0XpYrmUQQ">
+          <img data-src="images/bixby-bridge-2000.jpg" data-srcset="images/bixby-bridge-1000.jpg 1000w, images/bixby-bridge-2000.jpg 2000w" sizes="100vw" width="2000" height="1334" alt="Bixby Creek Bridge on the Big Sur coast, its arch framing a rock in the Pacific." decoding="async">
+        </div>
+        <div class="hero-slide" data-credit-name="Joris Beugels" data-credit-url="https://unsplash.com/photos/a-view-of-a-beach-with-many-rocks-and-trees-F9_lscp1YeA">
+          <img data-src="images/ruby-beach-2000.jpg" data-srcset="images/ruby-beach-1000.jpg 1000w, images/ruby-beach-2000.jpg 2000w" sizes="100vw" width="2000" height="1126" alt="Ruby Beach in Olympic National Park, with sea stacks, driftwood, and a misty shoreline." decoding="async">
+        </div>
+        <div class="hero-slide" data-credit-name="Venti Views" data-credit-url="https://unsplash.com/photos/dramatic-half-dome-mountain-peak-at-yosemite-national-park-leI1nYwxT0g">
+          <img data-src="images/half-dome-2000.jpg" data-srcset="images/half-dome-1000.jpg 1000w, images/half-dome-2000.jpg 2000w" sizes="100vw" width="2000" height="1334" alt="Half Dome in Yosemite National Park, framed by pine trees under a streaked sky." decoding="async">
+        </div>
+      </div>
+      <div class="hero-scrim" aria-hidden="true"></div>
+      <div class="container hero-overlay">
+        <div class="hero-copy-block">
           <h1>Where to go <em>on the West Coast.</em></h1>
           <p class="hero-copy">Cities, coast towns, parks, and the trips that string them together.</p>
           <div class="hero-actions">
@@ -74,12 +92,22 @@
             <a class="button-link" href="newsletter/">The West Coast Five <span aria-hidden="true">→</span></a>
           </div>
         </div>
-        <figure class="hero-figure">
-          <div class="coast-card">
-            <img class="hero-photo" src="images/cannon-beach-haystack-2000.jpg" srcset="images/cannon-beach-haystack-1000.jpg 1000w, images/cannon-beach-haystack-2000.jpg 2000w" sizes="(max-width: 860px) calc(100vw - 40px), 46vw" width="2000" height="1330" alt="Haystack Rock and the sea stacks at sunset on Cannon Beach, Oregon, with the sun reflected on the wet sand.">
+        <div class="hero-controls">
+          <button type="button" class="hero-nav" data-hero-prev aria-label="Previous photo">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14.5 5.5 8 12l6.5 6.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="hero-dots" role="group" aria-label="Photos">
+            <button type="button" class="hero-dot" data-hero-dot="0" aria-current="true" aria-label="Cannon Beach, photo 1 of 5"></button>
+            <button type="button" class="hero-dot" data-hero-dot="1" aria-label="San Francisco, photo 2 of 5"></button>
+            <button type="button" class="hero-dot" data-hero-dot="2" aria-label="Big Sur, photo 3 of 5"></button>
+            <button type="button" class="hero-dot" data-hero-dot="3" aria-label="Ruby Beach, photo 4 of 5"></button>
+            <button type="button" class="hero-dot" data-hero-dot="4" aria-label="Yosemite, photo 5 of 5"></button>
           </div>
-          <figcaption class="photo-credit"><a href="https://unsplash.com/photos/the-sun-is-setting-over-the-ocean-with-rocks-in-the-background-xrQRs03TcKs">Photo: Stephen Crane / Unsplash</a></figcaption>
-        </figure>
+          <button type="button" class="hero-nav" data-hero-next aria-label="Next photo">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9.5 5.5 16 12l-6.5 6.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <p class="photo-credit"><a data-hero-credit href="https://unsplash.com/photos/the-sun-is-setting-over-the-ocean-with-rocks-in-the-background-xrQRs03TcKs">Photo: Stephen Crane / Unsplash</a></p>
+        </div>
       </div>
     </section>
 

@@ -92,6 +92,92 @@
     });
   }
 
+  var carousel = document.querySelector("[data-carousel]");
+  if (carousel) {
+    var slides = Array.prototype.slice.call(carousel.querySelectorAll(".hero-slide"));
+    var dots = Array.prototype.slice.call(carousel.querySelectorAll("[data-hero-dot]"));
+    var credit = carousel.querySelector("[data-hero-credit]");
+    var index = 0;
+    var timer = null;
+    var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    function loadSlide(slide) {
+      if (!slide) return;
+      var img = slide.querySelector("img");
+      if (!img || img.getAttribute("src") || !img.dataset.src) return;
+      if (img.dataset.srcset) img.setAttribute("srcset", img.dataset.srcset);
+      img.setAttribute("src", img.dataset.src);
+    }
+
+    function showSlide(next) {
+      index = (next + slides.length) % slides.length;
+      slides.forEach(function (slide, i) {
+        var on = i === index;
+        slide.classList.toggle("is-active", on);
+        slide.setAttribute("aria-hidden", on ? "false" : "true");
+        if (on) loadSlide(slide);
+      });
+      loadSlide(slides[(index + 1) % slides.length]);
+      dots.forEach(function (dot, i) {
+        if (i === index) dot.setAttribute("aria-current", "true");
+        else dot.removeAttribute("aria-current");
+      });
+      var active = slides[index];
+      if (credit && active) {
+        credit.textContent = "Photo: " + active.dataset.creditName + " / Unsplash";
+        credit.href = active.dataset.creditUrl;
+      }
+    }
+
+    function stop() {
+      if (timer) {
+        window.clearInterval(timer);
+        timer = null;
+      }
+    }
+
+    function start() {
+      if (reduceMotion || timer) return;
+      timer = window.setInterval(function () {
+        showSlide(index + 1);
+      }, 6000);
+    }
+
+    carousel.querySelector("[data-hero-prev]").addEventListener("click", function () {
+      showSlide(index - 1);
+    });
+    carousel.querySelector("[data-hero-next]").addEventListener("click", function () {
+      showSlide(index + 1);
+    });
+    dots.forEach(function (dot) {
+      dot.addEventListener("click", function () {
+        showSlide(Number(dot.getAttribute("data-hero-dot")));
+      });
+    });
+    carousel.addEventListener("keydown", function (event) {
+      if (event.key === "ArrowRight") {
+        event.preventDefault();
+        showSlide(index + 1);
+      } else if (event.key === "ArrowLeft") {
+        event.preventDefault();
+        showSlide(index - 1);
+      }
+    });
+    carousel.addEventListener("mouseenter", stop);
+    carousel.addEventListener("mouseleave", start);
+    carousel.addEventListener("focusin", stop);
+    carousel.addEventListener("focusout", function (event) {
+      if (!carousel.contains(event.relatedTarget)) start();
+    });
+
+    slides.forEach(function (slide, i) {
+      slide.setAttribute("aria-hidden", i === 0 ? "false" : "true");
+    });
+    loadSlide(slides[1]);
+    carousel.classList.add("is-ready");
+    start();
+  }
+
   var statusSlot = document.querySelector("[data-catalog-status]");
   if (statusSlot) {
     var script = document.querySelector('script[src*="site.js"]');

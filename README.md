@@ -35,7 +35,7 @@ The live site shows whatever is on `main`. This version does not attach the cust
 
 ## Photographs
 
-The homepage hero is a photograph of Haystack Rock at Cannon Beach, Oregon. Source, photographer, and license are in [CREDITS.md](CREDITS.md).
+The homepage hero cycles through five photographs. Sources, photographers, and the Unsplash License are in [CREDITS.md](CREDITS.md).
 
 ## Places database
 
