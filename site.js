@@ -92,6 +92,93 @@
     });
   }
 
+  var bestForm = document.querySelector("[data-best]");
+  if (bestForm) {
+    var bestCards = Array.prototype.slice.call(document.querySelectorAll("[data-business-card]"));
+    var bestCount = document.querySelector("[data-result-count]");
+    var bestEmpty = document.querySelector("[data-empty]");
+    var bestQuery = bestForm.querySelector('[name="q"]');
+    var bestRegion = bestForm.querySelector('[name="region"]');
+    var bestCategory = bestForm.querySelector('[name="category"]');
+    var bestNeighborhood = bestForm.querySelector('[name="neighborhood"]');
+    var bestPrice = bestForm.querySelector('[name="price"]');
+
+    function fillNeighborhoods() {
+      if (!bestNeighborhood) return;
+      var regionValue = bestRegion ? bestRegion.value : "";
+      var current = bestNeighborhood.value;
+      var names = {};
+      bestCards.forEach(function (card) {
+        if (regionValue && card.getAttribute("data-region") !== regionValue) return;
+        var name = card.getAttribute("data-neighborhood") || "";
+        if (name) names[name] = true;
+      });
+      var options = Object.keys(names).sort();
+      bestNeighborhood.innerHTML = "";
+      var all = document.createElement("option");
+      all.value = "";
+      all.textContent = "All neighborhoods";
+      bestNeighborhood.appendChild(all);
+      options.forEach(function (name) {
+        var option = document.createElement("option");
+        option.value = name;
+        option.textContent = name;
+        if (name === current) option.selected = true;
+        bestNeighborhood.appendChild(option);
+      });
+      if (bestNeighborhood.value !== current) bestNeighborhood.value = "";
+    }
+
+    function applyBest() {
+      var q = (bestQuery && bestQuery.value ? bestQuery.value : "").trim().toLowerCase();
+      var regionValue = bestRegion ? bestRegion.value : "";
+      var categoryValue = bestCategory ? bestCategory.value : "";
+      var neighborhoodValue = bestNeighborhood ? bestNeighborhood.value : "";
+      var priceValue = bestPrice ? bestPrice.value : "";
+      var visible = 0;
+      bestCards.forEach(function (card) {
+        var haystack = (card.getAttribute("data-search") || "").toLowerCase();
+        var show = (!q || haystack.indexOf(q) !== -1) &&
+          (!regionValue || card.getAttribute("data-region") === regionValue) &&
+          (!categoryValue || card.getAttribute("data-category") === categoryValue) &&
+          (!neighborhoodValue || card.getAttribute("data-neighborhood") === neighborhoodValue) &&
+          (!priceValue || card.getAttribute("data-price") === priceValue);
+        card.hidden = !show;
+        if (show) visible += 1;
+      });
+      if (bestCount) {
+        bestCount.textContent = visible + (visible === 1 ? " business" : " businesses");
+      }
+      if (bestEmpty) bestEmpty.hidden = visible !== 0;
+    }
+
+    var params = new URLSearchParams(window.location.search);
+    ["q", "region", "category", "price"].forEach(function (name) {
+      var field = bestForm.querySelector('[name="' + name + '"]');
+      if (field && params.get(name)) field.value = params.get(name);
+    });
+    fillNeighborhoods();
+    if (params.get("neighborhood") && bestNeighborhood) {
+      bestNeighborhood.value = params.get("neighborhood");
+    }
+    applyBest();
+    bestForm.addEventListener("submit", function (event) {
+      event.preventDefault();
+      applyBest();
+    });
+    bestForm.addEventListener("input", applyBest);
+    bestForm.addEventListener("change", function (event) {
+      if (event.target === bestRegion) fillNeighborhoods();
+      applyBest();
+    });
+    bestForm.addEventListener("reset", function () {
+      window.setTimeout(function () {
+        fillNeighborhoods();
+        applyBest();
+      }, 0);
+    });
+  }
+
   var carousel = document.querySelector("[data-carousel]");
   if (carousel) {
     var slides = Array.prototype.slice.call(carousel.querySelectorAll(".hero-slide"));

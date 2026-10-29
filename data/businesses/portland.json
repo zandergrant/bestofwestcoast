@@ -1,0 +1,831 @@
+{
+  "region": "portland",
+  "regionLabel": "Portland",
+  "businesses": [
+    {
+      "id": "jupiter-hotel",
+      "name": "Jupiter Hotel",
+      "region": "portland",
+      "regionLabel": "Portland",
+      "neighborhood": "Buckman",
+      "category": "hotel",
+      "address": "800 E Burnside",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": null,
+      "why": "People in a June 2024 r/askportland thread name the Jupiter when they want the east side instead of downtown. Tripadvisor reviews praise the block and complain about noise and fees.",
+      "communitySources": [
+        {
+          "title": "r/askportland, where to stay, June 2024",
+          "url": "https://www.reddit.com/r/askportland/comments/1dei5a4/where_to_stay_at_in_portland/"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.1,
+          "review_count": 1616,
+          "url": "https://www.google.com/maps/search/?api=1&query=Jupiter%20Hotel%20Portland%20Oregon",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 3.1,
+          "review_count": 551,
+          "url": "https://www.yelp.com/biz/jupiter-hotel-portland-3",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        },
+        {
+          "source": "Tripadvisor",
+          "rating": 3.5,
+          "review_count": 1046,
+          "url": "https://www.tripadvisor.com/Hotel_Review-g52024-d96160-Reviews-Jupiter_Hotel-Portland_Oregon.html",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "kex-portland",
+      "name": "KEX Portland",
+      "region": "portland",
+      "regionLabel": "Portland",
+      "neighborhood": "Central Eastside",
+      "category": "hotel",
+      "address": "100 NE Martin Luther King Jr Blvd",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": null,
+      "why": "Askportland commenters name KEX when they want a social lobby near the river. The Tripadvisor sample is small and much kinder than Yelp, which is the reason both numbers stay on the card.",
+      "communitySources": [
+        {
+          "title": "r/askportland, where to stay, June 2024",
+          "url": "https://www.reddit.com/r/askportland/comments/1dei5a4/where_to_stay_at_in_portland/"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.5,
+          "review_count": 368,
+          "url": "https://www.google.com/maps/search/?api=1&query=KEX%20Portland%20hotel",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 3.5,
+          "review_count": 50,
+          "url": "https://www.yelp.com/biz/kex-portland-portland",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        },
+        {
+          "source": "Tripadvisor",
+          "rating": 4.7,
+          "review_count": 61,
+          "url": "https://www.tripadvisor.com/Hotel_Review-g52024-d19591309-Reviews-KEX_Portland-Portland_Oregon.html",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "mcmenamins-kennedy-school",
+      "name": "McMenamins Kennedy School",
+      "region": "portland",
+      "regionLabel": "Portland",
+      "neighborhood": "Concordia",
+      "category": "hotel",
+      "address": "5736 NE 33rd Ave",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": null,
+      "why": "The same 2024 thread points at Kennedy School for a northeast stay when Alberta is the point. The hotel listing, not the separate restaurant listing, is the one scored here.",
+      "communitySources": [
+        {
+          "title": "r/askportland, where to stay, June 2024",
+          "url": "https://www.reddit.com/r/askportland/comments/1dei5a4/where_to_stay_at_in_portland/"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.6,
+          "review_count": 8977,
+          "url": "https://www.google.com/maps/search/?api=1&query=McMenamins%20Kennedy%20School%20Portland",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 3.9,
+          "review_count": 1639,
+          "url": "https://www.yelp.com/biz/mcmenamins-kennedy-school-portland",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        },
+        {
+          "source": "Tripadvisor",
+          "rating": 4.3,
+          "review_count": 781,
+          "url": "https://www.tripadvisor.com/Hotel_Review-g52024-d112200-Reviews-McMenamins_Kennedy_School-Portland_Oregon.html",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "the-hoxton-portland",
+      "name": "The Hoxton Portland",
+      "region": "portland",
+      "regionLabel": "Portland",
+      "neighborhood": "Old Town",
+      "category": "hotel",
+      "address": "15 NW 4th Ave",
+      "website": "https://www.thehoxton.com/portland/",
+      "latitude": null,
+      "longitude": null,
+      "priceBand": null,
+      "why": "Askportland commenters who say skip Old Town are talking about this area. The Hoxton is the designed hotel in that argument: staff get named in reviews, and so do small rooms and street noise.",
+      "communitySources": [
+        {
+          "title": "r/askportland, where to stay, Jan 2026",
+          "url": "https://www.reddit.com/r/askportland/comments/1q6s1a8/what_neighborhood_to_stay_in/"
+        },
+        {
+          "title": "The Hoxton Portland",
+          "url": "https://www.thehoxton.com/portland/"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.3,
+          "review_count": 1144,
+          "url": "https://www.google.com/maps/search/?api=1&query=The%20Hoxton%20Portland%20hotel",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 4.3,
+          "review_count": 141,
+          "url": "https://www.yelp.com/biz/the-hoxton-portland",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        },
+        {
+          "source": "Tripadvisor",
+          "rating": 4.4,
+          "review_count": 1047,
+          "url": "https://www.tripadvisor.com/Hotel_Review-g52024-d15043205-Reviews-The_Hoxton_Portland-Portland_Oregon.html",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "canopy-portland-pearl",
+      "name": "Canopy by Hilton Portland Pearl District",
+      "region": "portland",
+      "regionLabel": "Portland",
+      "neighborhood": "Pearl District",
+      "category": "hotel",
+      "address": "425 NW 9th Ave",
+      "website": "https://www.hilton.com/en/hotels/pdxpepy-canopy-portland-pearl-district/",
+      "latitude": null,
+      "longitude": null,
+      "priceBand": null,
+      "why": "The practical Pearl hotel when the trip is Powell’s and the museum. Yelp did not return a listing URL clear enough to use, so it is left off. Tripadvisor reviews praise the staff and complain about valet parking.",
+      "communitySources": [
+        {
+          "title": "r/askportland, where to stay, Jan 2026",
+          "url": "https://www.reddit.com/r/askportland/comments/1q6s1a8/what_neighborhood_to_stay_in/"
+        },
+        {
+          "title": "Canopy by Hilton, Pearl",
+          "url": "https://www.hilton.com/en/hotels/pdxpepy-canopy-portland-pearl-district/"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.2,
+          "review_count": 908,
+          "url": "https://www.google.com/maps/search/?api=1&query=Canopy%20by%20Hilton%20Portland%20Pearl%20District",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Tripadvisor",
+          "rating": 4.5,
+          "review_count": 588,
+          "url": "https://www.tripadvisor.com/Hotel_Review-g52024-d13294894-Reviews-Canopy_By_Hilton_Portland_Pearl_District-Portland_Oregon.html",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "screen-door-eastside",
+      "name": "Screen Door Eastside",
+      "region": "portland",
+      "regionLabel": "Portland",
+      "neighborhood": "Kerns",
+      "category": "restaurant",
+      "address": "2337 E Burnside",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": null,
+      "why": "The east-side brunch the Portland guides send people to, with a line that Tripadvisor reviews in 2026 still mention. Book or go early.",
+      "communitySources": [
+        {
+          "title": "Eater Portland 38, fall 2026",
+          "url": "https://pdx.eater.com/maps/best-portland-oregon-restaurants"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.7,
+          "review_count": 7834,
+          "url": "https://www.google.com/maps/search/?api=1&query=Screen%20Door%20Eastside%20Portland",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 4.5,
+          "review_count": 9091,
+          "url": "https://www.yelp.com/biz/screen-door-eastside-portland-3",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        },
+        {
+          "source": "Tripadvisor",
+          "rating": 4.6,
+          "review_count": 1463,
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g52024-d807935-Reviews-Screen_Door_Eastside-Portland_Oregon.html",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        },
+        {
+          "source": "OpenTable",
+          "rating": 4.9,
+          "review_count": 1399,
+          "url": "https://www.opentable.com/r/screen-door-eastside-portland",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "apizza-scholls",
+      "name": "Apizza Scholls",
+      "region": "portland",
+      "regionLabel": "Portland",
+      "neighborhood": "Hawthorne",
+      "category": "restaurant",
+      "address": "4741 SE Hawthorne Blvd",
+      "website": "https://www.apizzascholls.com/",
+      "latitude": null,
+      "longitude": null,
+      "priceBand": null,
+      "why": "The Hawthorne pizza the shop itself says can sell out of dough on Friday and Saturday. A minority of reviews call it overhyped. The line is the local tell.",
+      "communitySources": [
+        {
+          "title": "Apizza Scholls",
+          "url": "https://www.apizzascholls.com/"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.6,
+          "review_count": 2288,
+          "url": "https://www.google.com/maps/search/?api=1&query=Apizza%20Scholls%20Portland",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 4.2,
+          "review_count": 1947,
+          "url": "https://www.yelp.com/biz/apizza-scholls-portland",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        },
+        {
+          "source": "Tripadvisor",
+          "rating": 4.3,
+          "review_count": 341,
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g52024-d648921-Reviews-Apizza_Scholls-Portland_Oregon.html",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "kann",
+      "name": "Kann",
+      "region": "portland",
+      "regionLabel": "Portland",
+      "neighborhood": "Central Eastside",
+      "category": "restaurant",
+      "address": "548 SE Ash",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": null,
+      "why": "On the Eater Portland 38. Axios Portland, in June 2026, still had the griyo living up to the hype and called the room loud and expensive. Tripadvisor showed reviews and no bubble score, so that site is left off.",
+      "communitySources": [
+        {
+          "title": "Eater Portland 38, fall 2026",
+          "url": "https://pdx.eater.com/maps/best-portland-oregon-restaurants"
+        },
+        {
+          "title": "Axios Portland on Kann, June 2026",
+          "url": "https://www.axios.com/local/portland/2026/06/11/kann-restaurant-portland-review"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.5,
+          "review_count": 1297,
+          "url": "https://www.google.com/maps/search/?api=1&query=Kann%20restaurant%20Portland%20Oregon",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 4.4,
+          "review_count": 612,
+          "url": "https://www.yelp.com/biz/kann-portland",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "le-pigeon",
+      "name": "Le Pigeon",
+      "region": "portland",
+      "regionLabel": "Portland",
+      "neighborhood": "Buckman",
+      "category": "restaurant",
+      "address": "738 E Burnside",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": null,
+      "why": "On the Eater Portland 38. The tasting menu is the reason to book. Reviews that mention the room keep coming back to the bill and upstairs noise.",
+      "communitySources": [
+        {
+          "title": "Eater Portland 38, fall 2026",
+          "url": "https://pdx.eater.com/maps/best-portland-oregon-restaurants"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.6,
+          "review_count": 1163,
+          "url": "https://www.google.com/maps/search/?api=1&query=Le%20Pigeon%20Portland",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 4.4,
+          "review_count": 1427,
+          "url": "https://www.yelp.com/biz/le-pigeon-portland-2",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        },
+        {
+          "source": "Tripadvisor",
+          "rating": 4.5,
+          "review_count": 554,
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g52024-d649314-Reviews-Le_Pigeon-Portland_Oregon.html",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        },
+        {
+          "source": "OpenTable",
+          "rating": 4.9,
+          "review_count": 1820,
+          "url": "https://www.opentable.com/r/le-pigeon-portland",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "kachka",
+      "name": "Kachka",
+      "region": "portland",
+      "regionLabel": "Portland",
+      "neighborhood": "Buckman",
+      "category": "restaurant",
+      "address": "960 SE 11th Ave",
+      "website": "https://kachkapdx.com/",
+      "latitude": null,
+      "longitude": null,
+      "priceBand": "$$$",
+      "why": "On the Eater Portland 38 for the Russian and Georgian room on SE 11th. Yelp’s listing calls the price band three dollar signs.",
+      "communitySources": [
+        {
+          "title": "Eater Portland 38, fall 2026",
+          "url": "https://pdx.eater.com/maps/best-portland-oregon-restaurants"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.6,
+          "review_count": 2880,
+          "url": "https://www.google.com/maps/search/?api=1&query=Kachka%20restaurant%20Portland%20Oregon",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 4.3,
+          "review_count": 1367,
+          "url": "https://www.yelp.com/biz/kachka-portland-2",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "lovelys-fifty-fifty",
+      "name": "Lovely's Fifty Fifty",
+      "region": "portland",
+      "regionLabel": "Portland",
+      "neighborhood": "Mississippi",
+      "category": "restaurant",
+      "address": "4039 N Mississippi Ave",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": "$$",
+      "why": "On the Eater Portland 38. The Mississippi pizza-and-ice-cream room, which is the neighborhood askportland threads keep recommending for a Portland evening.",
+      "communitySources": [
+        {
+          "title": "Eater Portland 38, fall 2026",
+          "url": "https://pdx.eater.com/maps/best-portland-oregon-restaurants"
+        },
+        {
+          "title": "r/askportland, where to stay, Jan 2026",
+          "url": "https://www.reddit.com/r/askportland/comments/1q6s1a8/what_neighborhood_to_stay_in/"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.7,
+          "review_count": 1113,
+          "url": "https://www.google.com/maps/search/?api=1&query=Lovely%27s%20Fifty%20Fifty%20Portland",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 4.4,
+          "review_count": 620,
+          "url": "https://www.yelp.com/biz/lovelys-fifty-fifty-portland",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "lan-su-chinese-garden",
+      "name": "Lan Su Chinese Garden",
+      "region": "portland",
+      "regionLabel": "Portland",
+      "neighborhood": "Old Town",
+      "category": "attraction",
+      "address": "239 NW Everett St",
+      "website": "https://lansugarden.org/visit/",
+      "latitude": null,
+      "longitude": null,
+      "priceBand": null,
+      "why": "The reason to go to Old Town. Travel Portland places the garden there, and the Yelp listing gives the Everett Street address. Hours on a review site are not the garden’s hours.",
+      "communitySources": [
+        {
+          "title": "Lan Su Chinese Garden",
+          "url": "https://lansugarden.org/visit/"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.7,
+          "review_count": 3810,
+          "url": "https://www.google.com/maps/search/?api=1&query=Lan%20Su%20Chinese%20Garden%20Portland",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 4.4,
+          "review_count": 740,
+          "url": "https://www.yelp.com/biz/lan-su-chinese-garden-portland",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        },
+        {
+          "source": "Tripadvisor",
+          "rating": 4.6,
+          "review_count": 2606,
+          "url": "https://www.tripadvisor.com/Attraction_Review-g52024-d196850-Reviews-Lan_Su_Chinese_Garden-Portland_Oregon.html",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "portland-saturday-market",
+      "name": "Portland Saturday Market",
+      "region": "portland",
+      "regionLabel": "Portland",
+      "neighborhood": "Old Town",
+      "category": "attraction",
+      "address": "2 SW Naito Pkwy",
+      "website": "https://www.portlandsaturdaymarket.com/hours-and-directions",
+      "latitude": null,
+      "longitude": null,
+      "priceBand": null,
+      "why": "The Saturday handmade market at 2 SW Naito. The market’s own page, not a review site, is the source for which days it is open. Worth an hour if you are already downtown.",
+      "communitySources": [
+        {
+          "title": "Portland Saturday Market hours",
+          "url": "https://www.portlandsaturdaymarket.com/hours-and-directions"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.5,
+          "review_count": 4935,
+          "url": "https://www.google.com/maps/search/?api=1&query=Portland%20Saturday%20Market",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 4.0,
+          "review_count": 642,
+          "url": "https://www.yelp.com/biz/portland-saturday-market-portland",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        },
+        {
+          "source": "Tripadvisor",
+          "rating": 4.3,
+          "review_count": 1123,
+          "url": "https://www.tripadvisor.com/Attraction_Review-g52024-d126746-Reviews-Portland_Saturday_Market-Portland_Oregon.html",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "coava-coffee",
+      "name": "Coava Coffee Roasters",
+      "region": "portland",
+      "regionLabel": "Portland",
+      "neighborhood": "Central Eastside",
+      "category": "cafe",
+      "address": "1300 SE Grand Ave",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": "$$",
+      "why": "Named again and again in a June 2025 r/askportland thread about espresso, and in a May 2025 r/PNWcoffee thread. A Google panel showed 4.6 with no review count, so Google is left off.",
+      "communitySources": [
+        {
+          "title": "r/askportland, espresso stops, June 2025",
+          "url": "https://www.reddit.com/r/askportland/comments/1ldyjbo/top_5_espresso_stops_in_portland/"
+        },
+        {
+          "title": "r/PNWcoffee, Portland coffee, May 2025",
+          "url": "https://www.reddit.com/r/PNWcoffee/comments/1kdw7nw/best_coffee_shops_in_portland/"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Yelp",
+          "rating": 4.4,
+          "review_count": 914,
+          "url": "https://www.yelp.com/biz/coava-coffee-roasters-portland",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "heart-roasters",
+      "name": "Heart Coffee (Burnside)",
+      "region": "portland",
+      "regionLabel": "Portland",
+      "neighborhood": "Kerns",
+      "category": "cafe",
+      "address": "2211 E Burnside St",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": "$",
+      "why": "Heart is one of the five espresso stops in that June 2025 askportland thread. Yelp’s Burnside listing is the one scored here.",
+      "communitySources": [
+        {
+          "title": "r/askportland, espresso stops, June 2025",
+          "url": "https://www.reddit.com/r/askportland/comments/1ldyjbo/top_5_espresso_stops_in_portland/"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.5,
+          "review_count": 719,
+          "url": "https://www.google.com/maps/search/?api=1&query=Heart%20Coffee%20Roasters%20Portland%20Burnside",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 4.0,
+          "review_count": 463,
+          "url": "https://www.yelp.com/biz/heart-roasters-portland",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "sterling-coffee",
+      "name": "Sterling Coffee Roasters",
+      "region": "portland",
+      "regionLabel": "Portland",
+      "neighborhood": "Northwest",
+      "category": "cafe",
+      "address": "518 NW 21st Ave",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": "$",
+      "why": "Several people in the June 2025 espresso thread put Sterling first, including for an Italian-style shot. This is the NW 21st listing.",
+      "communitySources": [
+        {
+          "title": "r/askportland, espresso stops, June 2025",
+          "url": "https://www.reddit.com/r/askportland/comments/1ldyjbo/top_5_espresso_stops_in_portland/"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Yelp",
+          "rating": 4.6,
+          "review_count": 392,
+          "url": "https://www.yelp.com/biz/sterling-coffee-roasters-portland",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "proud-mary-coffee",
+      "name": "Proud Mary Cafe",
+      "region": "portland",
+      "regionLabel": "Portland",
+      "neighborhood": "Alberta",
+      "category": "cafe",
+      "address": "2012 NE Alberta St",
+      "website": "https://proudmarycoffee.com/",
+      "latitude": null,
+      "longitude": null,
+      "priceBand": "$$",
+      "why": "The sit-down coffee room in both the askportland espresso thread and the PNWcoffee thread. One commenter likes the coffee and finds the room pretentious. Both reactions are in those threads.",
+      "communitySources": [
+        {
+          "title": "r/askportland, espresso stops, June 2025",
+          "url": "https://www.reddit.com/r/askportland/comments/1ldyjbo/top_5_espresso_stops_in_portland/"
+        },
+        {
+          "title": "r/PNWcoffee, Portland coffee, May 2025",
+          "url": "https://www.reddit.com/r/PNWcoffee/comments/1kdw7nw/best_coffee_shops_in_portland/"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.5,
+          "review_count": 1230,
+          "url": "https://www.google.com/maps/search/?api=1&query=Proud%20Mary%20Coffee%20Portland%20Alberta",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 4.5,
+          "review_count": 1016,
+          "url": "https://www.yelp.com/biz/proud-mary-coffee-portland",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "double-dragon",
+      "name": "Double Dragon",
+      "region": "portland",
+      "regionLabel": "Portland",
+      "neighborhood": "Division",
+      "category": "bar",
+      "address": "1235 SE Division St",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": "$$",
+      "why": "Eater Portland’s fall 2026 update added Double Dragon as the Division cocktail spot. Yelp lists it as a cocktail bar that also serves sandwiches.",
+      "communitySources": [
+        {
+          "title": "Eater Portland 38, fall 2026",
+          "url": "https://pdx.eater.com/maps/best-portland-oregon-restaurants"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.5,
+          "review_count": 1190,
+          "url": "https://www.google.com/maps/search/?api=1&query=Double%20Dragon%20Portland%20cocktail%20bar",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 4.1,
+          "review_count": 553,
+          "url": "https://www.yelp.com/biz/double-dragon-portland-2",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    }
+  ]
+}

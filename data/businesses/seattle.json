@@ -1,0 +1,553 @@
+{
+  "region": "seattle",
+  "regionLabel": "Seattle",
+  "businesses": [
+    {
+      "id": "edgewater-hotel",
+      "name": "The Edgewater Hotel",
+      "region": "seattle",
+      "regionLabel": "Seattle",
+      "neighborhood": "Waterfront",
+      "category": "hotel",
+      "address": "Pier 67, 2411 Alaskan Way",
+      "website": "https://www.edgewaterhotel.com/llm-info/",
+      "latitude": null,
+      "longitude": null,
+      "priceBand": null,
+      "why": "The over-water hotel. A May 2026 r/SeattleWA thread still likes a waterfront room and tells people to skip Pioneer Square after dark. Yelp is harsher than Google. The hotel’s own page lists a destination fee and valet with no self-parking.",
+      "communitySources": [
+        {
+          "title": "r/SeattleWA, where to stay, March 2024",
+          "url": "https://www.reddit.com/r/SeattleWA/comments/1boswo2/best_neighborhood_to_stay_in_seattle/"
+        },
+        {
+          "title": "The Edgewater, official facts page",
+          "url": "https://www.edgewaterhotel.com/llm-info/"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.4,
+          "review_count": 3331,
+          "url": "https://www.google.com/maps/search/?api=1&query=The%20Edgewater%20Hotel%20Seattle",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 3.5,
+          "review_count": 841,
+          "url": "https://www.yelp.com/biz/the-edgewater-hotel-seattle-3",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        },
+        {
+          "source": "Tripadvisor",
+          "rating": 4.1,
+          "review_count": 6807,
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d100567-Reviews-The_Edgewater_Hotel-Seattle_Washington.html",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "thompson-seattle",
+      "name": "Thompson Seattle",
+      "region": "seattle",
+      "regionLabel": "Seattle",
+      "neighborhood": "Downtown",
+      "category": "hotel",
+      "address": "110 Stewart St",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": null,
+      "why": "The downtown tower a short walk from Pike Place. Yelp is a 3.6 and Tripadvisor, on a much larger count, is a 4.3. Reviews praise the location and complain about small rooms and street noise.",
+      "communitySources": [
+        {
+          "title": "r/SeattleWA, where to stay, March 2024",
+          "url": "https://www.reddit.com/r/SeattleWA/comments/1boswo2/best_neighborhood_to_stay_in_seattle/"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.3,
+          "review_count": 1673,
+          "url": "https://www.google.com/maps/search/?api=1&query=Thompson%20Seattle%20hotel",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 3.6,
+          "review_count": 260,
+          "url": "https://www.yelp.com/biz/thompson-seattle-seattle-2",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        },
+        {
+          "source": "Tripadvisor",
+          "rating": 4.3,
+          "review_count": 2392,
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d10031096-Reviews-Thompson_Seattle_by_Hyatt-Seattle_Washington.html",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "citizenm-seattle-south-lake-union",
+      "name": "citizenM Seattle South Lake Union",
+      "region": "seattle",
+      "regionLabel": "Seattle",
+      "neighborhood": "South Lake Union",
+      "category": "hotel",
+      "address": "201 Westlake Ave N",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": null,
+      "why": "The compact South Lake Union hotel. A March 2023 r/Seattle thread picks Belltown over South Lake Union for a visitor because the streets here empty earlier. Rooms are small on purpose.",
+      "communitySources": [
+        {
+          "title": "r/Seattle, Belltown or South Lake Union, March 2023",
+          "url": "https://www.reddit.com/r/Seattle/comments/11l5vwu/belltown_or_south_lake_union_for_relaxing_stay/"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.3,
+          "review_count": 1246,
+          "url": "https://www.google.com/maps/search/?api=1&query=citizenM%20Seattle%20South%20Lake%20Union",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 4.0,
+          "review_count": 131,
+          "url": "https://www.yelp.com/biz/citizenm-seattle-south-lake-seattle",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        },
+        {
+          "source": "Tripadvisor",
+          "rating": 4.2,
+          "review_count": 667,
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d15236226-Reviews-CitizenM_Seattle_South_Lake-Seattle_Washington.html",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "ace-hotel-seattle",
+      "name": "Ace Hotel Seattle",
+      "region": "seattle",
+      "regionLabel": "Seattle",
+      "neighborhood": "Belltown",
+      "category": "hotel",
+      "address": "2423 1st Ave",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": null,
+      "why": "A small Belltown hotel if you can carry a bag. Tripadvisor reviews say there is no elevator. A clean Yelp listing for this building did not come back. This is not the closed Portland Ace.",
+      "communitySources": [
+        {
+          "title": "r/SeattleWA, where to stay, March 2024",
+          "url": "https://www.reddit.com/r/SeattleWA/comments/1boswo2/best_neighborhood_to_stay_in_seattle/"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.4,
+          "review_count": 421,
+          "url": "https://www.google.com/maps/search/?api=1&query=Ace%20Hotel%20Seattle",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Tripadvisor",
+          "rating": 4.2,
+          "review_count": 516,
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d100509-Reviews-Ace_Hotel_Seattle-Seattle_Washington.html",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "hotel-ballard",
+      "name": "Hotel Ballard",
+      "region": "seattle",
+      "regionLabel": "Seattle",
+      "neighborhood": "Ballard",
+      "category": "hotel",
+      "address": "5216 Ballard Ave NW",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": null,
+      "why": "The Ballard neighborhood hotel, for a trip that is already about Ballard. A bus ride from the market. A September 2026 Tripadvisor review praises the room and says the shower ran hot and cold.",
+      "communitySources": [
+        {
+          "title": "Eater Seattle 38, October 2026",
+          "url": "https://seattle.eater.com/maps/best-restaurants-seattle-38"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.5,
+          "review_count": 398,
+          "url": "https://www.google.com/maps/search/?api=1&query=Hotel%20Ballard%20Seattle",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 4.1,
+          "review_count": 83,
+          "url": "https://www.yelp.com/biz/hotel-ballard-seattle-2",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        },
+        {
+          "source": "Tripadvisor",
+          "rating": 4.6,
+          "review_count": 420,
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d4090071-Reviews-Hotel_Ballard-Seattle_Washington.html",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "walrus-and-the-carpenter",
+      "name": "The Walrus and the Carpenter",
+      "region": "seattle",
+      "regionLabel": "Seattle",
+      "neighborhood": "Ballard",
+      "category": "restaurant",
+      "address": "4743 Ballard Ave NW",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": null,
+      "why": "On the Eater Seattle 38. The oyster counter people line up for. A June 2026 Tripadvisor review praises the food, calls the chairs tiny, and mentions a 22 percent charge.",
+      "communitySources": [
+        {
+          "title": "Eater Seattle 38, October 2026",
+          "url": "https://seattle.eater.com/maps/best-restaurants-seattle-38"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.5,
+          "review_count": 2272,
+          "url": "https://www.google.com/maps/search/?api=1&query=The%20Walrus%20and%20the%20Carpenter%20Seattle",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 4.1,
+          "review_count": 2012,
+          "url": "https://www.yelp.com/biz/the-walrus-and-the-carpenter-seattle",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        },
+        {
+          "source": "Tripadvisor",
+          "rating": 4.4,
+          "review_count": 542,
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g60878-d2191178-Reviews-The_Walrus_and_the_Carpenter-Seattle_Washington.html",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        },
+        {
+          "source": "OpenTable",
+          "rating": 4.7,
+          "review_count": 404,
+          "url": "https://www.opentable.com/walrus-and-the-carpenter",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "taurus-ox",
+      "name": "Taurus Ox",
+      "region": "seattle",
+      "regionLabel": "Seattle",
+      "neighborhood": "Capitol Hill",
+      "category": "restaurant",
+      "address": "903 19th Ave E",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": null,
+      "why": "On the Eater Seattle 38, the Capitol Hill Lao room. Tripadvisor did not show a clear bubble score, so that site is left off.",
+      "communitySources": [
+        {
+          "title": "Eater Seattle 38, October 2026",
+          "url": "https://seattle.eater.com/maps/best-restaurants-seattle-38"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.7,
+          "review_count": 809,
+          "url": "https://www.google.com/maps/search/?api=1&query=Taurus%20Ox%20Seattle",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 4.5,
+          "review_count": 609,
+          "url": "https://www.yelp.com/biz/taurus-ox-seattle",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "cascina-spinasse",
+      "name": "Spinasse",
+      "region": "seattle",
+      "regionLabel": "Seattle",
+      "neighborhood": "Capitol Hill",
+      "category": "restaurant",
+      "address": "1531 14th Ave",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": "$$$",
+      "why": "On the Eater Seattle 38. The Capitol Hill pasta room. Yelp’s listing says reservations book out.",
+      "communitySources": [
+        {
+          "title": "Eater Seattle 38, October 2026",
+          "url": "https://seattle.eater.com/maps/best-restaurants-seattle-38"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.5,
+          "review_count": 1683,
+          "url": "https://www.google.com/maps/search/?api=1&query=Cascina%20Spinasse%20Seattle",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 4.4,
+          "review_count": 1555,
+          "url": "https://www.yelp.com/biz/cascina-spinasse-seattle",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "canlis",
+      "name": "Canlis",
+      "region": "seattle",
+      "regionLabel": "Seattle",
+      "neighborhood": "Queen Anne",
+      "category": "restaurant",
+      "address": "2576 Aurora Ave N",
+      "website": "https://canlis.com/",
+      "latitude": null,
+      "longitude": null,
+      "priceBand": "$$$$",
+      "why": "On the Eater Seattle 38. The long-running special-occasion room above Lake Union. Yelp is cooler than Google, which is worth reading before you treat it as a sure thing.",
+      "communitySources": [
+        {
+          "title": "Eater Seattle 38, October 2026",
+          "url": "https://seattle.eater.com/maps/best-restaurants-seattle-38"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.6,
+          "review_count": 2890,
+          "url": "https://www.google.com/maps/search/?api=1&query=Canlis%20restaurant%20Seattle",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 4.0,
+          "review_count": 1935,
+          "url": "https://www.yelp.com/biz/canlis-seattle",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "un-bien",
+      "name": "Un Bien",
+      "region": "seattle",
+      "regionLabel": "Seattle",
+      "neighborhood": "Ballard",
+      "category": "restaurant",
+      "address": "7302 15th Ave NW",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": "$$",
+      "why": "On the Eater Seattle 38. The Caribbean sandwiches on 15th Ave NW. A Google panel showed 4.8 and no review count, so Google is left off. This is the 15th Avenue listing, not the smaller Seaview one.",
+      "communitySources": [
+        {
+          "title": "Eater Seattle 38, October 2026",
+          "url": "https://seattle.eater.com/maps/best-restaurants-seattle-38"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Yelp",
+          "rating": 4.7,
+          "review_count": 1591,
+          "url": "https://www.yelp.com/biz/un-bien-seattle",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "matts-in-the-market",
+      "name": "Matt's in the Market",
+      "region": "seattle",
+      "regionLabel": "Seattle",
+      "neighborhood": "Pike Place Market",
+      "category": "restaurant",
+      "address": "94 Pike St",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": null,
+      "why": "The sit-down room upstairs in the market. Tripadvisor reviews say it is easy to miss. Use it when you want a meal in the building, not a stall.",
+      "communitySources": [
+        {
+          "title": "Pike Place Market",
+          "url": "https://pikeplacemarket.org/"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.5,
+          "review_count": 1327,
+          "url": "https://www.google.com/maps/search/?api=1&query=Matt%27s%20in%20the%20Market%20Seattle",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 4.2,
+          "review_count": 1224,
+          "url": "https://www.yelp.com/biz/matt-s-in-the-market-seattle",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        },
+        {
+          "source": "Tripadvisor",
+          "rating": 4.4,
+          "review_count": 923,
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g60878-d432607-Reviews-Matt_s_in_the_Market-Seattle_Washington.html",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "dicks-drive-in-capitol-hill",
+      "name": "Dick's Drive-In, Capitol Hill",
+      "region": "seattle",
+      "regionLabel": "Seattle",
+      "neighborhood": "Capitol Hill",
+      "category": "restaurant",
+      "address": "115 Broadway E",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": null,
+      "why": "The Capitol Hill burger stand. Google’s panel title was Dick’s Drive-In, and the Yelp listing at 115 Broadway E is the one scored. Yelp is much cooler than Google.",
+      "communitySources": [
+        {
+          "title": "r/SeattleWA, where to stay, March 2024",
+          "url": "https://www.reddit.com/r/SeattleWA/comments/1boswo2/best_neighborhood_to_stay_in_seattle/"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.4,
+          "review_count": 9754,
+          "url": "https://www.google.com/maps/search/?api=1&query=Dick%27s%20Drive-In%20Capitol%20Hill%20Seattle",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 3.5,
+          "review_count": 1450,
+          "url": "https://www.yelp.com/biz/dicks-drive-in-seattle-16",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        },
+        {
+          "source": "Tripadvisor",
+          "rating": 3.8,
+          "review_count": 298,
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g60878-d484837-Reviews-Dick_s_Drive_In_Broadway_E-Seattle_Washington.html",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    }
+  ]
+}
