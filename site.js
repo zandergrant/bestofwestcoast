@@ -189,11 +189,12 @@
       })
       .then(function (data) {
         var places = data && Array.isArray(data.places) ? data.places : [];
-        var unpublished = places.filter(function (place) { return !place.verified; }).length;
-        var sentence = "Catalog loaded from data/places.json: " + places.length +
-          " places, " + unpublished + " without a verified recommendation.";
+        var clusters = places.filter(function (place) { return place.priorityCluster; });
+        var unpublished = clusters.filter(function (place) { return !place.verified; }).length;
+        var sentence = "Catalog loaded from data/places.json: " + clusters.length +
+          " priority places, " + unpublished + " without a verified recommendation.";
         var listed = document.querySelectorAll('[data-catalog="all"] [data-place]').length;
-        if (listed && listed !== places.length) {
+        if (listed && listed !== clusters.length) {
           sentence += " This page lists " + listed + ", so the HTML and the database disagree.";
         }
         statusSlot.textContent = sentence;

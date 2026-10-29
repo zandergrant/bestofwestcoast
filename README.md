@@ -22,7 +22,8 @@ The live site shows whatever is on `main`. This version does not attach the cust
 
 - `/` — homepage
 - `/destinations/` — destination hub and the 24-cluster launch map
-- `/destinations/<slug>/` — one page per priority cluster, marked Guide coming soon
+- `/destinations/<slug>/` — one page per priority cluster. Portland, Cannon Beach, Seattle, and San Francisco link to published guides. The others are still marked coming soon.
+- `/destinations/portland/things-to-do/`, `/where-to-stay/`, and `/weekend/` — and the same three paths for Cannon Beach, Seattle, and San Francisco
 - `/where-to-stay/`
 - `/things-to-do/` — Things to Do, Eat & Drink
 - `/road-trips/`

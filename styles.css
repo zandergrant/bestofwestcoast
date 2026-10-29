@@ -729,12 +729,51 @@ p:last-child {
   }
 }
 
-.hero-figure .photo-credit {
+.hero-figure .photo-credit,
+.guide-figure .photo-credit {
   margin: 8px 2px 0;
   color: var(--muted);
   font-size: 13px;
   line-height: 1.4;
   text-align: right;
+}
+
+.guide-figure {
+  margin: 0 0 28px;
+}
+
+.guide-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+}
+
+.checked-line {
+  color: var(--muted);
+  font-size: 15px;
+}
+
+.ratings {
+  margin: 0.15em 0 0.9em;
+  max-width: 72ch;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.ratings .avg {
+  margin-right: 0.35em;
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.ratings a {
+  font-weight: 600;
+}
+
+.ratings .when {
+  display: block;
 }
 
 .photo-credit a {

@@ -2,15 +2,15 @@
   "meta": {
     "name": "Best of West Coast places database",
     "version": 1,
-    "updated": "2026-10-28",
+    "updated": "2026-10-29",
     "geography": [
       "California",
       "Oregon",
       "Washington"
     ],
-    "publishedRecommendations": 0,
-    "description": "Launch catalog of priority destination clusters. Recommendation attributes stay null until a human editor verifies them against cited sources. Nothing in this file is a published travel recommendation.",
-    "attributePolicy": "bestFor, primaryTradeoff, idealDuration, transport, priceBand, seasonalSuitability, walkability, coordinates, bookingUrl, imageRights, sources, and verificationDate stay empty until checked. Pages must not display null fields as facts."
+    "publishedRecommendations": 86,
+    "description": "Launch catalog of priority destination clusters, plus places checked for the Portland, Cannon Beach, Seattle, and San Francisco guides. Ratings are scores and counts read in October 2026. The via field is internal and is not for the page. Unchecked clusters keep null recommendation fields. Pages must not display null fields as facts.",
+    "attributePolicy": "bestFor, primaryTradeoff, idealDuration, transport, priceBand, seasonalSuitability, walkability, coordinates, bookingUrl, imageRights, sources, and verificationDate stay empty until checked. Featured places from published guides may fill the fields that were checked. ratings stores each score that was read, with its count, listing URL, check date, and a via field for internal tracking. Pages must not display null fields as facts, and must not display the via field."
   },
   "attributeLabels": {
     "bestFor": "Best for",
@@ -25,7 +25,8 @@
     "bookingUrl": "Booking link",
     "imageRights": "Image rights",
     "sources": "Sources",
-    "verificationDate": "Verification date"
+    "verificationDate": "Verification date",
+    "ratings": "Ratings"
   },
   "places": [
     {
@@ -94,17 +95,24 @@
       "orientation": "On San Francisco Bay.",
       "priorityCluster": true,
       "coverageOrder": 2,
-      "verified": false,
-      "status": "guide-coming-soon",
-      "relatedIds": [],
+      "verified": true,
+      "status": "guides-partial",
+      "relatedIds": [
+        "golden-gate-bridge",
+        "alcatraz-island",
+        "fishermans-wharf",
+        "mission-district"
+      ],
       "plannedGuides": [
         {
           "title": "Things to do",
-          "status": "coming-soon"
+          "status": "published",
+          "href": "/destinations/san-francisco/things-to-do/"
         },
         {
           "title": "Where to stay",
-          "status": "coming-soon"
+          "status": "published",
+          "href": "/destinations/san-francisco/where-to-stay/"
         },
         {
           "title": "Hotels",
@@ -112,7 +120,8 @@
         },
         {
           "title": "Three days",
-          "status": "coming-soon"
+          "status": "published",
+          "href": "/destinations/san-francisco/weekend/"
         },
         {
           "title": "Day trips",
@@ -120,21 +129,34 @@
         }
       ],
       "attributes": {
-        "bestFor": null,
-        "primaryTradeoff": null,
-        "idealDuration": null,
-        "transport": null,
+        "bestFor": "A first weekend that keeps Alcatraz and the bridge walk on different half days.",
+        "primaryTradeoff": "Union Square is the hotel and BART hub. The neighborhoods worth eating in are a ride from the Wharf, and the bridge sidewalk has hours and almost no convenient parking.",
+        "idealDuration": "Two or three days.",
+        "transport": "BART from SFO to downtown, about 30 minutes. Muni, the F-line, and three cable-car lines. Cable cars are not accessible.",
         "priceBand": null,
         "seasonalSuitability": null,
-        "walkability": null,
+        "walkability": "SF Travel says waterfront neighborhoods tend to be flatter. Nob Hill is a climb. The bridge is a sidewalk walk, east side only.",
         "latitude": null,
         "longitude": null,
         "bookingUrl": null,
         "imageRights": null,
-        "sources": [],
-        "verificationDate": null
+        "sources": [
+          {
+            "title": "San Francisco Travel, neighborhoods",
+            "url": "https://www.sftravel.com/neighborhoods"
+          },
+          {
+            "title": "BART, airport",
+            "url": "https://www.bart.gov/guide/airport"
+          },
+          {
+            "title": "SFMTA, cable cars",
+            "url": "https://www.sfmta.com/getting-around/muni/cable-cars"
+          }
+        ],
+        "verificationDate": "2026-10-28"
       },
-      "editorialNote": "Notes for this place are not filled in yet."
+      "editorialNote": "Things to do, where to stay, and a weekend are published. Hotels and day trips are not. No individual hotels are named."
     },
     {
       "id": "san-diego",
@@ -448,17 +470,29 @@
       "orientation": "On the Willamette River.",
       "priorityCluster": true,
       "coverageOrder": 9,
-      "verified": false,
-      "status": "guide-coming-soon",
-      "relatedIds": [],
+      "verified": true,
+      "status": "guides-partial",
+      "relatedIds": [
+        "international-rose-test-garden",
+        "portland-japanese-garden",
+        "oregon-zoo",
+        "powells-city-of-books",
+        "portland-art-museum",
+        "tom-mccall-waterfront-park",
+        "forest-park",
+        "pittock-mansion",
+        "omsi"
+      ],
       "plannedGuides": [
         {
           "title": "Things to do",
-          "status": "coming-soon"
+          "status": "published",
+          "href": "/destinations/portland/things-to-do/"
         },
         {
           "title": "Where to stay",
-          "status": "coming-soon"
+          "status": "published",
+          "href": "/destinations/portland/where-to-stay/"
         },
         {
           "title": "Hotels",
@@ -466,7 +500,8 @@
         },
         {
           "title": "Three days",
-          "status": "coming-soon"
+          "status": "published",
+          "href": "/destinations/portland/weekend/"
         },
         {
           "title": "Day trips",
@@ -482,21 +517,34 @@
         }
       ],
       "attributes": {
-        "bestFor": null,
-        "primaryTradeoff": null,
-        "idealDuration": null,
-        "transport": null,
+        "bestFor": "A first trip that mixes a walkable downtown with one day in Washington Park.",
+        "primaryTradeoff": "The gardens and the zoo are in a park where parking is paid and limited; the neighborhood streets are a ride from the museum core.",
+        "idealDuration": "Two or three days.",
+        "transport": "TriMet bus, MAX, and Portland Streetcar cover downtown, the airport, and Washington Park. A car helps at scattered Forest Park trailheads.",
         "priceBand": null,
         "seasonalSuitability": null,
-        "walkability": null,
+        "walkability": "Travel Portland describes downtown as walkable, with shorter blocks than a typical American downtown.",
         "latitude": null,
         "longitude": null,
         "bookingUrl": null,
         "imageRights": null,
-        "sources": [],
-        "verificationDate": null
+        "sources": [
+          {
+            "title": "Travel Portland, downtown",
+            "url": "https://www.travelportland.com/neighborhoods/downtown/"
+          },
+          {
+            "title": "TriMet, MAX Red Line",
+            "url": "https://trimet.org/schedules/maxredline.htm"
+          },
+          {
+            "title": "Portland Parks, Washington Park",
+            "url": "https://www.portland.gov/parks/washington-park"
+          }
+        ],
+        "verificationDate": "2026-10-28"
       },
-      "editorialNote": "Notes for this place are not filled in yet."
+      "editorialNote": "Things to do, where to stay, and a weekend are published. Hotels, day trips, coffee, and a without-a-car guide are not."
     },
     {
       "id": "oregon-coast",
@@ -558,19 +606,22 @@
       "orientation": "A town on the northern Oregon coast.",
       "priorityCluster": true,
       "coverageOrder": 11,
-      "verified": false,
-      "status": "guide-coming-soon",
+      "verified": true,
+      "status": "guides-partial",
       "relatedIds": [
-        "oregon-coast"
+        "haystack-rock",
+        "ecola-state-park"
       ],
       "plannedGuides": [
         {
           "title": "Things to do",
-          "status": "coming-soon"
+          "status": "published",
+          "href": "/destinations/cannon-beach/things-to-do/"
         },
         {
           "title": "Where to stay",
-          "status": "coming-soon"
+          "status": "published",
+          "href": "/destinations/cannon-beach/where-to-stay/"
         },
         {
           "title": "Hotels",
@@ -578,7 +629,8 @@
         },
         {
           "title": "Three days",
-          "status": "coming-soon"
+          "status": "published",
+          "href": "/destinations/cannon-beach/weekend/"
         },
         {
           "title": "Day trips",
@@ -586,21 +638,34 @@
         }
       ],
       "attributes": {
-        "bestFor": null,
-        "primaryTradeoff": null,
-        "idealDuration": null,
-        "transport": null,
+        "bestFor": "A short coastal stay built around the beach and one morning at Ecola State Park.",
+        "primaryTradeoff": "The town and beach are walkable; Ecola is a narrow drive at the north end, and summer parking there lines up.",
+        "idealDuration": "Two or three days.",
+        "transport": "A car for Ecola and the drive from Portland. Northwest POINT and Sunset Empire buses are the no-car option for town, not a promise of a ride to the park viewpoint.",
         "priceBand": null,
-        "seasonalSuitability": null,
-        "walkability": null,
+        "seasonalSuitability": "Cool marine climate year-round. The visitor bureau describes summer highs in the upper 60s and the most rain from November through January. Puffins at Haystack Rock from early spring to mid-summer.",
+        "walkability": "The visitor bureau says the town is about three miles and that you can park once and walk the beach, shops, and restaurants. Parking in town is limited and free.",
         "latitude": null,
         "longitude": null,
         "bookingUrl": null,
         "imageRights": null,
-        "sources": [],
-        "verificationDate": null
+        "sources": [
+          {
+            "title": "Cannon Beach, getting here",
+            "url": "https://www.cannonbeach.org/plan-your-trip/getting-here/"
+          },
+          {
+            "title": "Cannon Beach, places to stay",
+            "url": "https://www.cannonbeach.org/places-to-stay/"
+          },
+          {
+            "title": "Oregon State Parks, Ecola",
+            "url": "https://stateparks.oregon.gov/index.cfm?do=park.profile&parkId=136"
+          }
+        ],
+        "verificationDate": "2026-10-28"
       },
-      "editorialNote": "Notes for this place are not filled in yet."
+      "editorialNote": "Things to do, where to stay, and a weekend are published. Hotels and day trips are not. No individual lodgings are named."
     },
     {
       "id": "bend",
@@ -869,17 +934,24 @@
       "orientation": "On Puget Sound.",
       "priorityCluster": true,
       "coverageOrder": 17,
-      "verified": false,
-      "status": "guide-coming-soon",
-      "relatedIds": [],
+      "verified": true,
+      "status": "guides-partial",
+      "relatedIds": [
+        "pike-place-market",
+        "olympic-sculpture-park",
+        "space-needle",
+        "hiram-m-chittenden-locks"
+      ],
       "plannedGuides": [
         {
           "title": "Things to do",
-          "status": "coming-soon"
+          "status": "published",
+          "href": "/destinations/seattle/things-to-do/"
         },
         {
           "title": "Where to stay",
-          "status": "coming-soon"
+          "status": "published",
+          "href": "/destinations/seattle/where-to-stay/"
         },
         {
           "title": "Hotels",
@@ -887,7 +959,8 @@
         },
         {
           "title": "Three days",
-          "status": "coming-soon"
+          "status": "published",
+          "href": "/destinations/seattle/weekend/"
         },
         {
           "title": "Day trips",
@@ -899,21 +972,34 @@
         }
       ],
       "attributes": {
-        "bestFor": null,
-        "primaryTradeoff": null,
-        "idealDuration": null,
-        "transport": null,
+        "bestFor": "A first weekend on the market, the waterfront, and Seattle Center, using the 1 Line if you are not driving.",
+        "primaryTradeoff": "The 1 Line serves the airport, downtown, and Capitol Hill. Queen Anne, Ballard, and the locks are off it.",
+        "idealDuration": "Two or three days.",
+        "transport": "Sound Transit 1 Line from SeaTac through downtown. Washington State Ferries for Bainbridge or Bremerton. Monorail to Seattle Center is mentioned by Visit Seattle; confirm the operator.",
         "priceBand": null,
         "seasonalSuitability": null,
-        "walkability": null,
+        "walkability": "The market, waterfront, and sculpture park are a walk. Queen Anne’s viewpoint means a hill.",
         "latitude": null,
         "longitude": null,
         "bookingUrl": null,
         "imageRights": null,
-        "sources": [],
-        "verificationDate": null
+        "sources": [
+          {
+            "title": "Sound Transit, 1 Line",
+            "url": "https://www.soundtransit.org/ride-with-us/routes-schedules/1-line"
+          },
+          {
+            "title": "Visit Seattle, neighborhoods",
+            "url": "https://visitseattle.org/things-to-do/neighborhoods/"
+          },
+          {
+            "title": "Pike Place Market",
+            "url": "https://pikeplacemarket.org/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
       },
-      "editorialNote": "Notes for this place are not filled in yet."
+      "editorialNote": "Things to do, where to stay, and a weekend are published. A separate without-a-car guide, hotels, and day trips are not."
     },
     {
       "id": "olympic-peninsula",
@@ -1253,6 +1339,4732 @@
         "verificationDate": null
       },
       "editorialNote": "Notes for this place are not filled in yet."
+    },
+    {
+      "id": "international-rose-test-garden",
+      "name": "International Rose Test Garden",
+      "slug": "international-rose-test-garden",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "garden",
+      "kindLabel": "Garden",
+      "setting": "Washington Park, Portland",
+      "orientation": "400 SW Kingston Avenue, inside Washington Park.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A first visit from late May through October, when you want a city view without a ticket.",
+        "primaryTradeoff": "Parking in Washington Park is paid and limited on sunny weekends. Outside the bloom the garden is not the reason to cross town.",
+        "idealDuration": null,
+        "transport": "MAX Red or Blue to Washington Park station, then the free seasonal shuttle or TriMet Line 63.",
+        "priceBand": null,
+        "seasonalSuitability": "Roses bloom from late May through October, depending on the weather.",
+        "walkability": "Paved accessible route from the parking lot along the main promenade.",
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Portland Parks, rose garden",
+            "url": "https://www.portland.gov/parks/washington-park-international-rose-test-garden"
+          },
+          {
+            "title": "Rose garden brochure",
+            "url": "https://www.portland.gov/parks/documents/international-rose-test-garden-english/download"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Admission is free, per the Portland Parks brochure. More than 10,000 bushes. Dogs must be leashed."
+    },
+    {
+      "id": "portland-japanese-garden",
+      "name": "Portland Japanese Garden",
+      "slug": "portland-japanese-garden",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "garden",
+      "kindLabel": "Garden",
+      "setting": "Washington Park, Portland",
+      "orientation": "611 SW Kingston Avenue, beside the rose garden.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "People who want a designed garden and will buy a separate ticket.",
+        "primaryTradeoff": "Not included with the free rose garden. It uses the same park day and the same difficult parking.",
+        "idealDuration": null,
+        "transport": "Same Washington Park access as the rose garden: MAX, then shuttle or Line 63.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Portland Japanese Garden",
+            "url": "https://japanesegarden.org/visit/"
+          },
+          {
+            "title": "Portland Parks, Washington Park",
+            "url": "https://www.portland.gov/parks/washington-park"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Hours include an earlier window for members. Ticket price was not copied because the visit page checked did not state a lasting price."
+    },
+    {
+      "id": "oregon-zoo",
+      "name": "Oregon Zoo",
+      "slug": "oregon-zoo",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "zoo",
+      "kindLabel": "Zoo",
+      "setting": "Washington Park, Portland",
+      "orientation": "4001 SW Canyon Road.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A family day, instead of a gardens day.",
+        "primaryTradeoff": "Timed tickets, and every guest including infants must be on the reservation. Hours change by season.",
+        "idealDuration": null,
+        "transport": "In the Washington Park area. MAX Red and Blue serve Washington Park station.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Oregon Zoo, visit",
+            "url": "https://www.oregonzoo.org/visit"
+          },
+          {
+            "title": "Portland Parks, Washington Park",
+            "url": "https://www.portland.gov/parks/washington-park"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Cards only, with cash-to-card machines inside. Price left null because the posted fare changes with the season and was about to change on November 1, 2026."
+    },
+    {
+      "id": "powells-city-of-books",
+      "name": "Powell’s City of Books",
+      "slug": "powells-city-of-books",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "bookstore",
+      "kindLabel": "Bookstore",
+      "setting": "Downtown / Pearl, Portland",
+      "orientation": "1005 W Burnside Street. A city block.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "One long indoor stop with no timed ticket.",
+        "primaryTradeoff": "Burnside is a busy street, and the store is crowded rather than quiet.",
+        "idealDuration": null,
+        "transport": "Walk from downtown or the Pearl. Portland Streetcar runs nearby.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": "On the edge of downtown and the Pearl.",
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Powell’s Books, locations",
+            "url": "https://www.powells.com/locations"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Powell’s lists regular hours of 10 a.m. to 9 p.m. daily. Four floors and more than half a million books."
+    },
+    {
+      "id": "portland-art-museum",
+      "name": "Portland Art Museum",
+      "slug": "portland-art-museum",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "museum",
+      "kindLabel": "Museum",
+      "setting": "South Park Blocks, Portland",
+      "orientation": "1219 SW Park Avenue.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A rainy downtown afternoon.",
+        "primaryTradeoff": "Closed Monday. Admission price was not on the homepage checked, so it is not stored.",
+        "idealDuration": null,
+        "transport": "Walk from downtown. Streetcar and MAX serve the center.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Portland Art Museum",
+            "url": "https://portlandartmuseum.org/"
+          },
+          {
+            "title": "Travel Portland, downtown",
+            "url": "https://www.travelportland.com/neighborhoods/downtown/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Hours listed on the museum site when checked: 10 a.m. to 5 p.m. Sunday and Tuesday through Saturday, closed Monday."
+    },
+    {
+      "id": "tom-mccall-waterfront-park",
+      "name": "Tom McCall Waterfront Park",
+      "slug": "tom-mccall-waterfront-park",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "park",
+      "kindLabel": "Park",
+      "setting": "Downtown Portland",
+      "orientation": "1.5 miles along the west bank of the Willamette.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A walk between the center and the river, with no ticket.",
+        "primaryTradeoff": "It is a linear park, not a destination that fills a day by itself.",
+        "idealDuration": null,
+        "transport": "Walk, bike, or the streetcar along downtown.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": "A 1.5-mile riverfront path.",
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Travel Portland, downtown",
+            "url": "https://www.travelportland.com/neighborhoods/downtown/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Travel Portland also points to Salmon Street Springs, the Japanese American Historical Plaza, and summer festivals."
+    },
+    {
+      "id": "vera-katz-eastbank-esplanade",
+      "name": "Vera Katz Eastbank Esplanade",
+      "slug": "vera-katz-eastbank-esplanade",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "park",
+      "kindLabel": "Park",
+      "setting": "East bank of the Willamette, Portland",
+      "orientation": "1.5 miles from the Hawthorne Bridge to the Steel Bridge.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A river walk when you are already on the east side, including near OMSI.",
+        "primaryTradeoff": "It is the other bank from downtown. You cross a bridge to reach the west-side park.",
+        "idealDuration": null,
+        "transport": "Walk or bike. Connects to Tom McCall Waterfront Park.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Portland Parks, Eastbank Esplanade",
+            "url": "https://www.portland.gov/parks/eastbank-esplanade"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Portland Parks describes the length and the bridge connections."
+    },
+    {
+      "id": "pioneer-courthouse-square",
+      "name": "Pioneer Courthouse Square",
+      "slug": "pioneer-courthouse-square",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "plaza",
+      "kindLabel": "Plaza",
+      "setting": "Downtown Portland",
+      "orientation": "A full downtown block, about 40,000 square feet.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A pause and a MAX stop in the middle of downtown.",
+        "primaryTradeoff": "It is a plaza, not an attraction with exhibits.",
+        "idealDuration": null,
+        "transport": "MAX stops here. Walk from downtown hotels.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Travel Portland, downtown",
+            "url": "https://www.travelportland.com/neighborhoods/downtown/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Travel Portland calls it Portland’s living room. No ticket."
+    },
+    {
+      "id": "forest-park",
+      "name": "Forest Park",
+      "slug": "forest-park",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "park",
+      "kindLabel": "Park",
+      "setting": "West hills, Portland",
+      "orientation": "More than 40 access points along the west hills.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A half day of walking that is not about the rose garden.",
+        "primaryTradeoff": "Trailheads are scattered, parking is free and small, and trails close after storms.",
+        "idealDuration": null,
+        "transport": "TriMet lines 15, 26, and 77 serve Lower Macleay and a few other trailheads. Line 16 serves Linnton, Lower Firelane 1, and Lower Newton/BPA. Many trailheads are car-only.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Portland Parks, Forest Park",
+            "url": "https://www.portland.gov/parks/forest-park"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "5,200 acres and more than 80 miles of trails, per Portland Parks."
+    },
+    {
+      "id": "pittock-mansion",
+      "name": "Pittock Mansion",
+      "slug": "pittock-mansion",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "historic-house",
+      "kindLabel": "Historic house",
+      "setting": "West hills, Portland",
+      "orientation": "3229 NW Pittock Drive.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "The house and terrace, for people who do not mind a hill.",
+        "primaryTradeoff": "Admission is charged and hours are seasonal. The main lot is paid in summer; gravel turnouts below mean a walk up.",
+        "idealDuration": null,
+        "transport": "A drive, or a walk up from Forest Park trails. Not a downtown stop.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Pittock Mansion, visit",
+            "url": "https://pittockmansion.org/visit/"
+          },
+          {
+            "title": "Travel Portland, neighborhoods",
+            "url": "https://www.travelportland.com/neighborhoods/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Hours and prices on the visit page were labeled for September when checked in late October, so they were not copied."
+    },
+    {
+      "id": "omsi",
+      "name": "Oregon Museum of Science and Industry",
+      "slug": "omsi",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "museum",
+      "kindLabel": "Museum",
+      "setting": "Southeast Portland",
+      "orientation": "1945 SE Water Avenue.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A wet day, and families.",
+        "primaryTradeoff": "Across the river from Powell’s and the art museum. Planetarium and submarine tours cost extra.",
+        "idealDuration": null,
+        "transport": "Portland Streetcar stops at OMSI.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "OMSI",
+            "url": "https://omsi.edu/"
+          },
+          {
+            "title": "Portland Streetcar",
+            "url": "https://portlandstreetcar.org/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Exhibits, a planetarium, and USS Blueback submarine tours. Hours were not copied."
+    },
+    {
+      "id": "downtown-portland",
+      "name": "Downtown Portland",
+      "slug": "downtown-portland",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "Southwest Portland",
+      "orientation": "The hotel core on the west bank of the Willamette.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A first visit, the museums, and a car-free stay with a MAX ride from the airport.",
+        "primaryTradeoff": "The busiest part of the city. Alberta and Hawthorne are a ride, not a walk.",
+        "idealDuration": null,
+        "transport": "MAX Red Line to the airport, about 40 minutes. Streetcar through downtown.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": "Walkable, with the streetcar as a break.",
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Travel Portland, downtown",
+            "url": "https://www.travelportland.com/neighborhoods/downtown/"
+          },
+          {
+            "title": "TriMet, MAX Red Line",
+            "url": "https://trimet.org/schedules/maxredline.htm"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Travel Portland says more than 35 hotels, and that downtown blocks are shorter than a typical American downtown."
+    },
+    {
+      "id": "pearl-district",
+      "name": "Pearl District",
+      "slug": "pearl-district",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "Northwest Portland",
+      "orientation": "Former warehouse district next to downtown.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "Walking to Powell’s and still reaching downtown without a car.",
+        "primaryTradeoff": "The airport MAX is in downtown, not at the door. The waterfront is a streetcar ride or a walk away.",
+        "idealDuration": null,
+        "transport": "Portland Streetcar on 10th, 11th, and Lovejoy.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Travel Portland, Pearl District",
+            "url": "https://www.travelportland.com/neighborhoods/pearl-district/"
+          },
+          {
+            "title": "Portland Streetcar",
+            "url": "https://portlandstreetcar.org/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Galleries, shops, and the edge of downtown, per Travel Portland."
+    },
+    {
+      "id": "northwest-nob-hill",
+      "name": "Northwest / Nob Hill",
+      "slug": "northwest-nob-hill",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "Northwest Portland",
+      "orientation": "Shops and restaurants in older houses, toward Forest Park.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A trip that includes Forest Park or Pittock Mansion.",
+        "primaryTradeoff": "Uphill from the river and the museum row.",
+        "idealDuration": null,
+        "transport": "Streetcar stop at NW 23rd and Marshall.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Travel Portland, neighborhoods",
+            "url": "https://www.travelportland.com/neighborhoods/"
+          },
+          {
+            "title": "Portland Streetcar",
+            "url": "https://portlandstreetcar.org/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Travel Portland ties this neighborhood to Forest Park and Pittock Mansion."
+    },
+    {
+      "id": "alberta-arts-district",
+      "name": "Alberta Arts District",
+      "slug": "alberta-arts-district",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "Northeast Portland",
+      "orientation": "Northeast Alberta Street.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A neighborhood street, murals, and food, including a summer Last Thursday.",
+        "primaryTradeoff": "Not the hotel core and not on the streetcar. Downtown sights are a ride away.",
+        "idealDuration": null,
+        "transport": "Bus, or about a fifteen-minute drive from the airport, per Travel Portland. Not on the streetcar.",
+        "priceBand": null,
+        "seasonalSuitability": "Last Thursday is a summer evening event.",
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Travel Portland, Alberta",
+            "url": "https://www.travelportland.com/neighborhoods/alberta-arts-district/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Last Thursday in summer closes about fifteen blocks, 6 to 9 p.m."
+    },
+    {
+      "id": "hawthorne",
+      "name": "Hawthorne",
+      "slug": "hawthorne",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "Southeast Portland",
+      "orientation": "Southeast Hawthorne Boulevard, across the Hawthorne Bridge.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A long street of shops and cafes, with a Powell’s of its own.",
+        "primaryTradeoff": "Across the river from downtown, and not on the streetcar or the airport MAX.",
+        "idealDuration": null,
+        "transport": "Bus across the Hawthorne Bridge. Powell’s at 3723 SE Hawthorne Boulevard.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": "Walkable once you are on the boulevard.",
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Travel Portland, Hawthorne",
+            "url": "https://www.travelportland.com/neighborhoods/hawthorne/"
+          },
+          {
+            "title": "Powell’s Books, locations",
+            "url": "https://www.powells.com/locations"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Travel Portland describes 43 walkable blocks."
+    },
+    {
+      "id": "division-clinton",
+      "name": "Division / Clinton",
+      "slug": "division-clinton",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "Southeast Portland",
+      "orientation": "South of Hawthorne.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A stay or a dinner built around a dining street.",
+        "primaryTradeoff": "Same cross-river ride as Hawthorne, without being the downtown base.",
+        "idealDuration": null,
+        "transport": "Bus. Not on the streetcar.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Travel Portland, Southeast",
+            "url": "https://www.travelportland.com/neighborhoods/southeast/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Travel Portland describes it as one of the city’s dining neighborhoods."
+    },
+    {
+      "id": "lloyd-district",
+      "name": "Lloyd District",
+      "slug": "lloyd-district",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "Northeast Portland",
+      "orientation": "Across the river from downtown, at the convention center.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A convention, a Trail Blazers game, or a concert.",
+        "primaryTradeoff": "An events district, not a long shopping street.",
+        "idealDuration": null,
+        "transport": "Streetcar at the Convention Center. MAX toward the airport.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Travel Portland, neighborhoods",
+            "url": "https://www.travelportland.com/neighborhoods/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Travel Portland places the Oregon Convention Center and Moda Center here."
+    },
+    {
+      "id": "haystack-rock",
+      "name": "Haystack Rock",
+      "slug": "haystack-rock",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "natural-feature",
+      "kindLabel": "Natural feature",
+      "setting": "Cannon Beach",
+      "orientation": "At the edge of the beach in town.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "cannon-beach"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "Almost anyone who came to Cannon Beach, especially at low tide.",
+        "primaryTradeoff": "The tidepools only work around low tide, and summer crowds share the sand. Climbing above the barnacle line is prohibited.",
+        "idealDuration": null,
+        "transport": "Walk from town. Parking in town is limited and free.",
+        "priceBand": null,
+        "seasonalSuitability": "Puffins early spring to mid-summer. Low tide for pools.",
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": "Unsplash License, Stephen Crane, https://unsplash.com/photos/the-sun-is-setting-over-the-ocean-with-rocks-in-the-background-xrQRs03TcKs",
+        "sources": [
+          {
+            "title": "Cannon Beach, Haystack Rock",
+            "url": "https://www.cannonbeach.org/things-to-do/beaches-and-parks/haystack-rock/"
+          },
+          {
+            "title": "Cannon Beach, beaches",
+            "url": "https://www.cannonbeach.org/things-to-do/beaches-and-parks/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "A 235-foot sea stack in the Oregon Islands National Wildlife Refuge. Nothing may be removed within 300 yards. Puffins from early spring to mid-summer."
+    },
+    {
+      "id": "ecola-state-park",
+      "name": "Ecola State Park",
+      "slug": "ecola-state-park",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "state-park",
+      "kindLabel": "State park",
+      "setting": "Between Seaside and Cannon Beach",
+      "orientation": "North end of Cannon Beach, on Ecola Park Road.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "cannon-beach"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "The view down onto Cannon Beach, a picnic, or a hike.",
+        "primaryTradeoff": "Day-use fee, limited parking, summer lines, and a road that is not for RVs or trailers. The west section of the Clatsop Loop was closed for a landslide as of a notice dated April 17, 2026.",
+        "idealDuration": null,
+        "transport": "From 5th Street, 1.5 miles north on Ecola Park Road to the fee station. No overnight parking.",
+        "priceBand": null,
+        "seasonalSuitability": "Gray whales possible in winter and spring, per Oregon State Parks. Parking lines June through September, per the visitor bureau.",
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Oregon State Parks, Ecola",
+            "url": "https://stateparks.oregon.gov/index.cfm?do=park.profile&parkId=136"
+          },
+          {
+            "title": "Cannon Beach, Ecola",
+            "url": "https://www.cannonbeach.org/things-to-do/beaches-and-parks/ecola-state-park/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "About nine miles of coastline on Tillamook Head. Indian Beach is inside the park. Pets on a leash no longer than six feet. Drones prohibited."
+    },
+    {
+      "id": "pike-place-market",
+      "name": "Pike Place Market",
+      "slug": "pike-place-market",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "kind": "market",
+      "kindLabel": "Market",
+      "setting": "Downtown Seattle",
+      "orientation": "85 Pike Street.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "seattle"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A first morning, for food and a public market rather than a ticketed museum.",
+        "primaryTradeoff": "Crowded in the middle of the day. Seasonal street rules change how cars and crowds move.",
+        "idealDuration": null,
+        "transport": "Walk from downtown. 1 Line to Westlake, then walk.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": "Unsplash License, Sabine Ojeil, https://unsplash.com/photos/public-market-center-signage-xsqF178XAhk",
+        "sources": [
+          {
+            "title": "Pike Place Market",
+            "url": "https://pikeplacemarket.org/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Public market established in 1907. The market’s site calls the historic district nine acres."
+    },
+    {
+      "id": "olympic-sculpture-park",
+      "name": "Olympic Sculpture Park",
+      "slug": "olympic-sculpture-park",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "kind": "park",
+      "kindLabel": "Park",
+      "setting": "Seattle waterfront",
+      "orientation": "2901 Western Avenue, one mile north of the Seattle Art Museum.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "seattle"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A free walk after the market, in any season.",
+        "primaryTradeoff": "It is a mile from the market, and the garage is paid.",
+        "idealDuration": null,
+        "transport": "Walk the waterfront. Do not count on the garage.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Seattle Art Museum, Olympic Sculpture Park",
+            "url": "https://www.seattleartmuseum.org/visit/olympic-sculpture-park"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Free, open daily from 30 minutes before sunrise to 30 minutes after sunset. Do not climb on the sculptures. Pets on a six-foot leash."
+    },
+    {
+      "id": "space-needle",
+      "name": "Space Needle",
+      "slug": "space-needle",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "kind": "attraction",
+      "kindLabel": "Attraction",
+      "setting": "Seattle Center",
+      "orientation": "400 Broad Street.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "seattle"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "The one paid stop at Seattle Center, if you want the view from the tower.",
+        "primaryTradeoff": "Hours change by day and season, and the ticket is separate from Chihuly and MoPOP. A saved price goes stale.",
+        "idealDuration": null,
+        "transport": "Walk or the monorail to Seattle Center, per Visit Seattle. Confirm the monorail separately.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": "Unsplash License, Taylor Vick, Kerry Park view, https://unsplash.com/photos/space-needle-seattle-SSh9LBqwfBM",
+        "sources": [
+          {
+            "title": "Space Needle",
+            "url": "https://www.spaceneedle.com/"
+          },
+          {
+            "title": "Visit Seattle, Queen Anne",
+            "url": "https://visitseattle.org/neighborhoods/queen-anne/"
+          },
+          {
+            "title": "Seattle Center",
+            "url": "https://www.seattlecenter.com/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "On October 28, 2026 the site listed general admission as $35 to $55 and said hours vary. Kerry Park is the free viewpoint, with a hill."
+    },
+    {
+      "id": "seattle-center",
+      "name": "Seattle Center",
+      "slug": "seattle-center",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "kind": "district",
+      "kindLabel": "District",
+      "setting": "Lower Queen Anne, Seattle",
+      "orientation": "305 Harrison Street.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "seattle"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "The day you are willing to buy one ticket, or walk the grounds for free.",
+        "primaryTradeoff": "The Needle, Chihuly, and MoPOP are separate tickets and will fill a day if you try all three. Event nights at Climate Pledge Arena fill the neighborhood.",
+        "idealDuration": null,
+        "transport": "Walk or monorail from downtown, per Visit Seattle. Not a 1 Line station.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Seattle Center",
+            "url": "https://www.seattlecenter.com/"
+          },
+          {
+            "title": "Visit Seattle, Queen Anne",
+            "url": "https://visitseattle.org/neighborhoods/queen-anne/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Visit Seattle groups the Space Needle, MoPOP, and Chihuly Garden and Glass here."
+    },
+    {
+      "id": "hiram-m-chittenden-locks",
+      "name": "Hiram M. Chittenden Locks",
+      "slug": "hiram-m-chittenden-locks",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "kind": "locks",
+      "kindLabel": "Locks",
+      "setting": "Ballard, Seattle",
+      "orientation": "3015 NW 54th Street.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "seattle"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A Ballard day, or anyone who would rather watch boats than buy a Needle ticket.",
+        "primaryTradeoff": "Not on the 1 Line. The trip from downtown takes the middle of a day.",
+        "idealDuration": null,
+        "transport": "Not on Sound Transit’s 1 Line. City lot parking is paid except Sundays and holidays.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "U.S. Army Corps of Engineers, Chittenden Locks",
+            "url": "https://www.nws.usace.army.mil/Missions/Civil-Works/Locks-and-Dams/Chittenden-Locks/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Army Corps of Engineers, opened 1917. Grounds free, 7 a.m. to 9 p.m. Fish-ladder viewing room 7 a.m. to 8:45 p.m. Connects Lake Washington and Lake Union to Puget Sound."
+    },
+    {
+      "id": "kerry-park",
+      "name": "Kerry Park",
+      "slug": "kerry-park",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "kind": "park",
+      "kindLabel": "Park",
+      "setting": "Upper Queen Anne, Seattle",
+      "orientation": "A viewpoint on Queen Anne hill.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "seattle"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "The skyline without a Space Needle ticket.",
+        "primaryTradeoff": "It is up a hill, and it is a viewpoint, not a park you spend the day in.",
+        "idealDuration": null,
+        "transport": "A walk or ride up Queen Anne. Off the 1 Line.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": "Unsplash License, Taylor Vick, https://unsplash.com/photos/space-needle-seattle-SSh9LBqwfBM",
+        "sources": [
+          {
+            "title": "Visit Seattle, Queen Anne",
+            "url": "https://visitseattle.org/neighborhoods/queen-anne/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Visit Seattle sends people here for the view. A street address was not confirmed on a parks page for this guide."
+    },
+    {
+      "id": "downtown-seattle",
+      "name": "Downtown Seattle",
+      "slug": "downtown-seattle",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "Downtown Seattle",
+      "orientation": "The retail core, including Pike Place Market.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "seattle"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A first trip and a car-free arrival on the 1 Line.",
+        "primaryTradeoff": "You are in the busiest part of the visitor city.",
+        "idealDuration": null,
+        "transport": "1 Line at Westlake, including from SeaTac/Airport.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Visit Seattle, downtown",
+            "url": "https://visitseattle.org/neighborhoods/downtown-seattle/"
+          },
+          {
+            "title": "Sound Transit, 1 Line",
+            "url": "https://www.soundtransit.org/ride-with-us/routes-schedules/1-line"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Visit Seattle describes downtown as the retail and restaurant core."
+    },
+    {
+      "id": "belltown",
+      "name": "Belltown",
+      "slug": "belltown",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "North of downtown Seattle",
+      "orientation": "Just north of downtown.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "seattle"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "Downtown transit without sleeping on the market, closer to the sculpture park and Seattle Center.",
+        "primaryTradeoff": "Farther from Pioneer Square and the stadiums.",
+        "idealDuration": null,
+        "transport": "Walk to downtown and Seattle Center. 1 Line is in downtown, not in Belltown.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Visit Seattle, neighborhoods",
+            "url": "https://visitseattle.org/things-to-do/neighborhoods/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Visit Seattle describes towers and places to eat just north of downtown."
+    },
+    {
+      "id": "queen-anne",
+      "name": "Queen Anne",
+      "slug": "queen-anne",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "North of downtown Seattle",
+      "orientation": "Lower Queen Anne at Seattle Center; Upper Queen Anne on the hill.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "seattle"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "Lower Queen Anne if the trip is Seattle Center. Upper Queen Anne if you want Kerry Park and will climb.",
+        "primaryTradeoff": "Off the 1 Line. Event nights fill the lower neighborhood. The upper hill is a climb.",
+        "idealDuration": null,
+        "transport": "Walk or monorail to Seattle Center from the lower neighborhood, per Visit Seattle.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Visit Seattle, Queen Anne",
+            "url": "https://visitseattle.org/neighborhoods/queen-anne/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Visit Seattle splits the neighborhood into the center below and the houses and viewpoint above."
+    },
+    {
+      "id": "capitol-hill-seattle",
+      "name": "Capitol Hill",
+      "slug": "capitol-hill-seattle",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "Seattle",
+      "orientation": "East of downtown, on the 1 Line.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "seattle"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A car-free stay that still wants somewhere to go at night.",
+        "primaryTradeoff": "The market is a train ride, and Seattle Center is not next door.",
+        "idealDuration": null,
+        "transport": "1 Line station between the University of Washington and Westlake.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Visit Seattle, neighborhoods",
+            "url": "https://visitseattle.org/things-to-do/neighborhoods/"
+          },
+          {
+            "title": "Sound Transit, 1 Line",
+            "url": "https://www.soundtransit.org/ride-with-us/routes-schedules/1-line"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Visit Seattle describes tree-lined streets, older houses, and commercial streets."
+    },
+    {
+      "id": "pioneer-square-seattle",
+      "name": "Pioneer Square",
+      "slug": "pioneer-square-seattle",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "Downtown Seattle",
+      "orientation": "Seattle’s original neighborhood, next to the stadiums.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "seattle"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A game at Lumen Field or T-Mobile Park.",
+        "primaryTradeoff": "Event days fill the sidewalks. Quieter mornings are not the reason to pick it.",
+        "idealDuration": null,
+        "transport": "1 Line at Pioneer Square and Stadium.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Visit Seattle, neighborhoods",
+            "url": "https://visitseattle.org/things-to-do/neighborhoods/"
+          },
+          {
+            "title": "Sound Transit, 1 Line",
+            "url": "https://www.soundtransit.org/ride-with-us/routes-schedules/1-line"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Visit Seattle places it adjacent to Lumen Field and T-Mobile Park."
+    },
+    {
+      "id": "ballard",
+      "name": "Ballard",
+      "slug": "ballard",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "North of the ship canal, Seattle",
+      "orientation": "A maritime neighborhood north of the canal.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "seattle"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A longer stay when the locks and a local dining street matter more than the Needle.",
+        "primaryTradeoff": "Not on the 1 Line. Every trip downtown takes longer.",
+        "idealDuration": null,
+        "transport": "Not served by the 1 Line. Use a bus or a car and check a trip planner.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Visit Seattle, neighborhoods",
+            "url": "https://visitseattle.org/things-to-do/neighborhoods/"
+          },
+          {
+            "title": "U.S. Army Corps of Engineers, Chittenden Locks",
+            "url": "https://www.nws.usace.army.mil/Missions/Civil-Works/Locks-and-Dams/Chittenden-Locks/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "Visit Seattle describes it as maritime and a place for eating. The locks are at 3015 NW 54th Street."
+    },
+    {
+      "id": "golden-gate-bridge",
+      "name": "Golden Gate Bridge",
+      "slug": "golden-gate-bridge",
+      "state": "California",
+      "stateSlug": "california",
+      "kind": "bridge",
+      "kindLabel": "Bridge",
+      "setting": "San Francisco",
+      "orientation": "On US 101, between San Francisco and Marin. No street address.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "san-francisco"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A clear-day walk, for people who want the bridge more than a museum.",
+        "primaryTradeoff": "Pedestrians only on the east sidewalk, with seasonal evening closures. Parking is extremely limited. Dogs are not allowed except service animals.",
+        "idealDuration": null,
+        "transport": "The bridge district says to use transit, a tour bus, or a rideshare rather than count on parking.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": "Unsplash License, Maarten van den Heuvel, https://unsplash.com/photos/golden-gate-bridge-during-daytime-gZXx8lKAb7Y",
+        "sources": [
+          {
+            "title": "Golden Gate Bridge, bikes and pedestrians",
+            "url": "https://www.goldengate.org/bridge/visiting-the-bridge/bikes-pedestrians/"
+          },
+          {
+            "title": "Golden Gate Bridge, directions",
+            "url": "https://www.goldengate.org/bridge/visiting-the-bridge/directions-parking/"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "East sidewalk hours: 5 a.m. to 6:30 p.m. in standard time, 5 a.m. to 9 p.m. in daylight time. Construction can close it an hour early. Welcome Center listed daily 9 a.m. to 6 p.m."
+    },
+    {
+      "id": "alcatraz-island",
+      "name": "Alcatraz Island",
+      "slug": "alcatraz-island",
+      "state": "California",
+      "stateSlug": "california",
+      "kind": "national-park-site",
+      "kindLabel": "National park site",
+      "setting": "San Francisco Bay",
+      "orientation": "Ferry from Pier 33.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "san-francisco"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A half day you booked ahead.",
+        "primaryTradeoff": "The ferry owns the morning or the afternoon. No food on the island beyond bookstore snacks. No parking at the landing.",
+        "idealDuration": "A few hours on the island, plus the ferry.",
+        "transport": "Only by the ferry run by Alcatraz City Cruises. F-line streetcars pass Pier 33. The park recommends transit.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "National Park Service, Alcatraz",
+            "url": "https://www.nps.gov/alca/planyourvisit/index.htm"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "National Park Service says to plan a few hours. Bring a layer and shoes with grip."
+    },
+    {
+      "id": "fishermans-wharf",
+      "name": "Fisherman’s Wharf",
+      "slug": "fishermans-wharf",
+      "state": "California",
+      "stateSlug": "california",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "Northern waterfront, San Francisco",
+      "orientation": "Jefferson Street, Pier 39, and the Hyde Street Pier area.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "san-francisco"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "The day you already have an Alcatraz ticket, or a first look at the waterfront.",
+        "primaryTradeoff": "The most visitor-heavy ground in the city. Meters are often too short for an Alcatraz visit.",
+        "idealDuration": null,
+        "transport": "F-line from the Castro and Market Street. Powell-Hyde and Powell-Mason cable cars. Flat, relative to inland neighborhoods.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "San Francisco Travel, Fisherman’s Wharf",
+            "url": "https://www.sftravel.com/neighborhoods/fishermans-wharf"
+          },
+          {
+            "title": "National Park Service, Alcatraz",
+            "url": "https://www.nps.gov/alca/planyourvisit/index.htm"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "SF Travel describes Pier 39, the sea lions, and the ships. Pier 33 is the Alcatraz landing nearby."
+    },
+    {
+      "id": "union-square",
+      "name": "Union Square",
+      "slug": "union-square",
+      "state": "California",
+      "stateSlug": "california",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "Downtown San Francisco",
+      "orientation": "The downtown hotel and shopping district.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "san-francisco"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A first visit, BART from the airport, and the widest choice of hotels.",
+        "primaryTradeoff": "A shopping district, not a neighborhood like North Beach or the Mission. Hills start toward Nob Hill.",
+        "idealDuration": null,
+        "transport": "Muni, BART, and the Powell Street cable cars. Cable cars are not accessible.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": "Unsplash License, James Morehead, Powell Street cable car, https://unsplash.com/photos/a-trolley-on-a-street-jdgimnH27Z8",
+        "sources": [
+          {
+            "title": "San Francisco Travel, Union Square",
+            "url": "https://www.sftravel.com/neighborhoods/union-square"
+          },
+          {
+            "title": "San Francisco Travel, neighborhoods",
+            "url": "https://www.sftravel.com/neighborhoods"
+          },
+          {
+            "title": "BART, airport",
+            "url": "https://www.bart.gov/guide/airport"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "SF Travel says this is where most of the major hotels are, around a 2.6-acre square."
+    },
+    {
+      "id": "north-beach",
+      "name": "North Beach",
+      "slug": "north-beach",
+      "state": "California",
+      "stateSlug": "california",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "San Francisco",
+      "orientation": "Inland from the Wharf, beside Chinatown.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "san-francisco"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "Meals, cafes, and a walk that is not on Jefferson Street.",
+        "primaryTradeoff": "There is no beach. Hills, and fewer of the big hotels. Farther from the Mission and Golden Gate Park.",
+        "idealDuration": null,
+        "transport": "Walk from Chinatown and the Wharf if the hill is acceptable. Powell-Hyde passes the neighborhood, per SFMTA.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "San Francisco Travel, North Beach",
+            "url": "https://www.sftravel.com/neighborhoods/north-beach"
+          },
+          {
+            "title": "SFMTA, Powell-Hyde",
+            "url": "https://www.sfmta.com/routes/powell-hyde-cable-car"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "SF Travel describes an Italian restaurant neighborhood and notes the name does not mean a beach."
+    },
+    {
+      "id": "chinatown-san-francisco",
+      "name": "Chinatown",
+      "slug": "chinatown-san-francisco",
+      "state": "California",
+      "stateSlug": "california",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "San Francisco",
+      "orientation": "Beside North Beach and downtown.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "san-francisco"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "Dim sum and a walk paired with North Beach or downtown.",
+        "primaryTradeoff": "This guide did not confirm hours for individual restaurants.",
+        "idealDuration": null,
+        "transport": "Walk from Union Square or North Beach. SFMTA lists it on the Powell-Hyde line.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "San Francisco Travel, neighborhoods",
+            "url": "https://www.sftravel.com/neighborhoods"
+          },
+          {
+            "title": "SFMTA, Powell-Hyde",
+            "url": "https://www.sfmta.com/routes/powell-hyde-cable-car"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "SF Travel’s neighborhood index points visitors here for dim sum."
+    },
+    {
+      "id": "nob-hill",
+      "name": "Nob Hill",
+      "slug": "nob-hill",
+      "state": "California",
+      "stateSlug": "california",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "San Francisco",
+      "orientation": "The hill above Union Square.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "san-francisco"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A stay built around grand hotels, views, and one good dinner.",
+        "primaryTradeoff": "Steep. SF Travel’s flatter walks are along the water, not here.",
+        "idealDuration": null,
+        "transport": "California cable car from California and Market to Van Ness. Powell-Hyde climbs through the hill.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "San Francisco Travel, neighborhoods",
+            "url": "https://www.sftravel.com/neighborhoods"
+          },
+          {
+            "title": "San Francisco Travel, Fisherman’s Wharf",
+            "url": "https://www.sftravel.com/neighborhoods/fishermans-wharf"
+          },
+          {
+            "title": "SFMTA, cable cars",
+            "url": "https://www.sfmta.com/getting-around/muni/cable-cars"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "SF Travel recommends it for a luxurious stay and notes that the cable cars climb this hill."
+    },
+    {
+      "id": "marina-district",
+      "name": "Marina District",
+      "slug": "marina-district",
+      "state": "California",
+      "stateSlug": "california",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "Northern San Francisco",
+      "orientation": "Along the bay, including the Palace of Fine Arts.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "san-francisco"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A flat bay walk, and a base if the bridge is the main outing.",
+        "primaryTradeoff": "Off BART. Alcatraz is not a block away. You still cross town after the airport train.",
+        "idealDuration": null,
+        "transport": "Walk the northern shore. Transit back to downtown for BART.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "San Francisco Travel, Marina",
+            "url": "https://www.sftravel.com/neighborhoods/marina-pacific-heights"
+          },
+          {
+            "title": "San Francisco Travel, neighborhoods",
+            "url": "https://www.sftravel.com/neighborhoods"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "SF Travel describes bars, boutiques, bay views, and the Palace of Fine Arts from the 1915 exposition."
+    },
+    {
+      "id": "soma",
+      "name": "SoMa",
+      "slug": "soma",
+      "state": "California",
+      "stateSlug": "california",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "South of Market, San Francisco",
+      "orientation": "South of Market, including Yerba Buena.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "san-francisco"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A museum day, a convention, or a ballgame.",
+        "primaryTradeoff": "Bigger blocks and less of a village street than North Beach or the Mission.",
+        "idealDuration": null,
+        "transport": "Near downtown BART stations.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "San Francisco Travel, neighborhoods",
+            "url": "https://www.sftravel.com/neighborhoods"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "SF Travel describes museums, venues, the ballpark, and larger nightclubs."
+    },
+    {
+      "id": "mission-district",
+      "name": "Mission District",
+      "slug": "mission-district",
+      "state": "California",
+      "stateSlug": "california",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "San Francisco",
+      "orientation": "Mission, Valencia, and 24th streets.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "san-francisco"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "Food, murals, and a day that is not the Wharf.",
+        "primaryTradeoff": "A ride from Alcatraz, the bridge, and the cable cars.",
+        "idealDuration": null,
+        "transport": "Not on the F-line. Plan transit when the morning is a waterfront booking.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "San Francisco Travel, Mission",
+            "url": "https://www.sftravel.com/neighborhoods/mission-district"
+          },
+          {
+            "title": "San Francisco Travel, neighborhoods",
+            "url": "https://www.sftravel.com/neighborhoods"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "SF Travel names Clarion Alley and Balmy Alley for murals."
+    },
+    {
+      "id": "the-castro",
+      "name": "The Castro",
+      "slug": "the-castro",
+      "state": "California",
+      "stateSlug": "california",
+      "kind": "neighborhood",
+      "kindLabel": "Neighborhood",
+      "setting": "San Francisco",
+      "orientation": "West of downtown, at the start of the F-line.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "san-francisco"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "Staying in the neighborhood and riding the F-line to the Wharf.",
+        "primaryTradeoff": "Not the main hotel cluster. The airport train still drops you downtown first.",
+        "idealDuration": null,
+        "transport": "F-line along Market to the Ferry Building and Fisherman’s Wharf.",
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "San Francisco Travel, neighborhoods",
+            "url": "https://www.sftravel.com/neighborhoods"
+          },
+          {
+            "title": "San Francisco Travel, Fisherman’s Wharf",
+            "url": "https://www.sftravel.com/neighborhoods/fishermans-wharf"
+          }
+        ],
+        "verificationDate": "2026-10-28"
+      },
+      "editorialNote": "SF Travel calls it one of the country’s first gay neighborhoods."
+    },
+    {
+      "id": "jupiter-hotel",
+      "name": "Jupiter Hotel",
+      "slug": "jupiter-hotel",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "hotel",
+      "kindLabel": "Hotel",
+      "setting": "Buckman, Portland",
+      "orientation": "800 E Burnside.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A music weekend on Burnside.",
+        "primaryTradeoff": "Noise, thin amenities, and fee complaints show up next to praise for the location.",
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Google listing",
+            "url": "https://www.google.com/maps/search/?api=1&query=Jupiter%20Hotel%20Portland%20Oregon"
+          },
+          {
+            "title": "Yelp listing",
+            "url": "https://www.yelp.com/biz/jupiter-hotel-portland-3"
+          },
+          {
+            "title": "Tripadvisor listing",
+            "url": "https://www.tripadvisor.com/Hotel_Review-g52024-d96160-Reviews-Jupiter_Hotel-Portland_Oregon.html"
+          }
+        ],
+        "ratings": [
+          {
+            "source": "Google",
+            "score": 4.1,
+            "count": 1616,
+            "url": "https://www.google.com/maps/search/?api=1&query=Jupiter%20Hotel%20Portland%20Oregon",
+            "via": "google_maps",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Yelp",
+            "score": 3.1,
+            "count": 551,
+            "url": "https://www.yelp.com/biz/jupiter-hotel-portland-3",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Tripadvisor",
+            "score": 3.5,
+            "count": 1046,
+            "url": "https://www.tripadvisor.com/Hotel_Review-g52024-d96160-Reviews-Jupiter_Hotel-Portland_Oregon.html",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          }
+        ],
+        "verificationDate": "2026-10-29"
+      },
+      "editorialNote": "Noise, thin amenities, and fee complaints show up next to praise for the location."
+    },
+    {
+      "id": "kex-portland",
+      "name": "KEX Portland",
+      "slug": "kex-portland",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "hotel",
+      "kindLabel": "Hotel",
+      "setting": "Central Eastside, Portland",
+      "orientation": "100 NE Martin Luther King Jr Blvd.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A social lobby and a private room if you want one.",
+        "primaryTradeoff": "Small review samples, and hostel noise is part of the stay.",
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Google listing",
+            "url": "https://www.google.com/maps/search/?api=1&query=KEX%20Portland%20hotel"
+          },
+          {
+            "title": "Yelp listing",
+            "url": "https://www.yelp.com/biz/kex-portland-portland"
+          },
+          {
+            "title": "Tripadvisor listing",
+            "url": "https://www.tripadvisor.com/Hotel_Review-g52024-d19591309-Reviews-KEX_Portland-Portland_Oregon.html"
+          }
+        ],
+        "ratings": [
+          {
+            "source": "Google",
+            "score": 4.5,
+            "count": 368,
+            "url": "https://www.google.com/maps/search/?api=1&query=KEX%20Portland%20hotel",
+            "via": "google_maps",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Yelp",
+            "score": 3.5,
+            "count": 50,
+            "url": "https://www.yelp.com/biz/kex-portland-portland",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Tripadvisor",
+            "score": 4.7,
+            "count": 61,
+            "url": "https://www.tripadvisor.com/Hotel_Review-g52024-d19591309-Reviews-KEX_Portland-Portland_Oregon.html",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          }
+        ],
+        "verificationDate": "2026-10-29"
+      },
+      "editorialNote": "Small review samples, and hostel noise is part of the stay."
+    },
+    {
+      "id": "mcmenamins-kennedy-school",
+      "name": "McMenamins Kennedy School",
+      "slug": "mcmenamins-kennedy-school",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "hotel",
+      "kindLabel": "Hotel",
+      "setting": "Concordia, Portland",
+      "orientation": "5736 NE 33rd Avenue.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A night when the building is the evening.",
+        "primaryTradeoff": "A poor base for a museum morning. You will ride in.",
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Google listing",
+            "url": "https://www.google.com/maps/search/?api=1&query=McMenamins%20Kennedy%20School%20Portland"
+          },
+          {
+            "title": "Yelp listing",
+            "url": "https://www.yelp.com/biz/mcmenamins-kennedy-school-portland"
+          },
+          {
+            "title": "Tripadvisor listing",
+            "url": "https://www.tripadvisor.com/Hotel_Review-g52024-d112200-Reviews-McMenamins_Kennedy_School-Portland_Oregon.html"
+          }
+        ],
+        "ratings": [
+          {
+            "source": "Google",
+            "score": 4.6,
+            "count": 8977,
+            "url": "https://www.google.com/maps/search/?api=1&query=McMenamins%20Kennedy%20School%20Portland",
+            "via": "google_maps",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Yelp",
+            "score": 3.9,
+            "count": 1639,
+            "url": "https://www.yelp.com/biz/mcmenamins-kennedy-school-portland",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Tripadvisor",
+            "score": 4.3,
+            "count": 781,
+            "url": "https://www.tripadvisor.com/Hotel_Review-g52024-d112200-Reviews-McMenamins_Kennedy_School-Portland_Oregon.html",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          }
+        ],
+        "verificationDate": "2026-10-29"
+      },
+      "editorialNote": "A poor base for a museum morning. You will ride in."
+    },
+    {
+      "id": "the-hoxton-portland",
+      "name": "The Hoxton Portland",
+      "slug": "the-hoxton-portland",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "hotel",
+      "kindLabel": "Hotel",
+      "setting": "Old Town, Portland",
+      "orientation": "15 NW 4th Avenue.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A designed hotel if you are fine with Old Town at night.",
+        "primaryTradeoff": "Small rooms and street noise. The neighborhood is the argument.",
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Google listing",
+            "url": "https://www.google.com/maps/search/?api=1&query=The%20Hoxton%20Portland%20hotel"
+          },
+          {
+            "title": "Yelp listing",
+            "url": "https://www.yelp.com/biz/the-hoxton-portland"
+          },
+          {
+            "title": "Tripadvisor listing",
+            "url": "https://www.tripadvisor.com/Hotel_Review-g52024-d15043205-Reviews-The_Hoxton_Portland-Portland_Oregon.html"
+          }
+        ],
+        "ratings": [
+          {
+            "source": "Google",
+            "score": 4.3,
+            "count": 1144,
+            "url": "https://www.google.com/maps/search/?api=1&query=The%20Hoxton%20Portland%20hotel",
+            "via": "google_maps",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Yelp",
+            "score": 4.3,
+            "count": 141,
+            "url": "https://www.yelp.com/biz/the-hoxton-portland",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Tripadvisor",
+            "score": 4.4,
+            "count": 1047,
+            "url": "https://www.tripadvisor.com/Hotel_Review-g52024-d15043205-Reviews-The_Hoxton_Portland-Portland_Oregon.html",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          }
+        ],
+        "verificationDate": "2026-10-29"
+      },
+      "editorialNote": "Small rooms and street noise. The neighborhood is the argument."
+    },
+    {
+      "id": "canopy-portland-pearl",
+      "name": "Canopy by Hilton Portland Pearl District",
+      "slug": "canopy-portland-pearl",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "hotel",
+      "kindLabel": "Hotel",
+      "setting": "Pearl District, Portland",
+      "orientation": "425 NW 9th Avenue.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A first trip that wants the Pearl.",
+        "primaryTradeoff": "Valet parking and a ride to Hawthorne at dinner. Yelp did not return a listing URL clear enough to use.",
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Google listing",
+            "url": "https://www.google.com/maps/search/?api=1&query=Canopy%20by%20Hilton%20Portland%20Pearl%20District"
+          },
+          {
+            "title": "Tripadvisor listing",
+            "url": "https://www.tripadvisor.com/Hotel_Review-g52024-d13294894-Reviews-Canopy_By_Hilton_Portland_Pearl_District-Portland_Oregon.html"
+          }
+        ],
+        "ratings": [
+          {
+            "source": "Google",
+            "score": 4.2,
+            "count": 908,
+            "url": "https://www.google.com/maps/search/?api=1&query=Canopy%20by%20Hilton%20Portland%20Pearl%20District",
+            "via": "google_maps",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Tripadvisor",
+            "score": 4.5,
+            "count": 588,
+            "url": "https://www.tripadvisor.com/Hotel_Review-g52024-d13294894-Reviews-Canopy_By_Hilton_Portland_Pearl_District-Portland_Oregon.html",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          }
+        ],
+        "verificationDate": "2026-10-29"
+      },
+      "editorialNote": "Valet parking and a ride to Hawthorne at dinner. Yelp did not return a listing URL clear enough to use."
+    },
+    {
+      "id": "screen-door-eastside",
+      "name": "Screen Door Eastside",
+      "slug": "screen-door-eastside",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "restaurant",
+      "kindLabel": "Restaurant",
+      "setting": "Kerns, Portland",
+      "orientation": "2337 E Burnside Street.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "The brunch people wait for.",
+        "primaryTradeoff": "The line, and a heavy menu.",
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Google listing",
+            "url": "https://www.google.com/maps/search/?api=1&query=Screen%20Door%20Eastside%20Portland"
+          },
+          {
+            "title": "Yelp listing",
+            "url": "https://www.yelp.com/biz/screen-door-eastside-portland-3"
+          },
+          {
+            "title": "Tripadvisor listing",
+            "url": "https://www.tripadvisor.com/Restaurant_Review-g52024-d807935-Reviews-Screen_Door_Eastside-Portland_Oregon.html"
+          },
+          {
+            "title": "OpenTable listing",
+            "url": "https://www.opentable.com/r/screen-door-eastside-portland"
+          }
+        ],
+        "ratings": [
+          {
+            "source": "Google",
+            "score": 4.7,
+            "count": 7834,
+            "url": "https://www.google.com/maps/search/?api=1&query=Screen%20Door%20Eastside%20Portland",
+            "via": "google_maps",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Yelp",
+            "score": 4.5,
+            "count": 9091,
+            "url": "https://www.yelp.com/biz/screen-door-eastside-portland-3",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Tripadvisor",
+            "score": 4.6,
+            "count": 1463,
+            "url": "https://www.tripadvisor.com/Restaurant_Review-g52024-d807935-Reviews-Screen_Door_Eastside-Portland_Oregon.html",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "OpenTable",
+            "score": 4.9,
+            "count": 1399,
+            "url": "https://www.opentable.com/r/screen-door-eastside-portland",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          }
+        ],
+        "verificationDate": "2026-10-29"
+      },
+      "editorialNote": "The line, and a heavy menu."
+    },
+    {
+      "id": "apizza-scholls",
+      "name": "Apizza Scholls",
+      "slug": "apizza-scholls",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "restaurant",
+      "kindLabel": "Restaurant",
+      "setting": "Hawthorne, Portland",
+      "orientation": "4741 SE Hawthorne Boulevard.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "Dinner on Hawthorne, from 5 p.m.",
+        "primaryTradeoff": "No lunch, and weekend dough can sell out.",
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Google listing",
+            "url": "https://www.google.com/maps/search/?api=1&query=Apizza%20Scholls%20Portland"
+          },
+          {
+            "title": "Yelp listing",
+            "url": "https://www.yelp.com/biz/apizza-scholls-portland"
+          },
+          {
+            "title": "Tripadvisor listing",
+            "url": "https://www.tripadvisor.com/Restaurant_Review-g52024-d648921-Reviews-Apizza_Scholls-Portland_Oregon.html"
+          }
+        ],
+        "ratings": [
+          {
+            "source": "Google",
+            "score": 4.6,
+            "count": 2288,
+            "url": "https://www.google.com/maps/search/?api=1&query=Apizza%20Scholls%20Portland",
+            "via": "google_maps",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Yelp",
+            "score": 4.2,
+            "count": 1947,
+            "url": "https://www.yelp.com/biz/apizza-scholls-portland",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Tripadvisor",
+            "score": 4.3,
+            "count": 341,
+            "url": "https://www.tripadvisor.com/Restaurant_Review-g52024-d648921-Reviews-Apizza_Scholls-Portland_Oregon.html",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          }
+        ],
+        "verificationDate": "2026-10-29"
+      },
+      "editorialNote": "No lunch, and weekend dough can sell out."
+    },
+    {
+      "id": "kann",
+      "name": "Kann",
+      "slug": "kann",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "restaurant",
+      "kindLabel": "Restaurant",
+      "setting": "Central Eastside, Portland",
+      "orientation": "548 SE Ash Street.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "One booked meal you will talk about.",
+        "primaryTradeoff": "Loud and expensive. Tripadvisor showed reviews and no clear bubble score.",
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Google listing",
+            "url": "https://www.google.com/maps/search/?api=1&query=Kann%20restaurant%20Portland%20Oregon"
+          },
+          {
+            "title": "Yelp listing",
+            "url": "https://www.yelp.com/biz/kann-portland"
+          }
+        ],
+        "ratings": [
+          {
+            "source": "Google",
+            "score": 4.5,
+            "count": 1297,
+            "url": "https://www.google.com/maps/search/?api=1&query=Kann%20restaurant%20Portland%20Oregon",
+            "via": "google_maps",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Yelp",
+            "score": 4.4,
+            "count": 612,
+            "url": "https://www.yelp.com/biz/kann-portland",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          }
+        ],
+        "verificationDate": "2026-10-29"
+      },
+      "editorialNote": "Loud and expensive. Tripadvisor showed reviews and no clear bubble score."
+    },
+    {
+      "id": "le-pigeon",
+      "name": "Le Pigeon",
+      "slug": "le-pigeon",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "restaurant",
+      "kindLabel": "Restaurant",
+      "setting": "Buckman, Portland",
+      "orientation": "738 E Burnside Street.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A tasting menu you reserved.",
+        "primaryTradeoff": "The bill, and noise from upstairs.",
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Google listing",
+            "url": "https://www.google.com/maps/search/?api=1&query=Le%20Pigeon%20Portland"
+          },
+          {
+            "title": "Yelp listing",
+            "url": "https://www.yelp.com/biz/le-pigeon-portland-2"
+          },
+          {
+            "title": "Tripadvisor listing",
+            "url": "https://www.tripadvisor.com/Restaurant_Review-g52024-d649314-Reviews-Le_Pigeon-Portland_Oregon.html"
+          },
+          {
+            "title": "OpenTable listing",
+            "url": "https://www.opentable.com/r/le-pigeon-portland"
+          }
+        ],
+        "ratings": [
+          {
+            "source": "Google",
+            "score": 4.6,
+            "count": 1163,
+            "url": "https://www.google.com/maps/search/?api=1&query=Le%20Pigeon%20Portland",
+            "via": "google_maps",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Yelp",
+            "score": 4.4,
+            "count": 1427,
+            "url": "https://www.yelp.com/biz/le-pigeon-portland-2",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Tripadvisor",
+            "score": 4.5,
+            "count": 554,
+            "url": "https://www.tripadvisor.com/Restaurant_Review-g52024-d649314-Reviews-Le_Pigeon-Portland_Oregon.html",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "OpenTable",
+            "score": 4.9,
+            "count": 1820,
+            "url": "https://www.opentable.com/r/le-pigeon-portland",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          }
+        ],
+        "verificationDate": "2026-10-29"
+      },
+      "editorialNote": "The bill, and noise from upstairs."
+    },
+    {
+      "id": "stephanie-inn",
+      "name": "Stephanie Inn",
+      "slug": "stephanie-inn",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "hotel",
+      "kindLabel": "Hotel",
+      "setting": "Tolovana, Cannon Beach",
+      "orientation": "2740 Pacific.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "cannon-beach"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "The room when the window is the itinerary.",
+        "primaryTradeoff": "The south end of town, and a price that assumes you will not wander for cheap dinners.",
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Google listing",
+            "url": "https://www.google.com/maps/search/?api=1&query=Stephanie%20Inn%20Cannon%20Beach"
+          },
+          {
+            "title": "Yelp listing",
+            "url": "https://www.yelp.com/biz/the-stephanie-inn-and-dining-room-cannon-beach"
+          },
+          {
+            "title": "Tripadvisor listing",
+            "url": "https://www.tripadvisor.com/Hotel_Review-g51790-d272019-Reviews-Stephanie_Inn-Cannon_Beach_Oregon.html"
+          }
+        ],
+        "ratings": [
+          {
+            "source": "Google",
+            "score": 4.7,
+            "count": 605,
+            "url": "https://www.google.com/maps/search/?api=1&query=Stephanie%20Inn%20Cannon%20Beach",
+            "via": "google_maps",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Yelp",
+            "score": 4.4,
+            "count": 198,
+            "url": "https://www.yelp.com/biz/the-stephanie-inn-and-dining-room-cannon-beach",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Tripadvisor",
+            "score": 4.8,
+            "count": 3174,
+            "url": "https://www.tripadvisor.com/Hotel_Review-g51790-d272019-Reviews-Stephanie_Inn-Cannon_Beach_Oregon.html",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          }
+        ],
+        "verificationDate": "2026-10-29"
+      },
+      "editorialNote": "The south end of town, and a price that assumes you will not wander for cheap dinners."
+    },
+    {
+      "id": "ocean-lodge",
+      "name": "The Ocean Lodge",
+      "slug": "ocean-lodge",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "hotel",
+      "kindLabel": "Hotel",
+      "setting": "Tolovana, Cannon Beach",
+      "orientation": "2864 S Pacific Street.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "cannon-beach"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "The same kind of stay as the Stephanie Inn.",
+        "primaryTradeoff": "Some guests call the rate high for the size of the room.",
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Google listing",
+            "url": "https://www.google.com/maps/search/?api=1&query=The%20Ocean%20Lodge%20Cannon%20Beach"
+          },
+          {
+            "title": "Yelp listing",
+            "url": "https://www.yelp.com/biz/the-ocean-lodge-cannon-beach"
+          },
+          {
+            "title": "Tripadvisor listing",
+            "url": "https://www.tripadvisor.com/Hotel_Review-g51790-d268490-Reviews-The_Ocean_Lodge-Cannon_Beach_Oregon.html"
+          }
+        ],
+        "ratings": [
+          {
+            "source": "Google",
+            "score": 4.8,
+            "count": 568,
+            "url": "https://www.google.com/maps/search/?api=1&query=The%20Ocean%20Lodge%20Cannon%20Beach",
+            "via": "google_maps",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Yelp",
+            "score": 4.4,
+            "count": 148,
+            "url": "https://www.yelp.com/biz/the-ocean-lodge-cannon-beach",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Tripadvisor",
+            "score": 4.8,
+            "count": 3031,
+            "url": "https://www.tripadvisor.com/Hotel_Review-g51790-d268490-Reviews-The_Ocean_Lodge-Cannon_Beach_Oregon.html",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          }
+        ],
+        "verificationDate": "2026-10-29"
+      },
+      "editorialNote": "Some guests call the rate high for the size of the room."
+    },
+    {
+      "id": "hallmark-resort-cannon-beach",
+      "name": "Hallmark Resort & Spa Cannon Beach",
+      "slug": "hallmark-resort-cannon-beach",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "hotel",
+      "kindLabel": "Hotel",
+      "setting": "Cannon Beach",
+      "orientation": "1400 S Hemlock Street.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "cannon-beach"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "Families who want a pool and a resort desk.",
+        "primaryTradeoff": "It feels like a resort. Confirm which building you booked.",
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Google listing",
+            "url": "https://www.google.com/maps/search/?api=1&query=Hallmark%20Resort%20Cannon%20Beach"
+          },
+          {
+            "title": "Yelp listing",
+            "url": "https://www.yelp.com/biz/hallmark-resort-and-spa-cannon-beach-cannon-beach-2"
+          },
+          {
+            "title": "Tripadvisor listing",
+            "url": "https://www.tripadvisor.com/Hotel_Review-g51790-d95946-Reviews-Hallmark_Resort_Cannon_Beach-Cannon_Beach_Oregon.html"
+          }
+        ],
+        "ratings": [
+          {
+            "source": "Google",
+            "score": 4.7,
+            "count": 1850,
+            "url": "https://www.google.com/maps/search/?api=1&query=Hallmark%20Resort%20Cannon%20Beach",
+            "via": "google_maps",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Yelp",
+            "score": 4.1,
+            "count": 267,
+            "url": "https://www.yelp.com/biz/hallmark-resort-and-spa-cannon-beach-cannon-beach-2",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Tripadvisor",
+            "score": 4.6,
+            "count": 4794,
+            "url": "https://www.tripadvisor.com/Hotel_Review-g51790-d95946-Reviews-Hallmark_Resort_Cannon_Beach-Cannon_Beach_Oregon.html",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          }
+        ],
+        "verificationDate": "2026-10-29"
+      },
+      "editorialNote": "It feels like a resort. Confirm which building you booked."
+    },
+    {
+      "id": "sleepy-monk-coffee",
+      "name": "Sleepy Monk Coffee",
+      "slug": "sleepy-monk-coffee",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "cafe",
+      "kindLabel": "Cafe",
+      "setting": "Cannon Beach",
+      "orientation": "1235 S Hemlock Street.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "closed",
+      "relatedIds": [
+        "cannon-beach"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A closed coffee shop people still name.",
+        "primaryTradeoff": "The storefront closed permanently. The roastery still sells beans. Do not send someone here for a cup.",
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Google listing",
+            "url": "https://www.google.com/maps/search/?api=1&query=Sleepy%20Monk%20Coffee%20Cannon%20Beach"
+          },
+          {
+            "title": "Yelp listing",
+            "url": "https://www.yelp.com/biz/sleepy-monk-coffee-roasters-cannon-beach"
+          },
+          {
+            "title": "Tripadvisor listing",
+            "url": "https://www.tripadvisor.com/Restaurant_Review-g51790-d1857255-Reviews-Sleepy_Monk_Coffee_Roasters-Cannon_Beach_Oregon.html"
+          }
+        ],
+        "ratings": [
+          {
+            "source": "Google",
+            "score": 4.6,
+            "count": 1362,
+            "url": "https://www.google.com/maps/search/?api=1&query=Sleepy%20Monk%20Coffee%20Cannon%20Beach",
+            "via": "google_maps",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Yelp",
+            "score": 4.4,
+            "count": 761,
+            "url": "https://www.yelp.com/biz/sleepy-monk-coffee-roasters-cannon-beach",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Tripadvisor",
+            "score": 4.7,
+            "count": 854,
+            "url": "https://www.tripadvisor.com/Restaurant_Review-g51790-d1857255-Reviews-Sleepy_Monk_Coffee_Roasters-Cannon_Beach_Oregon.html",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          }
+        ],
+        "verificationDate": "2026-10-29"
+      },
+      "editorialNote": "The storefront closed permanently. The roastery still sells beans. Do not send someone here for a cup."
+    },
+    {
+      "id": "public-coast-brewing",
+      "name": "Public Coast Brewing",
+      "slug": "public-coast-brewing",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "restaurant",
+      "kindLabel": "Restaurant",
+      "setting": "Cannon Beach",
+      "orientation": "264 3rd Street, on the Yelp listing.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "cannon-beach"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "The casual beer-and-food stop.",
+        "primaryTradeoff": "A June 2026 Tripadvisor review says the fish sandwich was short on fish.",
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Google listing",
+            "url": "https://www.google.com/maps/search/?api=1&query=Public%20Coast%20Brewing%20Cannon%20Beach"
+          },
+          {
+            "title": "Yelp listing",
+            "url": "https://www.yelp.com/biz/public-coast-brewing-cannon-beach-2"
+          },
+          {
+            "title": "Tripadvisor listing",
+            "url": "https://www.tripadvisor.com/Restaurant_Review-g51790-d10464256-Reviews-Public_Coast_Brewing_Company-Cannon_Beach_Oregon.html"
+          }
+        ],
+        "ratings": [
+          {
+            "source": "Google",
+            "score": 4.4,
+            "count": 1173,
+            "url": "https://www.google.com/maps/search/?api=1&query=Public%20Coast%20Brewing%20Cannon%20Beach",
+            "via": "google_maps",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Yelp",
+            "score": 3.8,
+            "count": 588,
+            "url": "https://www.yelp.com/biz/public-coast-brewing-cannon-beach-2",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Tripadvisor",
+            "score": 3.9,
+            "count": 261,
+            "url": "https://www.tripadvisor.com/Restaurant_Review-g51790-d10464256-Reviews-Public_Coast_Brewing_Company-Cannon_Beach_Oregon.html",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          }
+        ],
+        "verificationDate": "2026-10-29"
+      },
+      "editorialNote": "A June 2026 Tripadvisor review says the fish sandwich was short on fish."
+    },
+    {
+      "id": "the-wayfarer",
+      "name": "The Wayfarer",
+      "slug": "the-wayfarer",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "restaurant",
+      "kindLabel": "Restaurant",
+      "setting": "Cannon Beach",
+      "orientation": "1190 Pacific Drive, on the Yelp listing.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "cannon-beach"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "One oceanfront dinner.",
+        "primaryTradeoff": "Scores sit under the inns. A September 2026 review describes a party that walked out.",
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Google listing",
+            "url": "https://www.google.com/maps/search/?api=1&query=Wayfarer%20Restaurant%20Cannon%20Beach"
+          },
+          {
+            "title": "Yelp listing",
+            "url": "https://www.yelp.com/biz/the-wayfarer-restaurant-and-lounge-cannon-beach"
+          },
+          {
+            "title": "Tripadvisor listing",
+            "url": "https://www.tripadvisor.com/Restaurant_Review-g51790-d501023-Reviews-Wayfarer_Restaurant-Cannon_Beach_Oregon.html"
+          },
+          {
+            "title": "OpenTable listing",
+            "url": "https://www.opentable.com/the-wayfarer-restaurant-and-lounge"
+          }
+        ],
+        "ratings": [
+          {
+            "source": "Google",
+            "score": 4.2,
+            "count": 3587,
+            "url": "https://www.google.com/maps/search/?api=1&query=Wayfarer%20Restaurant%20Cannon%20Beach",
+            "via": "google_maps",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Yelp",
+            "score": 3.7,
+            "count": 1268,
+            "url": "https://www.yelp.com/biz/the-wayfarer-restaurant-and-lounge-cannon-beach",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Tripadvisor",
+            "score": 4.1,
+            "count": 2037,
+            "url": "https://www.tripadvisor.com/Restaurant_Review-g51790-d501023-Reviews-Wayfarer_Restaurant-Cannon_Beach_Oregon.html",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "OpenTable",
+            "score": 4.3,
+            "count": 2051,
+            "url": "https://www.opentable.com/the-wayfarer-restaurant-and-lounge",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          }
+        ],
+        "verificationDate": "2026-10-29"
+      },
+      "editorialNote": "Scores sit under the inns. A September 2026 review describes a party that walked out."
+    },
+    {
+      "id": "edgewater-hotel",
+      "name": "The Edgewater Hotel",
+      "slug": "edgewater-hotel",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "kind": "hotel",
+      "kindLabel": "Hotel",
+      "setting": "Seattle waterfront",
+      "orientation": "Pier 67, 2411 Alaskan Way.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "seattle"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "The water and a fireplace.",
+        "primaryTradeoff": "Dated halls, fees, and no self-parking, per the hotel’s facts page and the reviews.",
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Google listing",
+            "url": "https://www.google.com/maps/search/?api=1&query=The%20Edgewater%20Hotel%20Seattle"
+          },
+          {
+            "title": "Yelp listing",
+            "url": "https://www.yelp.com/biz/the-edgewater-hotel-seattle-3"
+          },
+          {
+            "title": "Tripadvisor listing",
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d100567-Reviews-The_Edgewater_Hotel-Seattle_Washington.html"
+          }
+        ],
+        "ratings": [
+          {
+            "source": "Google",
+            "score": 4.4,
+            "count": 3331,
+            "url": "https://www.google.com/maps/search/?api=1&query=The%20Edgewater%20Hotel%20Seattle",
+            "via": "google_maps",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Yelp",
+            "score": 3.5,
+            "count": 841,
+            "url": "https://www.yelp.com/biz/the-edgewater-hotel-seattle-3",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Tripadvisor",
+            "score": 4.1,
+            "count": 6807,
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d100567-Reviews-The_Edgewater_Hotel-Seattle_Washington.html",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          }
+        ],
+        "verificationDate": "2026-10-29"
+      },
+      "editorialNote": "Dated halls, fees, and no self-parking, per the hotel’s facts page and the reviews."
+    },
+    {
+      "id": "citizenm-seattle-south-lake-union",
+      "name": "citizenM Seattle South Lake Union",
+      "slug": "citizenm-seattle-south-lake-union",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "kind": "hotel",
+      "kindLabel": "Hotel",
+      "setting": "South Lake Union, Seattle",
+      "orientation": "201 Westlake Ave N.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "seattle"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A short, compact stay near the Needle.",
+        "primaryTradeoff": "Small rooms, and a neighborhood that empties early.",
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Google listing",
+            "url": "https://www.google.com/maps/search/?api=1&query=citizenM%20Seattle%20South%20Lake%20Union"
+          },
+          {
+            "title": "Yelp listing",
+            "url": "https://www.yelp.com/biz/citizenm-seattle-south-lake-seattle"
+          },
+          {
+            "title": "Tripadvisor listing",
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d15236226-Reviews-CitizenM_Seattle_South_Lake-Seattle_Washington.html"
+          }
+        ],
+        "ratings": [
+          {
+            "source": "Google",
+            "score": 4.3,
+            "count": 1246,
+            "url": "https://www.google.com/maps/search/?api=1&query=citizenM%20Seattle%20South%20Lake%20Union",
+            "via": "google_maps",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Yelp",
+            "score": 4.0,
+            "count": 131,
+            "url": "https://www.yelp.com/biz/citizenm-seattle-south-lake-seattle",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Tripadvisor",
+            "score": 4.2,
+            "count": 667,
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d15236226-Reviews-CitizenM_Seattle_South_Lake-Seattle_Washington.html",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          }
+        ],
+        "verificationDate": "2026-10-29"
+      },
+      "editorialNote": "Small rooms, and a neighborhood that empties early."
+    },
+    {
+      "id": "ace-hotel-seattle",
+      "name": "Ace Hotel Seattle",
+      "slug": "ace-hotel-seattle",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "kind": "hotel",
+      "kindLabel": "Hotel",
+      "setting": "Belltown, Seattle",
+      "orientation": "2423 1st Avenue.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "seattle"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A small Belltown room if you can carry a bag upstairs.",
+        "primaryTradeoff": "No elevator, per Tripadvisor reviews. A clean Yelp listing for this building did not come back. Not the closed Portland Ace.",
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Google listing",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ace%20Hotel%20Seattle"
+          },
+          {
+            "title": "Tripadvisor listing",
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d100509-Reviews-Ace_Hotel_Seattle-Seattle_Washington.html"
+          }
+        ],
+        "ratings": [
+          {
+            "source": "Google",
+            "score": 4.4,
+            "count": 421,
+            "url": "https://www.google.com/maps/search/?api=1&query=Ace%20Hotel%20Seattle",
+            "via": "google_maps",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Tripadvisor",
+            "score": 4.2,
+            "count": 516,
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d100509-Reviews-Ace_Hotel_Seattle-Seattle_Washington.html",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          }
+        ],
+        "verificationDate": "2026-10-29"
+      },
+      "editorialNote": "No elevator, per Tripadvisor reviews. A clean Yelp listing for this building did not come back. Not the closed Portland Ace."
+    },
+    {
+      "id": "hotel-ballard",
+      "name": "Hotel Ballard",
+      "slug": "hotel-ballard",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "kind": "hotel",
+      "kindLabel": "Hotel",
+      "setting": "Ballard, Seattle",
+      "orientation": "5216 Ballard Ave NW.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "seattle"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A Ballard trip, not an airport night.",
+        "primaryTradeoff": "A bus ride from the market.",
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Google listing",
+            "url": "https://www.google.com/maps/search/?api=1&query=Hotel%20Ballard%20Seattle"
+          },
+          {
+            "title": "Yelp listing",
+            "url": "https://www.yelp.com/biz/hotel-ballard-seattle-2"
+          },
+          {
+            "title": "Tripadvisor listing",
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d4090071-Reviews-Hotel_Ballard-Seattle_Washington.html"
+          }
+        ],
+        "ratings": [
+          {
+            "source": "Google",
+            "score": 4.5,
+            "count": 398,
+            "url": "https://www.google.com/maps/search/?api=1&query=Hotel%20Ballard%20Seattle",
+            "via": "google_maps",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Yelp",
+            "score": 4.1,
+            "count": 83,
+            "url": "https://www.yelp.com/biz/hotel-ballard-seattle-2",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Tripadvisor",
+            "score": 4.6,
+            "count": 420,
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d4090071-Reviews-Hotel_Ballard-Seattle_Washington.html",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          }
+        ],
+        "verificationDate": "2026-10-29"
+      },
+      "editorialNote": "A bus ride from the market."
+    },
+    {
+      "id": "thompson-seattle",
+      "name": "Thompson Seattle",
+      "slug": "thompson-seattle",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "kind": "hotel",
+      "kindLabel": "Hotel",
+      "setting": "Downtown Seattle",
+      "orientation": "110 Stewart Street.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "seattle"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A walk to Pike Place.",
+        "primaryTradeoff": "Yelp is much cooler than Tripadvisor. Small rooms and street noise.",
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Google listing",
+            "url": "https://www.google.com/maps/search/?api=1&query=Thompson%20Seattle%20hotel"
+          },
+          {
+            "title": "Yelp listing",
+            "url": "https://www.yelp.com/biz/thompson-seattle-seattle-2"
+          },
+          {
+            "title": "Tripadvisor listing",
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d10031096-Reviews-Thompson_Seattle_by_Hyatt-Seattle_Washington.html"
+          }
+        ],
+        "ratings": [
+          {
+            "source": "Google",
+            "score": 4.3,
+            "count": 1673,
+            "url": "https://www.google.com/maps/search/?api=1&query=Thompson%20Seattle%20hotel",
+            "via": "google_maps",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Yelp",
+            "score": 3.6,
+            "count": 260,
+            "url": "https://www.yelp.com/biz/thompson-seattle-seattle-2",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Tripadvisor",
+            "score": 4.3,
+            "count": 2392,
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d10031096-Reviews-Thompson_Seattle_by_Hyatt-Seattle_Washington.html",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          }
+        ],
+        "verificationDate": "2026-10-29"
+      },
+      "editorialNote": "Yelp is much cooler than Tripadvisor. Small rooms and street noise."
+    },
+    {
+      "id": "walrus-and-the-carpenter",
+      "name": "The Walrus and the Carpenter",
+      "slug": "walrus-and-the-carpenter",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "kind": "restaurant",
+      "kindLabel": "Restaurant",
+      "setting": "Ballard, Seattle",
+      "orientation": "4743 Ballard Ave NW.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "seattle"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "Oysters, if you go early.",
+        "primaryTradeoff": "A small loud room. A June 2026 review mentions a 22 percent charge.",
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Google listing",
+            "url": "https://www.google.com/maps/search/?api=1&query=The%20Walrus%20and%20the%20Carpenter%20Seattle"
+          },
+          {
+            "title": "Yelp listing",
+            "url": "https://www.yelp.com/biz/the-walrus-and-the-carpenter-seattle"
+          },
+          {
+            "title": "Tripadvisor listing",
+            "url": "https://www.tripadvisor.com/Restaurant_Review-g60878-d2191178-Reviews-The_Walrus_and_the_Carpenter-Seattle_Washington.html"
+          },
+          {
+            "title": "OpenTable listing",
+            "url": "https://www.opentable.com/walrus-and-the-carpenter"
+          }
+        ],
+        "ratings": [
+          {
+            "source": "Google",
+            "score": 4.5,
+            "count": 2272,
+            "url": "https://www.google.com/maps/search/?api=1&query=The%20Walrus%20and%20the%20Carpenter%20Seattle",
+            "via": "google_maps",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Yelp",
+            "score": 4.1,
+            "count": 2012,
+            "url": "https://www.yelp.com/biz/the-walrus-and-the-carpenter-seattle",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Tripadvisor",
+            "score": 4.4,
+            "count": 542,
+            "url": "https://www.tripadvisor.com/Restaurant_Review-g60878-d2191178-Reviews-The_Walrus_and_the_Carpenter-Seattle_Washington.html",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "OpenTable",
+            "score": 4.7,
+            "count": 404,
+            "url": "https://www.opentable.com/walrus-and-the-carpenter",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          }
+        ],
+        "verificationDate": "2026-10-29"
+      },
+      "editorialNote": "A small loud room. A June 2026 review mentions a 22 percent charge."
+    },
+    {
+      "id": "taurus-ox",
+      "name": "Taurus Ox",
+      "slug": "taurus-ox",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "kind": "restaurant",
+      "kindLabel": "Restaurant",
+      "setting": "Capitol Hill, Seattle",
+      "orientation": "903 19th Ave E.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "seattle"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "Capitol Hill dinner.",
+        "primaryTradeoff": "Tripadvisor did not show a clear bubble score.",
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Google listing",
+            "url": "https://www.google.com/maps/search/?api=1&query=Taurus%20Ox%20Seattle"
+          },
+          {
+            "title": "Yelp listing",
+            "url": "https://www.yelp.com/biz/taurus-ox-seattle"
+          }
+        ],
+        "ratings": [
+          {
+            "source": "Google",
+            "score": 4.7,
+            "count": 809,
+            "url": "https://www.google.com/maps/search/?api=1&query=Taurus%20Ox%20Seattle",
+            "via": "google_maps",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Yelp",
+            "score": 4.5,
+            "count": 609,
+            "url": "https://www.yelp.com/biz/taurus-ox-seattle",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          }
+        ],
+        "verificationDate": "2026-10-29"
+      },
+      "editorialNote": "Tripadvisor did not show a clear bubble score."
+    },
+    {
+      "id": "matts-in-the-market",
+      "name": "Matt's in the Market",
+      "slug": "matts-in-the-market",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "kind": "restaurant",
+      "kindLabel": "Restaurant",
+      "setting": "Pike Place Market, Seattle",
+      "orientation": "94 Pike Street.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "seattle"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A sit-down meal in the market.",
+        "primaryTradeoff": "Easy to miss, up the stairs.",
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Google listing",
+            "url": "https://www.google.com/maps/search/?api=1&query=Matt%27s%20in%20the%20Market%20Seattle"
+          },
+          {
+            "title": "Yelp listing",
+            "url": "https://www.yelp.com/biz/matt-s-in-the-market-seattle"
+          },
+          {
+            "title": "Tripadvisor listing",
+            "url": "https://www.tripadvisor.com/Restaurant_Review-g60878-d432607-Reviews-Matt_s_in_the_Market-Seattle_Washington.html"
+          }
+        ],
+        "ratings": [
+          {
+            "source": "Google",
+            "score": 4.5,
+            "count": 1327,
+            "url": "https://www.google.com/maps/search/?api=1&query=Matt%27s%20in%20the%20Market%20Seattle",
+            "via": "google_maps",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Yelp",
+            "score": 4.2,
+            "count": 1224,
+            "url": "https://www.yelp.com/biz/matt-s-in-the-market-seattle",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Tripadvisor",
+            "score": 4.4,
+            "count": 923,
+            "url": "https://www.tripadvisor.com/Restaurant_Review-g60878-d432607-Reviews-Matt_s_in_the_Market-Seattle_Washington.html",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          }
+        ],
+        "verificationDate": "2026-10-29"
+      },
+      "editorialNote": "Easy to miss, up the stairs."
+    },
+    {
+      "id": "ellenos",
+      "name": "Ellenos",
+      "slug": "ellenos",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "kind": "cafe",
+      "kindLabel": "Cafe",
+      "setting": "Seattle waterfront",
+      "orientation": "Google’s result titled the shop as on the Seattle waterfront.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "seattle"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "Only if you confirm the door is open.",
+        "primaryTradeoff": "A 2026 directory marks a Pike Place address permanently closed. Only a Google score was readable.",
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Google listing",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ellenos%20Real%20Greek%20Yogurt%20Pike%20Place"
+          }
+        ],
+        "ratings": [
+          {
+            "source": "Google",
+            "score": 4.8,
+            "count": 574,
+            "url": "https://www.google.com/maps/search/?api=1&query=Ellenos%20Real%20Greek%20Yogurt%20Pike%20Place",
+            "via": "google_maps",
+            "checked": "2026-10-29"
+          }
+        ],
+        "verificationDate": "2026-10-29"
+      },
+      "editorialNote": "A 2026 directory marks a Pike Place address permanently closed. Only a Google score was readable."
+    },
+    {
+      "id": "dicks-drive-in-capitol-hill",
+      "name": "Dick's Drive-In, Capitol Hill",
+      "slug": "dicks-drive-in-capitol-hill",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "kind": "restaurant",
+      "kindLabel": "Restaurant",
+      "setting": "Capitol Hill, Seattle",
+      "orientation": "115 Broadway E, on the Yelp listing.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "seattle"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "The cheap burger.",
+        "primaryTradeoff": "Yelp is much cooler than Google.",
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Google listing",
+            "url": "https://www.google.com/maps/search/?api=1&query=Dick%27s%20Drive-In%20Capitol%20Hill%20Seattle"
+          },
+          {
+            "title": "Yelp listing",
+            "url": "https://www.yelp.com/biz/dicks-drive-in-seattle-16"
+          },
+          {
+            "title": "Tripadvisor listing",
+            "url": "https://www.tripadvisor.com/Restaurant_Review-g60878-d484837-Reviews-Dick_s_Drive_In_Broadway_E-Seattle_Washington.html"
+          }
+        ],
+        "ratings": [
+          {
+            "source": "Google",
+            "score": 4.4,
+            "count": 9754,
+            "url": "https://www.google.com/maps/search/?api=1&query=Dick%27s%20Drive-In%20Capitol%20Hill%20Seattle",
+            "via": "google_maps",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Yelp",
+            "score": 3.5,
+            "count": 1450,
+            "url": "https://www.yelp.com/biz/dicks-drive-in-seattle-16",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Tripadvisor",
+            "score": 3.8,
+            "count": 298,
+            "url": "https://www.tripadvisor.com/Restaurant_Review-g60878-d484837-Reviews-Dick_s_Drive_In_Broadway_E-Seattle_Washington.html",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          }
+        ],
+        "verificationDate": "2026-10-29"
+      },
+      "editorialNote": "Yelp is much cooler than Google."
+    },
+    {
+      "id": "hotel-kabuki",
+      "name": "Hotel Kabuki",
+      "slug": "hotel-kabuki",
+      "state": "California",
+      "stateSlug": "california",
+      "kind": "hotel",
+      "kindLabel": "Hotel",
+      "setting": "Japantown, San Francisco",
+      "orientation": "1625 Post Street.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "san-francisco"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A quieter base between the Fillmore and the parks.",
+        "primaryTradeoff": "Yelp is cooler than Tripadvisor. Not a walk to the cable-car turnaround.",
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Google listing",
+            "url": "https://www.google.com/maps/search/?api=1&query=Hotel%20Kabuki%20San%20Francisco"
+          },
+          {
+            "title": "Yelp listing",
+            "url": "https://www.yelp.com/biz/hotel-kabuki-san-francisco-3"
+          },
+          {
+            "title": "Tripadvisor listing",
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60713-d113923-Reviews-Hotel_Kabuki_JDV_by_Hyatt-San_Francisco_California.html"
+          }
+        ],
+        "ratings": [
+          {
+            "source": "Google",
+            "score": 4.2,
+            "count": 1833,
+            "url": "https://www.google.com/maps/search/?api=1&query=Hotel%20Kabuki%20San%20Francisco",
+            "via": "google_maps",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Yelp",
+            "score": 3.5,
+            "count": 866,
+            "url": "https://www.yelp.com/biz/hotel-kabuki-san-francisco-3",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Tripadvisor",
+            "score": 4.2,
+            "count": 1097,
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60713-d113923-Reviews-Hotel_Kabuki_JDV_by_Hyatt-San_Francisco_California.html",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          }
+        ],
+        "verificationDate": "2026-10-29"
+      },
+      "editorialNote": "Yelp is cooler than Tripadvisor. Not a walk to the cable-car turnaround."
+    },
+    {
+      "id": "argonaut-hotel",
+      "name": "Argonaut Hotel",
+      "slug": "argonaut-hotel",
+      "state": "California",
+      "stateSlug": "california",
+      "kind": "hotel",
+      "kindLabel": "Hotel",
+      "setting": "Fisherman’s Wharf, San Francisco",
+      "orientation": "495 Jefferson Street.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "san-francisco"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "Roll down to Pier 33.",
+        "primaryTradeoff": "Leave for dinner. Dark rooms and an early restaurant close come up in reviews.",
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Google listing",
+            "url": "https://www.google.com/maps/search/?api=1&query=Argonaut%20Hotel%20San%20Francisco"
+          },
+          {
+            "title": "Yelp listing",
+            "url": "https://www.yelp.com/biz/argonaut-hotel-san-francisco-4"
+          },
+          {
+            "title": "Tripadvisor listing",
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60713-d268533-Reviews-Argonaut_Hotel-San_Francisco_California.html"
+          }
+        ],
+        "ratings": [
+          {
+            "source": "Google",
+            "score": 4.5,
+            "count": 4352,
+            "url": "https://www.google.com/maps/search/?api=1&query=Argonaut%20Hotel%20San%20Francisco",
+            "via": "google_maps",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Yelp",
+            "score": 4.0,
+            "count": 759,
+            "url": "https://www.yelp.com/biz/argonaut-hotel-san-francisco-4",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Tripadvisor",
+            "score": 4.5,
+            "count": 8147,
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60713-d268533-Reviews-Argonaut_Hotel-San_Francisco_California.html",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          }
+        ],
+        "verificationDate": "2026-10-29"
+      },
+      "editorialNote": "Leave for dinner. Dark rooms and an early restaurant close come up in reviews."
+    },
+    {
+      "id": "the-marker-san-francisco",
+      "name": "The Marker Union Square",
+      "slug": "the-marker-san-francisco",
+      "state": "California",
+      "stateSlug": "california",
+      "kind": "hotel",
+      "kindLabel": "Hotel",
+      "setting": "Union Square, San Francisco",
+      "orientation": "501 Geary Street.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "san-francisco"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "BART and the Powell cars.",
+        "primaryTradeoff": "Some nearby blocks are unpleasant after dark.",
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Google listing",
+            "url": "https://www.google.com/maps/search/?api=1&query=The%20Marker%20San%20Francisco%20hotel"
+          },
+          {
+            "title": "Yelp listing",
+            "url": "https://www.yelp.com/biz/the-marker-san-francisco-4"
+          },
+          {
+            "title": "Tripadvisor listing",
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60713-d81985-Reviews-The_Marker_Union_Square_San_Francisco-San_Francisco_California.html"
+          }
+        ],
+        "ratings": [
+          {
+            "source": "Google",
+            "score": 4.2,
+            "count": 1941,
+            "url": "https://www.google.com/maps/search/?api=1&query=The%20Marker%20San%20Francisco%20hotel",
+            "via": "google_maps",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Yelp",
+            "score": 3.5,
+            "count": 247,
+            "url": "https://www.yelp.com/biz/the-marker-san-francisco-4",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Tripadvisor",
+            "score": 4.3,
+            "count": 4455,
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60713-d81985-Reviews-The_Marker_Union_Square_San_Francisco-San_Francisco_California.html",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          }
+        ],
+        "verificationDate": "2026-10-29"
+      },
+      "editorialNote": "Some nearby blocks are unpleasant after dark."
+    },
+    {
+      "id": "lodge-at-the-presidio",
+      "name": "Lodge at the Presidio",
+      "slug": "lodge-at-the-presidio",
+      "state": "California",
+      "stateSlug": "california",
+      "kind": "hotel",
+      "kindLabel": "Hotel",
+      "setting": "The Presidio, San Francisco",
+      "orientation": "105 Montgomery Street.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "san-francisco"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "Crissy Field and a bridge walk.",
+        "primaryTradeoff": "Far from the Mission at night, and far from an early downtown BART ride.",
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Google listing",
+            "url": "https://www.google.com/maps/search/?api=1&query=Lodge%20at%20the%20Presidio%20San%20Francisco"
+          },
+          {
+            "title": "Yelp listing",
+            "url": "https://www.yelp.com/biz/lodge-at-the-presidio-san-francisco-2"
+          },
+          {
+            "title": "Tripadvisor listing",
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60713-d14191630-Reviews-Lodge_at_the_Presidio-San_Francisco_California.html"
+          }
+        ],
+        "ratings": [
+          {
+            "source": "Google",
+            "score": 4.7,
+            "count": 276,
+            "url": "https://www.google.com/maps/search/?api=1&query=Lodge%20at%20the%20Presidio%20San%20Francisco",
+            "via": "google_maps",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Yelp",
+            "score": 4.7,
+            "count": 41,
+            "url": "https://www.yelp.com/biz/lodge-at-the-presidio-san-francisco-2",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Tripadvisor",
+            "score": 4.9,
+            "count": 940,
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60713-d14191630-Reviews-Lodge_at_the_Presidio-San_Francisco_California.html",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          }
+        ],
+        "verificationDate": "2026-10-29"
+      },
+      "editorialNote": "Far from the Mission at night, and far from an early downtown BART ride."
+    },
+    {
+      "id": "phoenix-hotel",
+      "name": "Phoenix Hotel",
+      "slug": "phoenix-hotel",
+      "state": "California",
+      "stateSlug": "california",
+      "kind": "hotel",
+      "kindLabel": "Hotel",
+      "setting": "Tenderloin edge, San Francisco",
+      "orientation": "601 Eddy Street.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "san-francisco"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "The courtyard and the pool.",
+        "primaryTradeoff": "The neighborhood is the trade. An August 2026 review reports a watch missing from a room.",
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Google listing",
+            "url": "https://www.google.com/maps/search/?api=1&query=Phoenix%20Hotel%20San%20Francisco"
+          },
+          {
+            "title": "Yelp listing",
+            "url": "https://www.yelp.com/biz/phoenix-hotel-san-francisco-2"
+          },
+          {
+            "title": "Tripadvisor listing",
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60713-d81209-Reviews-Phoenix_Hotel-San_Francisco_California.html"
+          }
+        ],
+        "ratings": [
+          {
+            "source": "Google",
+            "score": 4.3,
+            "count": 909,
+            "url": "https://www.google.com/maps/search/?api=1&query=Phoenix%20Hotel%20San%20Francisco",
+            "via": "google_maps",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Yelp",
+            "score": 3.9,
+            "count": 374,
+            "url": "https://www.yelp.com/biz/phoenix-hotel-san-francisco-2",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Tripadvisor",
+            "score": 4.4,
+            "count": 1660,
+            "url": "https://www.tripadvisor.com/Hotel_Review-g60713-d81209-Reviews-Phoenix_Hotel-San_Francisco_California.html",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          }
+        ],
+        "verificationDate": "2026-10-29"
+      },
+      "editorialNote": "The neighborhood is the trade. An August 2026 review reports a watch missing from a room."
+    },
+    {
+      "id": "la-taqueria",
+      "name": "La Taqueria",
+      "slug": "la-taqueria",
+      "state": "California",
+      "stateSlug": "california",
+      "kind": "restaurant",
+      "kindLabel": "Restaurant",
+      "setting": "Mission District, San Francisco",
+      "orientation": "2889 Mission Street.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "san-francisco"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "The burrito argument, at lunch.",
+        "primaryTradeoff": "Confirm the closed days before you cross town.",
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Google listing",
+            "url": "https://www.google.com/maps/search/?api=1&query=La%20Taqueria%20San%20Francisco%20Mission"
+          },
+          {
+            "title": "Yelp listing",
+            "url": "https://www.yelp.com/biz/la-taqueria-san-francisco-2"
+          },
+          {
+            "title": "Tripadvisor listing",
+            "url": "https://www.tripadvisor.com/Restaurant_Review-g60713-d360056-Reviews-La_Taqueria-San_Francisco_California.html"
+          }
+        ],
+        "ratings": [
+          {
+            "source": "Google",
+            "score": 4.5,
+            "count": 7559,
+            "url": "https://www.google.com/maps/search/?api=1&query=La%20Taqueria%20San%20Francisco%20Mission",
+            "via": "google_maps",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Yelp",
+            "score": 4.1,
+            "count": 5229,
+            "url": "https://www.yelp.com/biz/la-taqueria-san-francisco-2",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Tripadvisor",
+            "score": 4.4,
+            "count": 816,
+            "url": "https://www.tripadvisor.com/Restaurant_Review-g60713-d360056-Reviews-La_Taqueria-San_Francisco_California.html",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          }
+        ],
+        "verificationDate": "2026-10-29"
+      },
+      "editorialNote": "Confirm the closed days before you cross town."
+    },
+    {
+      "id": "tartine-bakery",
+      "name": "Tartine Bakery",
+      "slug": "tartine-bakery",
+      "state": "California",
+      "stateSlug": "california",
+      "kind": "bakery",
+      "kindLabel": "Bakery",
+      "setting": "Mission District, San Francisco",
+      "orientation": "600 Guerrero Street.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "san-francisco"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "Pastry, if you go early.",
+        "primaryTradeoff": "The line.",
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Google listing",
+            "url": "https://www.google.com/maps/search/?api=1&query=Tartine%20Bakery%20Guerrero%20San%20Francisco"
+          },
+          {
+            "title": "Yelp listing",
+            "url": "https://www.yelp.com/biz/tartine-bakery-san-francisco-3"
+          },
+          {
+            "title": "Tripadvisor listing",
+            "url": "https://www.tripadvisor.com/Restaurant_Review-g60713-d360064-Reviews-Tartine_Bakery-San_Francisco_California.html"
+          }
+        ],
+        "ratings": [
+          {
+            "source": "Google",
+            "score": 4.5,
+            "count": 5990,
+            "url": "https://www.google.com/maps/search/?api=1&query=Tartine%20Bakery%20Guerrero%20San%20Francisco",
+            "via": "google_maps",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Yelp",
+            "score": 4.2,
+            "count": 9211,
+            "url": "https://www.yelp.com/biz/tartine-bakery-san-francisco-3",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Tripadvisor",
+            "score": 4.4,
+            "count": 1307,
+            "url": "https://www.tripadvisor.com/Restaurant_Review-g60713-d360064-Reviews-Tartine_Bakery-San_Francisco_California.html",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          }
+        ],
+        "verificationDate": "2026-10-29"
+      },
+      "editorialNote": "The line."
+    },
+    {
+      "id": "swan-oyster-depot",
+      "name": "Swan Oyster Depot",
+      "slug": "swan-oyster-depot",
+      "state": "California",
+      "stateSlug": "california",
+      "kind": "restaurant",
+      "kindLabel": "Restaurant",
+      "setting": "Polk Gulch, San Francisco",
+      "orientation": "1517 Polk Street.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "san-francisco"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A counter lunch, if you go early.",
+        "primaryTradeoff": "The line is the reservation. A March 2026 Tripadvisor review says bring cash.",
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Google listing",
+            "url": "https://www.google.com/maps/search/?api=1&query=Swan%20Oyster%20Depot%20San%20Francisco"
+          },
+          {
+            "title": "Yelp listing",
+            "url": "https://www.yelp.com/biz/swan-oyster-depot-san-francisco"
+          },
+          {
+            "title": "Tripadvisor listing",
+            "url": "https://www.tripadvisor.com/Restaurant_Review-g60713-d370407-Reviews-Swan_Oyster_Depot-San_Francisco_California.html"
+          }
+        ],
+        "ratings": [
+          {
+            "source": "Google",
+            "score": 4.6,
+            "count": 2320,
+            "url": "https://www.google.com/maps/search/?api=1&query=Swan%20Oyster%20Depot%20San%20Francisco",
+            "via": "google_maps",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Yelp",
+            "score": 4.2,
+            "count": 3470,
+            "url": "https://www.yelp.com/biz/swan-oyster-depot-san-francisco",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Tripadvisor",
+            "score": 4.3,
+            "count": 773,
+            "url": "https://www.tripadvisor.com/Restaurant_Review-g60713-d370407-Reviews-Swan_Oyster_Depot-San_Francisco_California.html",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          }
+        ],
+        "verificationDate": "2026-10-29"
+      },
+      "editorialNote": "The line is the reservation. A March 2026 Tripadvisor review says bring cash."
+    },
+    {
+      "id": "zuni-cafe",
+      "name": "Zuni Cafe",
+      "slug": "zuni-cafe",
+      "state": "California",
+      "stateSlug": "california",
+      "kind": "restaurant",
+      "kindLabel": "Restaurant",
+      "setting": "Hayes Valley, San Francisco",
+      "orientation": "1658 Market Street.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "san-francisco"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A long lunch.",
+        "primaryTradeoff": "Yelp is cooler than Tripadvisor and OpenTable.",
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Google listing",
+            "url": "https://www.google.com/maps/search/?api=1&query=Zuni%20Cafe%20San%20Francisco"
+          },
+          {
+            "title": "Yelp listing",
+            "url": "https://www.yelp.com/biz/zuni-caf%C3%A9-san-francisco-3"
+          },
+          {
+            "title": "Tripadvisor listing",
+            "url": "https://www.tripadvisor.com/Restaurant_Review-g60713-d349460-Reviews-Zuni_Cafe-San_Francisco_California.html"
+          },
+          {
+            "title": "OpenTable listing",
+            "url": "https://www.opentable.com/zuni-cafe"
+          }
+        ],
+        "ratings": [
+          {
+            "source": "Google",
+            "score": 4.3,
+            "count": 2666,
+            "url": "https://www.google.com/maps/search/?api=1&query=Zuni%20Cafe%20San%20Francisco",
+            "via": "google_maps",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Yelp",
+            "score": 3.7,
+            "count": 3291,
+            "url": "https://www.yelp.com/biz/zuni-caf%C3%A9-san-francisco-3",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Tripadvisor",
+            "score": 4.2,
+            "count": 1081,
+            "url": "https://www.tripadvisor.com/Restaurant_Review-g60713-d349460-Reviews-Zuni_Cafe-San_Francisco_California.html",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "OpenTable",
+            "score": 4.6,
+            "count": 8447,
+            "url": "https://www.opentable.com/zuni-cafe",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          }
+        ],
+        "verificationDate": "2026-10-29"
+      },
+      "editorialNote": "Yelp is cooler than Tripadvisor and OpenTable."
+    },
+    {
+      "id": "burma-superstar",
+      "name": "Burma Superstar",
+      "slug": "burma-superstar",
+      "state": "California",
+      "stateSlug": "california",
+      "kind": "restaurant",
+      "kindLabel": "Restaurant",
+      "setting": "Inner Richmond, San Francisco",
+      "orientation": "309 Clement Street.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "san-francisco"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "The Golden Gate Park day, not the Wharf day.",
+        "primaryTradeoff": "The tea-leaf salad line.",
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Google listing",
+            "url": "https://www.google.com/maps/search/?api=1&query=Burma%20Superstar%20San%20Francisco"
+          },
+          {
+            "title": "Yelp listing",
+            "url": "https://www.yelp.com/biz/burma-superstar-san-francisco-2"
+          },
+          {
+            "title": "Tripadvisor listing",
+            "url": "https://www.tripadvisor.com/Restaurant_Review-g60713-d367027-Reviews-Burma_Superstar-San_Francisco_California.html"
+          }
+        ],
+        "ratings": [
+          {
+            "source": "Google",
+            "score": 4.5,
+            "count": 3993,
+            "url": "https://www.google.com/maps/search/?api=1&query=Burma%20Superstar%20San%20Francisco",
+            "via": "google_maps",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Yelp",
+            "score": 4.2,
+            "count": 7977,
+            "url": "https://www.yelp.com/biz/burma-superstar-san-francisco-2",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Tripadvisor",
+            "score": 4.6,
+            "count": 888,
+            "url": "https://www.tripadvisor.com/Restaurant_Review-g60713-d367027-Reviews-Burma_Superstar-San_Francisco_California.html",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          }
+        ],
+        "verificationDate": "2026-10-29"
+      },
+      "editorialNote": "The tea-leaf salad line."
+    },
+    {
+      "id": "house-of-prime-rib",
+      "name": "House of Prime Rib",
+      "slug": "house-of-prime-rib",
+      "state": "California",
+      "stateSlug": "california",
+      "kind": "restaurant",
+      "kindLabel": "Restaurant",
+      "setting": "Polk Gulch, San Francisco",
+      "orientation": "1906 Van Ness Avenue.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "san-francisco"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "The reservation that eats the evening.",
+        "primaryTradeoff": "Book it or skip the conversation. The October 2026 Yelp page displayed 4.2 and a rounded 10.3k. The count stored is 9,725, the last exact integer printed on that listing.",
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Google listing",
+            "url": "https://www.google.com/maps/search/?api=1&query=House%20of%20Prime%20Rib%20San%20Francisco"
+          },
+          {
+            "title": "Yelp listing",
+            "url": "https://www.yelp.com/biz/house-of-prime-rib-san-francisco"
+          },
+          {
+            "title": "Tripadvisor listing",
+            "url": "https://www.tripadvisor.com/Restaurant_Review-g60713-d370409-Reviews-House_of_Prime_Rib-San_Francisco_California.html"
+          },
+          {
+            "title": "OpenTable listing",
+            "url": "https://www.opentable.com/house-of-prime-rib"
+          }
+        ],
+        "ratings": [
+          {
+            "source": "Google",
+            "score": 4.6,
+            "count": 7549,
+            "url": "https://www.google.com/maps/search/?api=1&query=House%20of%20Prime%20Rib%20San%20Francisco",
+            "via": "google_maps",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Yelp",
+            "score": 4.2,
+            "count": 9725,
+            "url": "https://www.yelp.com/biz/house-of-prime-rib-san-francisco",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Tripadvisor",
+            "score": 4.4,
+            "count": 1775,
+            "url": "https://www.tripadvisor.com/Restaurant_Review-g60713-d370409-Reviews-House_of_Prime_Rib-San_Francisco_California.html",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "OpenTable",
+            "score": 4.8,
+            "count": 17006,
+            "url": "https://www.opentable.com/house-of-prime-rib",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          }
+        ],
+        "verificationDate": "2026-10-29"
+      },
+      "editorialNote": "Book it or skip the conversation. The October 2026 Yelp page displayed 4.2 and a rounded 10.3k. The count stored is 9,725, the last exact integer printed on that listing."
+    },
+    {
+      "id": "golden-boy-pizza",
+      "name": "Golden Boy Pizza",
+      "slug": "golden-boy-pizza",
+      "state": "California",
+      "stateSlug": "california",
+      "kind": "restaurant",
+      "kindLabel": "Restaurant",
+      "setting": "North Beach, San Francisco",
+      "orientation": "542 Green Street.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "san-francisco"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "A slice, not a reservation.",
+        "primaryTradeoff": "A slice counter, not a night out.",
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Google listing",
+            "url": "https://www.google.com/maps/search/?api=1&query=Golden%20Boy%20Pizza%20North%20Beach"
+          },
+          {
+            "title": "Yelp listing",
+            "url": "https://www.yelp.com/biz/golden-boy-pizza-san-francisco"
+          },
+          {
+            "title": "Tripadvisor listing",
+            "url": "https://www.tripadvisor.com/Restaurant_Review-g60713-d353911-Reviews-Golden_Boy_Pizza-San_Francisco_California.html"
+          }
+        ],
+        "ratings": [
+          {
+            "source": "Google",
+            "score": 4.7,
+            "count": 5038,
+            "url": "https://www.google.com/maps/search/?api=1&query=Golden%20Boy%20Pizza%20North%20Beach",
+            "via": "google_maps",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Yelp",
+            "score": 4.3,
+            "count": 4879,
+            "url": "https://www.yelp.com/biz/golden-boy-pizza-san-francisco",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Tripadvisor",
+            "score": 4.5,
+            "count": 492,
+            "url": "https://www.tripadvisor.com/Restaurant_Review-g60713-d353911-Reviews-Golden_Boy_Pizza-San_Francisco_California.html",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          }
+        ],
+        "verificationDate": "2026-10-29"
+      },
+      "editorialNote": "A slice counter, not a night out."
+    },
+    {
+      "id": "portland-saturday-market",
+      "name": "Portland Saturday Market",
+      "slug": "portland-saturday-market",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "market",
+      "kindLabel": "Market",
+      "setting": "Old Town, Portland",
+      "orientation": "2 SW Naito Parkway.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "An hour on a Saturday if you are already downtown.",
+        "primaryTradeoff": "Not a reason to fly in. The market’s own site is the source for which days it is open.",
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Google listing",
+            "url": "https://www.google.com/maps/search/?api=1&query=Portland%20Saturday%20Market"
+          },
+          {
+            "title": "Yelp listing",
+            "url": "https://www.yelp.com/biz/portland-saturday-market-portland"
+          },
+          {
+            "title": "Tripadvisor listing",
+            "url": "https://www.tripadvisor.com/Attraction_Review-g52024-d126746-Reviews-Portland_Saturday_Market-Portland_Oregon.html"
+          }
+        ],
+        "ratings": [
+          {
+            "source": "Google",
+            "score": 4.5,
+            "count": 4935,
+            "url": "https://www.google.com/maps/search/?api=1&query=Portland%20Saturday%20Market",
+            "via": "google_maps",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Yelp",
+            "score": 4.0,
+            "count": 642,
+            "url": "https://www.yelp.com/biz/portland-saturday-market-portland",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Tripadvisor",
+            "score": 4.3,
+            "count": 1123,
+            "url": "https://www.tripadvisor.com/Attraction_Review-g52024-d126746-Reviews-Portland_Saturday_Market-Portland_Oregon.html",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          }
+        ],
+        "verificationDate": "2026-10-29"
+      },
+      "editorialNote": "Not a reason to fly in. The market’s own site is the source for which days it is open."
+    },
+    {
+      "id": "lan-su-chinese-garden",
+      "name": "Lan Su Chinese Garden",
+      "slug": "lan-su-chinese-garden",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "kind": "garden",
+      "kindLabel": "Garden",
+      "setting": "Old Town, Portland",
+      "orientation": "239 NW Everett Street, on the Yelp listing.",
+      "priorityCluster": false,
+      "coverageOrder": null,
+      "verified": true,
+      "status": "featured",
+      "relatedIds": [
+        "portland"
+      ],
+      "plannedGuides": [],
+      "attributes": {
+        "bestFor": "The reason to go to Old Town.",
+        "primaryTradeoff": "The garden’s own hours page did not load. Confirm before you promise a time.",
+        "idealDuration": null,
+        "transport": null,
+        "priceBand": null,
+        "seasonalSuitability": null,
+        "walkability": null,
+        "latitude": null,
+        "longitude": null,
+        "bookingUrl": null,
+        "imageRights": null,
+        "sources": [
+          {
+            "title": "Google listing",
+            "url": "https://www.google.com/maps/search/?api=1&query=Lan%20Su%20Chinese%20Garden%20Portland"
+          },
+          {
+            "title": "Yelp listing",
+            "url": "https://www.yelp.com/biz/lan-su-chinese-garden-portland"
+          },
+          {
+            "title": "Tripadvisor listing",
+            "url": "https://www.tripadvisor.com/Attraction_Review-g52024-d196850-Reviews-Lan_Su_Chinese_Garden-Portland_Oregon.html"
+          }
+        ],
+        "ratings": [
+          {
+            "source": "Google",
+            "score": 4.7,
+            "count": 3810,
+            "url": "https://www.google.com/maps/search/?api=1&query=Lan%20Su%20Chinese%20Garden%20Portland",
+            "via": "google_maps",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Yelp",
+            "score": 4.4,
+            "count": 740,
+            "url": "https://www.yelp.com/biz/lan-su-chinese-garden-portland",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          },
+          {
+            "source": "Tripadvisor",
+            "score": 4.6,
+            "count": 2606,
+            "url": "https://www.tripadvisor.com/Attraction_Review-g52024-d196850-Reviews-Lan_Su_Chinese_Garden-Portland_Oregon.html",
+            "via": "google_search_snippet",
+            "checked": "2026-10-29"
+          }
+        ],
+        "verificationDate": "2026-10-29"
+      },
+      "editorialNote": "The garden’s own hours page did not load. Confirm before you promise a time."
     }
   ],
   "comparisons": [
