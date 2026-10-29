@@ -754,6 +754,28 @@ p:last-child {
   font-size: 15px;
 }
 
+.ratings {
+  margin: 0.15em 0 0.9em;
+  max-width: 72ch;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.ratings .avg {
+  margin-right: 0.35em;
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.ratings a {
+  font-weight: 600;
+}
+
+.ratings .when {
+  display: block;
+}
+
 .photo-credit a {
   color: inherit;
   text-decoration: underline;
