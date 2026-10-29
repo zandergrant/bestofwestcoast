@@ -1432,8 +1432,41 @@ a.series-card:hover {
   gap: 14px;
 }
 
+.place-grid.biz-list {
+  grid-template-columns: 1fr;
+}
+
 .place-card h3 {
   font-size: 24px;
+}
+
+.biz-card .ratings {
+  margin-top: 0;
+}
+
+.biz-kicker,
+.biz-address {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.biz-why {
+  margin: 0;
+}
+
+.biz-links {
+  margin: 0;
+  font-size: 14px;
+}
+
+.filters-best {
+  grid-template-columns: 1.3fr repeat(4, minmax(0, 0.9fr));
+}
+
+.blend-note {
+  max-width: 68ch;
+  color: var(--muted);
 }
 
 .empty-state {

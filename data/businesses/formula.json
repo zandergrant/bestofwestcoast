@@ -1,0 +1,6 @@
+{
+  "priorMean": 4.0,
+  "priorReviews": 100,
+  "scale": 5,
+  "note": "Blend = (priorReviews * priorMean + sum of rating * review_count) / (priorReviews + sum of review_count). A 10-point rating is divided by 2 first. The page shows the original rating."
+}

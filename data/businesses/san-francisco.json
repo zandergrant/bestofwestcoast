@@ -1,0 +1,775 @@
+{
+  "region": "san-francisco",
+  "regionLabel": "San Francisco",
+  "businesses": [
+    {
+      "id": "hotel-kabuki",
+      "name": "Hotel Kabuki",
+      "region": "san-francisco",
+      "regionLabel": "San Francisco",
+      "neighborhood": "Japantown",
+      "category": "hotel",
+      "address": "1625 Post St",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": null,
+      "why": "The Japantown hotel a February 2026 r/AskSF comment names when Union Square feels rough at night. Yelp is cooler than Tripadvisor. A September 2026 review mentions air-conditioning trouble and fans.",
+      "communitySources": [
+        {
+          "title": "r/AskSF, where to stay, Feb 2026",
+          "url": "https://www.reddit.com/r/AskSF/comments/1r8knq2/trip_to_sf_location_advice/"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.2,
+          "review_count": 1833,
+          "url": "https://www.google.com/maps/search/?api=1&query=Hotel%20Kabuki%20San%20Francisco",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 3.5,
+          "review_count": 866,
+          "url": "https://www.yelp.com/biz/hotel-kabuki-san-francisco-3",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        },
+        {
+          "source": "Tripadvisor",
+          "rating": 4.2,
+          "review_count": 1097,
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60713-d113923-Reviews-Hotel_Kabuki_JDV_by_Hyatt-San_Francisco_California.html",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "argonaut-hotel",
+      "name": "Argonaut Hotel",
+      "region": "san-francisco",
+      "regionLabel": "San Francisco",
+      "neighborhood": "Fisherman's Wharf",
+      "category": "hotel",
+      "address": "495 Jefferson St",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": null,
+      "why": "The Wharf hotel when the Alcatraz ferry is the morning. Yelp is a 4.0 and Tripadvisor, on a very large count, is a 4.5. Reviews mention dark rooms and a restaurant that closes early. Leave for dinner.",
+      "communitySources": [
+        {
+          "title": "r/AskSF, Mission or North Beach, Feb 2025",
+          "url": "https://www.reddit.com/r/AskSF/comments/1ior492/first_time_visiting_stay_in_the_mission_or_north/"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.5,
+          "review_count": 4352,
+          "url": "https://www.google.com/maps/search/?api=1&query=Argonaut%20Hotel%20San%20Francisco",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 4.0,
+          "review_count": 759,
+          "url": "https://www.yelp.com/biz/argonaut-hotel-san-francisco-4",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        },
+        {
+          "source": "Tripadvisor",
+          "rating": 4.5,
+          "review_count": 8147,
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60713-d268533-Reviews-Argonaut_Hotel-San_Francisco_California.html",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "the-marker-san-francisco",
+      "name": "The Marker Union Square",
+      "region": "san-francisco",
+      "regionLabel": "San Francisco",
+      "neighborhood": "Union Square",
+      "category": "hotel",
+      "address": "501 Geary St",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": null,
+      "why": "The Union Square hotel for BART and the Powell cars. A February 2026 AskSF thread says the neighborhood is convenient and can feel rough at night, block by block. Yelp is cooler than Tripadvisor.",
+      "communitySources": [
+        {
+          "title": "r/AskSF, where to stay, Feb 2026",
+          "url": "https://www.reddit.com/r/AskSF/comments/1r8knq2/trip_to_sf_location_advice/"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.2,
+          "review_count": 1941,
+          "url": "https://www.google.com/maps/search/?api=1&query=The%20Marker%20San%20Francisco%20hotel",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 3.5,
+          "review_count": 247,
+          "url": "https://www.yelp.com/biz/the-marker-san-francisco-4",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        },
+        {
+          "source": "Tripadvisor",
+          "rating": 4.3,
+          "review_count": 4455,
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60713-d81985-Reviews-The_Marker_Union_Square_San_Francisco-San_Francisco_California.html",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "lodge-at-the-presidio",
+      "name": "Lodge at the Presidio",
+      "region": "san-francisco",
+      "regionLabel": "San Francisco",
+      "neighborhood": "Presidio",
+      "category": "hotel",
+      "address": "105 Montgomery St",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": null,
+      "why": "The small hotel inside the Presidio, next to Crissy Field. Yelp’s count is tiny. Tripadvisor’s is larger and higher. The listing describes breakfast, a wine hour, and a shuttle downtown. A long way from a late Mission dinner.",
+      "communitySources": [
+        {
+          "title": "Presidio, Crissy Field",
+          "url": "https://www.presidio.gov/places/crissy-field"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.7,
+          "review_count": 276,
+          "url": "https://www.google.com/maps/search/?api=1&query=Lodge%20at%20the%20Presidio%20San%20Francisco",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 4.7,
+          "review_count": 41,
+          "url": "https://www.yelp.com/biz/lodge-at-the-presidio-san-francisco-2",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        },
+        {
+          "source": "Tripadvisor",
+          "rating": 4.9,
+          "review_count": 940,
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60713-d14191630-Reviews-Lodge_at_the_Presidio-San_Francisco_California.html",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "phoenix-hotel",
+      "name": "Phoenix Hotel",
+      "region": "san-francisco",
+      "regionLabel": "San Francisco",
+      "neighborhood": "Tenderloin",
+      "category": "hotel",
+      "address": "601 Eddy St",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": null,
+      "why": "The courtyard motel on the edge of the Tenderloin. Tripadvisor’s location score is the weak one. An August 2026 review says a watch left in a room drawer was gone. Stay for the pool, not for quiet luxury.",
+      "communitySources": [
+        {
+          "title": "r/AskSF, Mission or North Beach, Feb 2025",
+          "url": "https://www.reddit.com/r/AskSF/comments/1ior492/first_time_visiting_stay_in_the_mission_or_north/"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.3,
+          "review_count": 909,
+          "url": "https://www.google.com/maps/search/?api=1&query=Phoenix%20Hotel%20San%20Francisco",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 3.9,
+          "review_count": 374,
+          "url": "https://www.yelp.com/biz/phoenix-hotel-san-francisco-2",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        },
+        {
+          "source": "Tripadvisor",
+          "rating": 4.4,
+          "review_count": 1660,
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60713-d81209-Reviews-Phoenix_Hotel-San_Francisco_California.html",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "la-taqueria",
+      "name": "La Taqueria",
+      "region": "san-francisco",
+      "regionLabel": "San Francisco",
+      "neighborhood": "Mission District",
+      "category": "restaurant",
+      "address": "2889 Mission St",
+      "website": "https://lataqueriasf.com/",
+      "latitude": null,
+      "longitude": null,
+      "priceBand": null,
+      "why": "The Mission burrito a February 2025 r/AskSF thread is circling when it tells visitors to visit the Mission rather than wake up there. Recent Tripadvisor notes say the line moves in the daytime.",
+      "communitySources": [
+        {
+          "title": "r/AskSF, Mission or North Beach, Feb 2025",
+          "url": "https://www.reddit.com/r/AskSF/comments/1ior492/first_time_visiting_stay_in_the_mission_or_north/"
+        },
+        {
+          "title": "La Taqueria",
+          "url": "https://lataqueriasf.com/"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.5,
+          "review_count": 7559,
+          "url": "https://www.google.com/maps/search/?api=1&query=La%20Taqueria%20San%20Francisco%20Mission",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 4.1,
+          "review_count": 5229,
+          "url": "https://www.yelp.com/biz/la-taqueria-san-francisco-2",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        },
+        {
+          "source": "Tripadvisor",
+          "rating": 4.4,
+          "review_count": 816,
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g60713-d360056-Reviews-La_Taqueria-San_Francisco_California.html",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "swan-oyster-depot",
+      "name": "Swan Oyster Depot",
+      "region": "san-francisco",
+      "regionLabel": "San Francisco",
+      "neighborhood": "Polk Gulch",
+      "category": "restaurant",
+      "address": "1517 Polk St",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": null,
+      "why": "The seafood counter where the line is the reservation. A March 2026 Tripadvisor review says bring cash. Do not plan it on the same morning as a ferry.",
+      "communitySources": [
+        {
+          "title": "Eater SF 38, October 2026",
+          "url": "https://sf.eater.com/maps/best-restaurants-san-francisco-38"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.6,
+          "review_count": 2320,
+          "url": "https://www.google.com/maps/search/?api=1&query=Swan%20Oyster%20Depot%20San%20Francisco",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 4.2,
+          "review_count": 3470,
+          "url": "https://www.yelp.com/biz/swan-oyster-depot-san-francisco",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        },
+        {
+          "source": "Tripadvisor",
+          "rating": 4.3,
+          "review_count": 773,
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g60713-d370407-Reviews-Swan_Oyster_Depot-San_Francisco_California.html",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "zuni-cafe",
+      "name": "Zuni Cafe",
+      "region": "san-francisco",
+      "regionLabel": "San Francisco",
+      "neighborhood": "Hayes Valley",
+      "category": "restaurant",
+      "address": "1658 Market St",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": null,
+      "why": "On the Eater SF 38. The Hayes Valley room for the roast chicken. Yelp is cooler than Tripadvisor and OpenTable, and an August 2026 review loved the chicken while another called a duck disappointing.",
+      "communitySources": [
+        {
+          "title": "Eater SF 38, October 2026",
+          "url": "https://sf.eater.com/maps/best-restaurants-san-francisco-38"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.3,
+          "review_count": 2666,
+          "url": "https://www.google.com/maps/search/?api=1&query=Zuni%20Cafe%20San%20Francisco",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 3.7,
+          "review_count": 3291,
+          "url": "https://www.yelp.com/biz/zuni-caf%C3%A9-san-francisco-3",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        },
+        {
+          "source": "Tripadvisor",
+          "rating": 4.2,
+          "review_count": 1081,
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g60713-d349460-Reviews-Zuni_Cafe-San_Francisco_California.html",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        },
+        {
+          "source": "OpenTable",
+          "rating": 4.6,
+          "review_count": 8447,
+          "url": "https://www.opentable.com/zuni-cafe",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "burma-superstar",
+      "name": "Burma Superstar",
+      "region": "san-francisco",
+      "regionLabel": "San Francisco",
+      "neighborhood": "Inner Richmond",
+      "category": "restaurant",
+      "address": "309 Clement St",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": null,
+      "why": "The tea-leaf salad line for a Golden Gate Park day, not a Wharf day. A January 2026 AskSF comment puts the park on the list of neighborhoods that feel different.",
+      "communitySources": [
+        {
+          "title": "r/AskSF, neighborhoods, Jan 2026",
+          "url": "https://www.reddit.com/r/AskSF/comments/1qbxwfj/first_time_visiting/"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.5,
+          "review_count": 3993,
+          "url": "https://www.google.com/maps/search/?api=1&query=Burma%20Superstar%20San%20Francisco",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 4.2,
+          "review_count": 7977,
+          "url": "https://www.yelp.com/biz/burma-superstar-san-francisco-2",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        },
+        {
+          "source": "Tripadvisor",
+          "rating": 4.6,
+          "review_count": 888,
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g60713-d367027-Reviews-Burma_Superstar-San_Francisco_California.html",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "house-of-prime-rib",
+      "name": "House of Prime Rib",
+      "region": "san-francisco",
+      "regionLabel": "San Francisco",
+      "neighborhood": "Nob Hill",
+      "category": "restaurant",
+      "address": "1906 Van Ness Ave",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": null,
+      "why": "On the Eater SF 38. The reservation that uses the whole evening. An August 2026 Tripadvisor review says a solo diner has a hard time getting a seat. The October 2026 Yelp page showed 4.2 and a rounded 10.3k. The count stored is 9,725, the last exact integer printed on that listing.",
+      "communitySources": [
+        {
+          "title": "Eater SF 38, October 2026",
+          "url": "https://sf.eater.com/maps/best-restaurants-san-francisco-38"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.6,
+          "review_count": 7549,
+          "url": "https://www.google.com/maps/search/?api=1&query=House%20of%20Prime%20Rib%20San%20Francisco",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 4.2,
+          "review_count": 9725,
+          "url": "https://www.yelp.com/biz/house-of-prime-rib-san-francisco",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        },
+        {
+          "source": "Tripadvisor",
+          "rating": 4.4,
+          "review_count": 1775,
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g60713-d370409-Reviews-House_of_Prime_Rib-San_Francisco_California.html",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        },
+        {
+          "source": "OpenTable",
+          "rating": 4.8,
+          "review_count": 17006,
+          "url": "https://www.opentable.com/house-of-prime-rib",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "golden-boy-pizza",
+      "name": "Golden Boy Pizza",
+      "region": "san-francisco",
+      "regionLabel": "San Francisco",
+      "neighborhood": "North Beach",
+      "category": "restaurant",
+      "address": "542 Green St",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": null,
+      "why": "On the Eater SF 38. The North Beach slice, not a reservation. AskSF threads that like North Beach are talking about this kind of stop.",
+      "communitySources": [
+        {
+          "title": "Eater SF 38, October 2026",
+          "url": "https://sf.eater.com/maps/best-restaurants-san-francisco-38"
+        },
+        {
+          "title": "r/AskSF, Mission or North Beach, Feb 2025",
+          "url": "https://www.reddit.com/r/AskSF/comments/1ior492/first_time_visiting_stay_in_the_mission_or_north/"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.7,
+          "review_count": 5038,
+          "url": "https://www.google.com/maps/search/?api=1&query=Golden%20Boy%20Pizza%20North%20Beach",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 4.3,
+          "review_count": 4879,
+          "url": "https://www.yelp.com/biz/golden-boy-pizza-san-francisco",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        },
+        {
+          "source": "Tripadvisor",
+          "rating": 4.5,
+          "review_count": 492,
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g60713-d353911-Reviews-Golden_Boy_Pizza-San_Francisco_California.html",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "kin-khao",
+      "name": "Kin Khao",
+      "region": "san-francisco",
+      "regionLabel": "San Francisco",
+      "neighborhood": "Union Square",
+      "category": "restaurant",
+      "address": "55 Cyril Magnin St",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": "$$$",
+      "why": "On the Eater SF 38. Thai cooking inside Parc 55, which Yelp’s listing says outright. Yelp’s big count is cooler than Google.",
+      "communitySources": [
+        {
+          "title": "Eater SF 38, October 2026",
+          "url": "https://sf.eater.com/maps/best-restaurants-san-francisco-38"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.2,
+          "review_count": 2221,
+          "url": "https://www.google.com/maps/search/?api=1&query=Kin%20Khao%20San%20Francisco",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 3.8,
+          "review_count": 2765,
+          "url": "https://www.yelp.com/biz/kin-khao-san-francisco-2",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "anchor-oyster-bar",
+      "name": "Anchor Oyster Bar",
+      "region": "san-francisco",
+      "regionLabel": "San Francisco",
+      "neighborhood": "Castro",
+      "category": "restaurant",
+      "address": "579 Castro St",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": "$$",
+      "why": "On the Eater SF 38. The Castro oyster counter. A February 2025 AskSF thread tells first-timers to visit neighborhoods like this rather than only the Wharf.",
+      "communitySources": [
+        {
+          "title": "Eater SF 38, October 2026",
+          "url": "https://sf.eater.com/maps/best-restaurants-san-francisco-38"
+        },
+        {
+          "title": "r/AskSF, Mission or North Beach, Feb 2025",
+          "url": "https://www.reddit.com/r/AskSF/comments/1ior492/first_time_visiting_stay_in_the_mission_or_north/"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.7,
+          "review_count": 1304,
+          "url": "https://www.google.com/maps/search/?api=1&query=Anchor%20Oyster%20Bar%20San%20Francisco",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 4.5,
+          "review_count": 1798,
+          "url": "https://www.yelp.com/biz/anchor-oyster-bar-san-francisco",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "tartine-bakery",
+      "name": "Tartine Bakery",
+      "region": "san-francisco",
+      "regionLabel": "San Francisco",
+      "neighborhood": "Mission District",
+      "category": "cafe",
+      "address": "600 Guerrero St",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": null,
+      "why": "The Mission bakery. An October 2026 Tripadvisor review says the line moves and the croissant is the reason. Go early, or pick the burrito and skip it.",
+      "communitySources": [
+        {
+          "title": "r/AskSF, Mission or North Beach, Feb 2025",
+          "url": "https://www.reddit.com/r/AskSF/comments/1ior492/first_time_visiting_stay_in_the_mission_or_north/"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.5,
+          "review_count": 5990,
+          "url": "https://www.google.com/maps/search/?api=1&query=Tartine%20Bakery%20Guerrero%20San%20Francisco",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 4.2,
+          "review_count": 9211,
+          "url": "https://www.yelp.com/biz/tartine-bakery-san-francisco-3",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        },
+        {
+          "source": "Tripadvisor",
+          "rating": 4.4,
+          "review_count": 1307,
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g60713-d360064-Reviews-Tartine_Bakery-San_Francisco_California.html",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "sightglass-coffee",
+      "name": "Sightglass Coffee",
+      "region": "san-francisco",
+      "regionLabel": "San Francisco",
+      "neighborhood": "SoMa",
+      "category": "cafe",
+      "address": "270 7th St",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": "$$",
+      "why": "The SoMa roastery cafe with the large Yelp count. A Google panel showed 4.4 and no review count, so Google is left off. The closed Ferry Building stand and the closed SFMOMA counter are different listings.",
+      "communitySources": [
+        {
+          "title": "Eater SF 38, October 2026",
+          "url": "https://sf.eater.com/maps/best-restaurants-san-francisco-38"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Yelp",
+          "rating": 4.0,
+          "review_count": 2235,
+          "url": "https://www.yelp.com/biz/sightglass-coffee-san-francisco-7",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "trick-dog",
+      "name": "Trick Dog",
+      "region": "san-francisco",
+      "regionLabel": "San Francisco",
+      "neighborhood": "Mission District",
+      "category": "bar",
+      "address": "3010 20th St",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": "$$",
+      "why": "On the Eater SF 38 as a Mission bar. The cocktail menu is the reason. Yelp lists it as a cocktail bar on 20th Street.",
+      "communitySources": [
+        {
+          "title": "Eater SF 38, October 2026",
+          "url": "https://sf.eater.com/maps/best-restaurants-san-francisco-38"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.5,
+          "review_count": 1358,
+          "url": "https://www.google.com/maps/search/?api=1&query=Trick%20Dog%20San%20Francisco",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 4.1,
+          "review_count": 1061,
+          "url": "https://www.yelp.com/biz/trick-dog-san-francisco",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    }
+  ]
+}

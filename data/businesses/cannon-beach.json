@@ -1,0 +1,402 @@
+{
+  "region": "cannon-beach",
+  "regionLabel": "Cannon Beach",
+  "businesses": [
+    {
+      "id": "stephanie-inn",
+      "name": "Stephanie Inn",
+      "region": "cannon-beach",
+      "regionLabel": "Cannon Beach",
+      "neighborhood": "Tolovana",
+      "category": "hotel",
+      "address": "2740 Pacific",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": null,
+      "why": "The south-end inn when the window is the trip. A July 2025 r/OregonCoast thread treats Cannon Beach as the cozier town and Manzanita as the quieter one. This is the hotel for the first of those.",
+      "communitySources": [
+        {
+          "title": "r/OregonCoast, Cannon Beach or Seaside, July 2025",
+          "url": "https://www.reddit.com/r/OregonCoast/comments/1m84x9g/cannon_beach_arch_cape_seaside/"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.7,
+          "review_count": 605,
+          "url": "https://www.google.com/maps/search/?api=1&query=Stephanie%20Inn%20Cannon%20Beach",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 4.4,
+          "review_count": 198,
+          "url": "https://www.yelp.com/biz/the-stephanie-inn-and-dining-room-cannon-beach",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        },
+        {
+          "source": "Tripadvisor",
+          "rating": 4.8,
+          "review_count": 3174,
+          "url": "https://www.tripadvisor.com/Hotel_Review-g51790-d272019-Reviews-Stephanie_Inn-Cannon_Beach_Oregon.html",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "ocean-lodge",
+      "name": "The Ocean Lodge",
+      "region": "cannon-beach",
+      "regionLabel": "Cannon Beach",
+      "neighborhood": "Tolovana",
+      "category": "hotel",
+      "address": "2864 S Pacific St",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": null,
+      "why": "The other south-end oceanfront hotel, next to the Stephanie. Yelp reviews talk about the walk to Haystack. Tripadvisor’s summary praises the fireplaces and notes that some guests find the rate high.",
+      "communitySources": [
+        {
+          "title": "r/OregonCoast, Cannon Beach or Seaside, July 2025",
+          "url": "https://www.reddit.com/r/OregonCoast/comments/1m84x9g/cannon_beach_arch_cape_seaside/"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.8,
+          "review_count": 568,
+          "url": "https://www.google.com/maps/search/?api=1&query=The%20Ocean%20Lodge%20Cannon%20Beach",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 4.4,
+          "review_count": 148,
+          "url": "https://www.yelp.com/biz/the-ocean-lodge-cannon-beach",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        },
+        {
+          "source": "Tripadvisor",
+          "rating": 4.8,
+          "review_count": 3031,
+          "url": "https://www.tripadvisor.com/Hotel_Review-g51790-d268490-Reviews-The_Ocean_Lodge-Cannon_Beach_Oregon.html",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "hallmark-resort-cannon-beach",
+      "name": "Hallmark Resort & Spa Cannon Beach",
+      "region": "cannon-beach",
+      "regionLabel": "Cannon Beach",
+      "neighborhood": "Cannon Beach",
+      "category": "hotel",
+      "address": "1400 S Hemlock St",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": null,
+      "why": "The larger oceanfront resort, for a family that wants a pool. Yelp is cooler than Google and Tripadvisor. Confirm which Hallmark building you booked.",
+      "communitySources": [
+        {
+          "title": "r/OregonCoast, Cannon Beach or Seaside, July 2025",
+          "url": "https://www.reddit.com/r/OregonCoast/comments/1m84x9g/cannon_beach_arch_cape_seaside/"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.7,
+          "review_count": 1850,
+          "url": "https://www.google.com/maps/search/?api=1&query=Hallmark%20Resort%20Cannon%20Beach",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 4.1,
+          "review_count": 267,
+          "url": "https://www.yelp.com/biz/hallmark-resort-and-spa-cannon-beach-cannon-beach-2",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        },
+        {
+          "source": "Tripadvisor",
+          "rating": 4.6,
+          "review_count": 4794,
+          "url": "https://www.tripadvisor.com/Hotel_Review-g51790-d95946-Reviews-Hallmark_Resort_Cannon_Beach-Cannon_Beach_Oregon.html",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "the-wayfarer",
+      "name": "The Wayfarer",
+      "region": "cannon-beach",
+      "regionLabel": "Cannon Beach",
+      "neighborhood": "Cannon Beach",
+      "category": "restaurant",
+      "address": "1190 Pacific Dr",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": "$$",
+      "why": "The long-running oceanfront dining room. Tripadvisor’s town list ranks it first by attention, and the scores sit under the inns. A September 2026 review describes a large party that walked out.",
+      "communitySources": [
+        {
+          "title": "Tripadvisor, Cannon Beach restaurants, October 2026",
+          "url": "https://www.tripadvisor.com/Restaurants-g51790-Cannon_Beach_Oregon.html"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.2,
+          "review_count": 3587,
+          "url": "https://www.google.com/maps/search/?api=1&query=Wayfarer%20Restaurant%20Cannon%20Beach",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 3.7,
+          "review_count": 1268,
+          "url": "https://www.yelp.com/biz/the-wayfarer-restaurant-and-lounge-cannon-beach",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        },
+        {
+          "source": "Tripadvisor",
+          "rating": 4.1,
+          "review_count": 2037,
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g51790-d501023-Reviews-Wayfarer_Restaurant-Cannon_Beach_Oregon.html",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        },
+        {
+          "source": "OpenTable",
+          "rating": 4.3,
+          "review_count": 2051,
+          "url": "https://www.opentable.com/the-wayfarer-restaurant-and-lounge",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "castaways",
+      "name": "Castaways Global Cuisine",
+      "region": "cannon-beach",
+      "regionLabel": "Cannon Beach",
+      "neighborhood": "Cannon Beach",
+      "category": "restaurant",
+      "address": "308 N Fir St",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": "$$",
+      "why": "The smaller dining room Yelp’s Cannon Beach listings put near the top of the view search, and the one Tripadvisor’s dinner list leads with. The Tripadvisor score is not stored here because that page was the town list, not the restaurant’s own listing.",
+      "communitySources": [
+        {
+          "title": "Tripadvisor, Cannon Beach restaurants, October 2026",
+          "url": "https://www.tripadvisor.com/Restaurants-g51790-Cannon_Beach_Oregon.html"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.6,
+          "review_count": 394,
+          "url": "https://www.google.com/maps/search/?api=1&query=Castaways%20restaurant%20Cannon%20Beach",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 4.5,
+          "review_count": 785,
+          "url": "https://www.yelp.com/biz/castaways-cannon-beach-2",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "lazy-susan-cafe",
+      "name": "Lazy Susan Cafe",
+      "region": "cannon-beach",
+      "regionLabel": "Cannon Beach",
+      "neighborhood": "Cannon Beach",
+      "category": "cafe",
+      "address": "126 N Hemlock St",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": "$$",
+      "why": "Tripadvisor’s Cannon Beach restaurant list puts Lazy Susan second, as a cafe. The score stored from Tripadvisor is not on this card; the numbers here are the cafe’s own Yelp listing and the Google panel titled Lazy Susan Cafe.",
+      "communitySources": [
+        {
+          "title": "Tripadvisor, Cannon Beach restaurants, October 2026",
+          "url": "https://www.tripadvisor.com/Restaurants-g51790-Cannon_Beach_Oregon.html"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.6,
+          "review_count": 1488,
+          "url": "https://www.google.com/maps/search/?api=1&query=Lazy%20Susan%20Cafe%20Cannon%20Beach",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 4.3,
+          "review_count": 936,
+          "url": "https://www.yelp.com/biz/lazy-susan-cafe-cannon-beach",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    },
+    {
+      "id": "driftwood-restaurant",
+      "name": "Driftwood Restaurant & Lounge",
+      "region": "cannon-beach",
+      "regionLabel": "Cannon Beach",
+      "neighborhood": "",
+      "category": "restaurant",
+      "address": "",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": null,
+      "why": "Tripadvisor’s October 2026 Cannon Beach restaurant list includes the Driftwood among the most-reviewed dining rooms. The number here is the Google panel, which named Driftwood Restaurant & Lounge. A Yelp listing URL clear enough to score was not opened.",
+      "communitySources": [
+        {
+          "title": "Tripadvisor, Cannon Beach restaurants, October 2026",
+          "url": "https://www.tripadvisor.com/Restaurants-g51790-Cannon_Beach_Oregon.html"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.3,
+          "review_count": 3570,
+          "url": "https://www.google.com/maps/search/?api=1&query=Driftwood%20Restaurant%20Cannon%20Beach",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        }
+      ]
+    },
+    {
+      "id": "bills-tavern",
+      "name": "Bill's Tavern & Brewhouse",
+      "region": "cannon-beach",
+      "regionLabel": "Cannon Beach",
+      "neighborhood": "",
+      "category": "bar",
+      "address": "",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": null,
+      "why": "Tripadvisor’s Cannon Beach list includes Bill’s Tavern & Brewhouse with the pubs. The Google panel used that name. A Yelp listing page was not opened, so Yelp is left off.",
+      "communitySources": [
+        {
+          "title": "Tripadvisor, Cannon Beach restaurants, October 2026",
+          "url": "https://www.tripadvisor.com/Restaurants-g51790-Cannon_Beach_Oregon.html"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.3,
+          "review_count": 1624,
+          "url": "https://www.google.com/maps/search/?api=1&query=Bill%27s%20Tavern%20Cannon%20Beach",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        }
+      ]
+    },
+    {
+      "id": "public-coast-brewing",
+      "name": "Public Coast Brewing",
+      "region": "cannon-beach",
+      "regionLabel": "Cannon Beach",
+      "neighborhood": "Cannon Beach",
+      "category": "bar",
+      "address": "264 3rd St",
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "priceBand": null,
+      "why": "The casual brewery for a beer and a sandwich when you do not want the oceanfront dining room. A June 2026 Tripadvisor review says the fish sandwich was short on fish.",
+      "communitySources": [
+        {
+          "title": "Tripadvisor, Cannon Beach restaurants, October 2026",
+          "url": "https://www.tripadvisor.com/Restaurants-g51790-Cannon_Beach_Oregon.html"
+        }
+      ],
+      "ratings": [
+        {
+          "source": "Google",
+          "rating": 4.4,
+          "review_count": 1173,
+          "url": "https://www.google.com/maps/search/?api=1&query=Public%20Coast%20Brewing%20Cannon%20Beach",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_maps"
+        },
+        {
+          "source": "Yelp",
+          "rating": 3.8,
+          "review_count": 588,
+          "url": "https://www.yelp.com/biz/public-coast-brewing-cannon-beach-2",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        },
+        {
+          "source": "Tripadvisor",
+          "rating": 3.9,
+          "review_count": 261,
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g51790-d10464256-Reviews-Public_Coast_Brewing_Company-Cannon_Beach_Oregon.html",
+          "checked_date": "2026-10-29",
+          "scale": 5,
+          "via": "google_search_snippet"
+        }
+      ]
+    }
+  ]
+}
